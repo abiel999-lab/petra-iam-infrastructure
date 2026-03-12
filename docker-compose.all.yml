@@ -1,0 +1,145 @@
+name: ldap
+services:
+  keycloak:
+    build:
+      context: /opt/petra_iam_big_project/ldap
+      dockerfile: Dockerfile
+    command:
+      - start
+      - --http-enabled=true
+      - --http-port=8080
+      - --hostname=
+      - --proxy-headers=xforwarded
+      - --hostname-strict=false
+      - --spi-theme-cache-themes=false
+      - --spi-theme-cache-templates=false
+    container_name: petra-keycloak
+    depends_on:
+      postgres:
+        condition: service_healthy
+        required: true
+    environment:
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ""
+      KC_BOOTSTRAP_ADMIN_USERNAME: ""
+      KC_DB: ""
+      KC_DB_PASSWORD: ""
+      KC_DB_URL_DATABASE: ""
+      KC_DB_URL_HOST: ""
+      KC_DB_USERNAME: ""
+      TZ: ""
+    image: petra-keycloak:26.0-pg
+    networks:
+      iamnet: null
+      kcnet: null
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 8080
+        published: "8081"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /opt/petra_iam_big_project/ldap/providers
+        target: /opt/keycloak/providers
+        read_only: true
+        bind:
+          create_host_path: true
+  openldap:
+    container_name: petra-openldap
+    environment:
+      LDAP_ADMIN_PASSWORD: SeongJinWoo999!
+      LDAP_CONFIG_PASSWORD: SeongJinWoo999!
+      LDAP_DOMAIN: petra.ac.id
+      LDAP_MEMBEROF: "true"
+      LDAP_ORGANISATION: Universitas Kristen Petra
+      LDAP_READONLY_USER: "true"
+      LDAP_READONLY_USER_PASSWORD: SeongJinWoo999!
+      LDAP_READONLY_USER_USERNAME: readonly
+      LDAP_REFINT: "true"
+      LDAP_REMOVE_CONFIG_AFTER_SETUP: "false"
+      LDAP_TLS: "false"
+    image: osixia/openldap:1.5.0
+    networks:
+      iamnet: null
+    ports:
+      - mode: ingress
+        target: 389
+        published: "389"
+        protocol: tcp
+      - mode: ingress
+        target: 636
+        published: "636"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: /opt/petra_iam_big_project/ldap/data
+        target: /var/lib/ldap
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /opt/petra_iam_big_project/ldap/config
+        target: /etc/ldap/slapd.d
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /opt/petra_iam_big_project/ldap/schema
+        target: /container/service/slapd/assets/config/bootstrap/schema/custom
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /opt/petra_iam_big_project/ldap/ldif
+        target: /container/service/slapd/assets/config/bootstrap/ldif/custom
+        bind:
+          create_host_path: true
+  phpldapadmin:
+    container_name: petra-phpldapadmin
+    depends_on:
+      openldap:
+        condition: service_started
+        required: true
+    environment:
+      PHPLDAPADMIN_HTTPS: "false"
+      PHPLDAPADMIN_LDAP_HOSTS: openldap
+    image: osixia/phpldapadmin:0.9.0
+    networks:
+      iamnet: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8089"
+        protocol: tcp
+    restart: unless-stopped
+  postgres:
+    container_name: petra-kc-postgres
+    environment:
+      POSTGRES_DB: ""
+      POSTGRES_PASSWORD: ""
+      POSTGRES_USER: ""
+      TZ: ""
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - 'pg_isready -U  -d '
+      timeout: 5s
+      interval: 10s
+      retries: 10
+    image: postgres:16
+    networks:
+      kcnet: null
+    restart: unless-stopped
+    volumes:
+      - type: volume
+        source: kc_pgdata
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  iamnet:
+    name: petra-iam-net
+    external: true
+  kcnet:
+    name: petra-kc-net
+volumes:
+  kc_pgdata:
+    name: petra-kc-pgdata

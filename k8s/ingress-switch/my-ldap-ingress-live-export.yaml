@@ -1,0 +1,35 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{"nginx.ingress.kubernetes.io/ssl-redirect":"true"},"name":"my-ldap-ingress","namespace":"my-ldap"},"spec":{"ingressClassName":"public","rules":[{"host":"my-ldap.ppsi.petra.ac.id","http":{"paths":[{"backend":{"service":{"name":"my-ldap-apache","port":{"number":8080}}},"path":"/","pathType":"Prefix"}]}}],"tls":[{"hosts":["my-ldap.ppsi.petra.ac.id"],"secretName":"my-ldap-tls"}]}}
+    nginx.ingress.kubernetes.io/backend-protocol: HTTP
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  creationTimestamp: "2026-02-20T01:26:08Z"
+  generation: 1
+  name: my-ldap-ingress
+  namespace: my-ldap
+  resourceVersion: "1669776"
+  uid: c83677e3-c6e4-4b98-be8a-57252c130991
+spec:
+  ingressClassName: public
+  rules:
+  - host: my-ldap.ppsi.petra.ac.id
+    http:
+      paths:
+      - backend:
+          service:
+            name: my-ldap-apache
+            port:
+              number: 8080
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - my-ldap.ppsi.petra.ac.id
+    secretName: my-ldap-tls
+status:
+  loadBalancer:
+    ingress:
+    - ip: 127.0.0.1

@@ -1,0 +1,2806 @@
+dn: dc=petra,dc=ac,dc=id
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Universitas Kristen Petra
+dc: petra
+structuralObjectClass: organization
+entryUUID: efaa5bce-9e93-1040-8b29-15a3aee86ef7
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260215082740Z
+entryCSN: 20260215082740.278200Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260215082740Z
+
+dn: cn=readonly,dc=petra,dc=ac,dc=id
+cn: readonly
+objectClass: simpleSecurityObject
+objectClass: organizationalRole
+userPassword:: e1NTSEF9SjZZRHhlMXZXNUtyVGQwbW9wWmdIbjJPVCt4d0JrY1Q=
+description: LDAP read only user
+structuralObjectClass: organizationalRole
+entryUUID: f0550f38-9e93-1040-9518-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.396935Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: people
+structuralObjectClass: organizationalUnit
+entryUUID: f0679ab8-9e93-1040-9519-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.518471Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: students
+structuralObjectClass: organizationalUnit
+entryUUID: f067e356-9e93-1040-951a-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.520331Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: staff
+structuralObjectClass: organizationalUnit
+entryUUID: f06800ca-9e93-1040-951b-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.521086Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: alumni
+structuralObjectClass: organizationalUnit
+entryUUID: f068256e-9e93-1040-951c-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.522024Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: external
+structuralObjectClass: organizationalUnit
+entryUUID: f0686f9c-9e93-1040-951d-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.523923Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: groups
+structuralObjectClass: organizationalUnit
+entryUUID: f068915c-9e93-1040-951e-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.524786Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: roles
+structuralObjectClass: organizationalUnit
+entryUUID: f068aed0-9e93-1040-951f-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.525540Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=units,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: units
+structuralObjectClass: organizationalUnit
+entryUUID: f068ea3a-9e93-1040-9520-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.527062Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: apps
+structuralObjectClass: organizationalUnit
+entryUUID: f0691dca-9e93-1040-9521-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.528381Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=services,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: services
+structuralObjectClass: organizationalUnit
+entryUUID: f0693986-9e93-1040-9522-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.529092Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=devices,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: devices
+structuralObjectClass: organizationalUnit
+entryUUID: f0695830-9e93-1040-9523-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.529877Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: ou=policies,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: policies
+structuralObjectClass: organizationalUnit
+entryUUID: f06978a6-9e93-1040-9524-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.530708Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=role-student,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-student
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+member: uid=u-00001234,ou=students,ou=people,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f07198ce-9e93-1040-9525-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.697636Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=role-alumni,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-alumni
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f071f3be-9e93-1040-9526-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.586282Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-staff
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f0721920-9e93-1040-9527-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.587245Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=app-mypetra,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-mypetra
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+member: uid=u-00001234,ou=students,ou=people,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f0723d88-9e93-1040-9528-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.698817Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=app-wifi-dot1x,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-wifi-dot1x
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+member: uid=u-00001234,ou=students,ou=people,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f07266b4-9e93-1040-9529-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.699862Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: cn=app-mypetra-helpdesk,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-mypetra-helpdesk
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+structuralObjectClass: groupOfNames
+entryUUID: f0729012-9e93-1040-952a-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.590288Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: uid=u-00001234,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00001234
+cn: John Doe
+sn: Doe
+givenName: John
+displayName: John Doe
+mail: john@john.petra.ac.id
+mailAlternateAddress: john.doe@gmail.com
+mailAlternateAddress: john.doe@outlook.com
+mailAlternateAddress: john.alt@yahoo.com
+mailAlternateAddress: john+test@proton.me
+petraUUID: 018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023123456
+userPassword:: e1NTSEF9dlU3UndKOC9NVjhTZkNOdGNOS013NHpBMmRwcWFZZC8=
+structuralObjectClass: inetOrgPerson
+entryUUID: f07aff72-9e93-1040-952b-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215083326.151288Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260215083326Z
+
+dn: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+uid: dummy
+cn: Dummy Member
+sn: Member
+mail: dummy@petra.ac.id
+userPassword:: e1NTSEF9dlU3UndKOC9NVjhTZkNOdGNOS013NHpBMmRwcWFZZC8=
+structuralObjectClass: inetOrgPerson
+entryUUID: f08bb178-9e93-1040-952c-1517af873aa8
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260215082741Z
+entryCSN: 20260215082741.754983Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260215082741Z
+
+dn: uid=u-00020000,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020000
+cn: Aditya Pratama
+sn: Pratama
+givenName: Aditya
+displayName: Aditya Pratama
+mail: aditya@peter.petra.ac.id
+mailAlternateAddress: aditya.pratama@alumni.petra.ac.id
+mailAlternateAddress: aditya.pratama@google.com
+mailAlternateAddress: aditya.pratama@yahoo.com
+mailAlternateAddress: aditya.pratama@petra.petra.ac.id
+petraUUID: ddb53f74-759e-464a-96d5-7fed9335e78f
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023085096
+userPassword:: e1NTSEF9czBsZ0hFVDNoM3JpUnFEYXRBUUdGclNvTjFacUVzZis=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0804e3ce-9f39-1040-9ddf-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.097202Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020001,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020001
+cn: Bima Saputra
+sn: Saputra
+givenName: Bima
+displayName: Bima Saputra
+mail: bima@petra.petra.ac.id
+mailAlternateAddress: bima.saputra@alumni.petra.ac.id
+mailAlternateAddress: bima.saputra@google.com
+mailAlternateAddress: bima.saputra@yahoo.com
+mailAlternateAddress: bima.saputra@peter.petra.ac.id
+petraUUID: f9e71e74-41bc-4fbf-b4f0-be42e72fe65d
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023478075
+userPassword:: e1NTSEF9eGdkUWZJVkVtclNYQ0hZNzlrYUtQcTM0WnBKdUNqTmg=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08052212-9f39-1040-9de0-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.098833Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020002,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020002
+cn: Cahya Wibowo
+sn: Wibowo
+givenName: Cahya
+displayName: Cahya Wibowo
+mail: cahya@peter.petra.ac.id
+mailAlternateAddress: cahya.wibowo@alumni.petra.ac.id
+mailAlternateAddress: cahya.wibowo@google.com
+mailAlternateAddress: cahya.wibowo@yahoo.com
+mailAlternateAddress: cahya.wibowo@petra.petra.ac.id
+petraUUID: bc52f021-f126-4239-81e9-cd1986cdf9e7
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023126320
+userPassword:: e1NTSEF9ZDEzTWtYSFlBTWkyWFo0bysva3NKczRJMXNLdmhpYjM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080575b4-9f39-1040-9de1-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.100974Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020003,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020003
+cn: Dimas Setiawan
+sn: Setiawan
+givenName: Dimas
+displayName: Dimas Setiawan
+mail: dimas@petra.petra.ac.id
+mailAlternateAddress: dimas.setiawan@alumni.petra.ac.id
+mailAlternateAddress: dimas.setiawan@google.com
+mailAlternateAddress: dimas.setiawan@yahoo.com
+mailAlternateAddress: dimas.setiawan@petra.petra.ac.id
+petraUUID: b33b919f-de9b-4300-9ee6-ce8976cdee7b
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023427704
+userPassword:: e1NTSEF9OVl3cTRHTUc5QVNvemNtRUQ1RGN3YlYvdE42STk5VFU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0805a3a4-9f39-1040-9de2-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.102150Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020004,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020004
+cn: Eka Santoso
+sn: Santoso
+givenName: Eka
+displayName: Eka Santoso
+mail: eka@peter.petra.ac.id
+mailAlternateAddress: eka.santoso@alumni.petra.ac.id
+mailAlternateAddress: eka.santoso@google.com
+mailAlternateAddress: eka.santoso@yahoo.com
+mailAlternateAddress: eka.santoso@peter.petra.ac.id
+petraUUID: 8e621a7d-45aa-4d18-8600-d98ffca833bc
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023887870
+userPassword:: e1NTSEF9QkIydGZaNno2d1lDT25vM1ZPMDcyRXBpSTFuTjV5bXg=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0805c758-9f39-1040-9de3-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.103064Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020005,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020005
+cn: Farhan Hidayat
+sn: Hidayat
+givenName: Farhan
+displayName: Farhan Hidayat
+mail: farhan@peter.petra.ac.id
+mailAlternateAddress: farhan.hidayat@alumni.petra.ac.id
+mailAlternateAddress: farhan.hidayat@google.com
+mailAlternateAddress: farhan.hidayat@yahoo.com
+mailAlternateAddress: farhan.hidayat@petra.petra.ac.id
+petraUUID: 0d6892ab-4f1e-4ba8-8fcc-5f291b4dfe96
+petraAffiliation: student
+petraAccountStatus: disabled
+studentNumber: 5023076619
+userPassword:: e1NTSEF9SmlaVjhHc3huRnhyaDYyZXhabE1oZFFJdVJscEN0SXo=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08060f92-9f39-1040-9de4-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.104914Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020006,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020006
+cn: Gilang Nugroho
+sn: Nugroho
+givenName: Gilang
+displayName: Gilang Nugroho
+mail: gilang@petra.petra.ac.id
+mailAlternateAddress: gilang.nugroho@alumni.petra.ac.id
+mailAlternateAddress: gilang.nugroho@google.com
+mailAlternateAddress: gilang.nugroho@yahoo.com
+mailAlternateAddress: gilang.nugroho@john.petra.ac.id
+petraUUID: fb18dd43-cf63-416a-b7f7-6288fe5dbcb7
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023768744
+userPassword:: e1NTSEF9NDlqb0lsRG5kWGZJV2E5VHEvbkpuOGdJTmw3QVJmOE0=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080637a6-9f39-1040-9de5-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.105939Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020007,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020007
+cn: Hana Putri
+sn: Putri
+givenName: Hana
+displayName: Hana Putri
+mail: hana@peter.petra.ac.id
+mailAlternateAddress: hana.putri@alumni.petra.ac.id
+mailAlternateAddress: hana.putri@google.com
+mailAlternateAddress: hana.putri@yahoo.com
+mailAlternateAddress: hana.putri@peter.petra.ac.id
+petraUUID: 2f6788da-9d31-41d4-a1fc-080e042b06bc
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023435540
+userPassword:: e1NTSEF9NG90R1plYy9VVjFJODhLa3EvZlRReXJ3RUJHNWFJK3U=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08066744-9f39-1040-9de6-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.107158Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020008,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020008
+cn: Iqbal Ramadhan
+sn: Ramadhan
+givenName: Iqbal
+displayName: Iqbal Ramadhan
+mail: iqbal@petra.petra.ac.id
+mailAlternateAddress: iqbal.ramadhan@alumni.petra.ac.id
+mailAlternateAddress: iqbal.ramadhan@google.com
+mailAlternateAddress: iqbal.ramadhan@yahoo.com
+mailAlternateAddress: iqbal.ramadhan@peter.petra.ac.id
+petraUUID: 5f96dae1-14a6-46de-9b61-79decd540c31
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023485943
+userPassword:: e1NTSEF9SzZpVStWQW4zVzNFTmZ5YkNJbVlQOUp3Y0xaQXpQanM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0806aaec-9f39-1040-9de7-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.108889Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020009,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020009
+cn: Jihan Permata
+sn: Permata
+givenName: Jihan
+displayName: Jihan Permata
+mail: jihan@petra.petra.ac.id
+mailAlternateAddress: jihan.permata@alumni.petra.ac.id
+mailAlternateAddress: jihan.permata@google.com
+mailAlternateAddress: jihan.permata@yahoo.com
+mailAlternateAddress: jihan.permata@peter.petra.ac.id
+petraUUID: 32630c9b-5ef0-4ae9-a4f4-55f0a7774460
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023104206
+userPassword:: e1NTSEF9T0gxTVpRK0Z6blJmVkRhcGVjRDFPSWgwQllDUkFhNFA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0806dfda-9f39-1040-9de8-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.110245Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020010,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020010
+cn: Kurniawan Siregar
+sn: Siregar
+givenName: Kurniawan
+displayName: Kurniawan Siregar
+mail: kurniawan@john.petra.ac.id
+mailAlternateAddress: kurniawan.siregar@alumni.petra.ac.id
+mailAlternateAddress: kurniawan.siregar@google.com
+mailAlternateAddress: kurniawan.siregar@yahoo.com
+mailAlternateAddress: kurniawan.siregar@petra.petra.ac.id
+petraUUID: 3f05499c-65a0-45ca-a843-f0878b27f60f
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023237244
+userPassword:: e1NTSEF9RjNjQzVLUlErVVJnZVRHRTRmbFN5S1ZKZ0NmZzU2Q0k=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08070d2a-9f39-1040-9de9-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.111405Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020011,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020011
+cn: Laila Anggraini
+sn: Anggraini
+givenName: Laila
+displayName: Laila Anggraini
+mail: laila@john.petra.ac.id
+mailAlternateAddress: laila.anggraini@alumni.petra.ac.id
+mailAlternateAddress: laila.anggraini@google.com
+mailAlternateAddress: laila.anggraini@yahoo.com
+mailAlternateAddress: laila.anggraini@john.petra.ac.id
+petraUUID: e4fff514-1126-4c2f-b7f8-dcb0ffbc352c
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023740896
+userPassword:: e1NTSEF9MVBKK3BmN09KQ3hYRkxzL2EzL3RhaFhjeTMyMnRmTlY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08074a10-9f39-1040-9dea-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.112965Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020012,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020012
+cn: Made Wirawan
+sn: Wirawan
+givenName: Made
+displayName: Made Wirawan
+mail: made@john.petra.ac.id
+mailAlternateAddress: made.wirawan@alumni.petra.ac.id
+mailAlternateAddress: made.wirawan@google.com
+mailAlternateAddress: made.wirawan@yahoo.com
+mailAlternateAddress: made.wirawan@john.petra.ac.id
+petraUUID: 295e5429-a8d2-4a7e-886a-33a9d3e0467a
+petraAffiliation: student
+petraAccountStatus: suspended
+studentNumber: 5023782339
+userPassword:: e1NTSEF9c0F1ZStsSTQ1NUsybnF4WDgzUzhUZnNrUndxMi9vcG4=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08077940-9f39-1040-9deb-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.114172Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020013,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020013
+cn: Nabila Maharani
+sn: Maharani
+givenName: Nabila
+displayName: Nabila Maharani
+mail: nabila@petra.petra.ac.id
+mailAlternateAddress: nabila.maharani@alumni.petra.ac.id
+mailAlternateAddress: nabila.maharani@google.com
+mailAlternateAddress: nabila.maharani@yahoo.com
+mailAlternateAddress: nabila.maharani@peter.petra.ac.id
+petraUUID: 49a5e342-5a4a-48c7-827a-09b32d8fc0cd
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023911396
+userPassword:: e1NTSEF9UU03NGNjTFZmRzZ3YnpNU2xCVHk3UjlxOU1ZSnNVNWo=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0807bea0-9f39-1040-9dec-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.115949Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020014,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020014
+cn: Oka Prasetyo
+sn: Prasetyo
+givenName: Oka
+displayName: Oka Prasetyo
+mail: oka@peter.petra.ac.id
+mailAlternateAddress: oka.prasetyo@alumni.petra.ac.id
+mailAlternateAddress: oka.prasetyo@google.com
+mailAlternateAddress: oka.prasetyo@yahoo.com
+mailAlternateAddress: oka.prasetyo@peter.petra.ac.id
+petraUUID: a035a4ef-2149-435b-af92-1ac8ccd203f9
+petraAffiliation: student
+petraAccountStatus: suspended
+studentNumber: 5023782751
+userPassword:: e1NTSEF9RmxaQnhCeEFBQ0tzY2hlYzFwalovMlBHRWFaRnRHYk4=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0807f686-9f39-1040-9ded-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.117379Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020015,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020015
+cn: Putri Lestari
+sn: Lestari
+givenName: Putri
+displayName: Putri Lestari
+mail: putri@petra.petra.ac.id
+mailAlternateAddress: putri.lestari@alumni.petra.ac.id
+mailAlternateAddress: putri.lestari@google.com
+mailAlternateAddress: putri.lestari@yahoo.com
+mailAlternateAddress: putri.lestari@peter.petra.ac.id
+petraUUID: 3c34d7cd-9653-4ab2-92a7-14a85d538eb1
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023394849
+userPassword:: e1NTSEF9ZlVVTXpucTVYNUJ6dVB4dHZhRHZ1ZERKbDA0ZUZBSmI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08082bd8-9f39-1040-9dee-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.118744Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020016,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020016
+cn: Raisa Octaviani
+sn: Octaviani
+givenName: Raisa
+displayName: Raisa Octaviani
+mail: raisa@peter.petra.ac.id
+mailAlternateAddress: raisa.octaviani@alumni.petra.ac.id
+mailAlternateAddress: raisa.octaviani@google.com
+mailAlternateAddress: raisa.octaviani@yahoo.com
+mailAlternateAddress: raisa.octaviani@peter.petra.ac.id
+petraUUID: 143240eb-5cb7-40bb-964a-388f9d3b510a
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023499423
+userPassword:: e1NTSEF9QjZacVAxL3NySnNhcTRJTENpMmQzNk85QUhEaGZaK0I=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0808561c-9f39-1040-9def-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.119826Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020017,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020017
+cn: Satria Gunawan
+sn: Gunawan
+givenName: Satria
+displayName: Satria Gunawan
+mail: satria@john.petra.ac.id
+mailAlternateAddress: satria.gunawan@alumni.petra.ac.id
+mailAlternateAddress: satria.gunawan@google.com
+mailAlternateAddress: satria.gunawan@yahoo.com
+mailAlternateAddress: satria.gunawan@petra.petra.ac.id
+petraUUID: dfa45c50-d506-4aab-9db4-5795fbffc390
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023711324
+userPassword:: e1NTSEF9cmh5dUtOQUxxTCtQVjNMUWVodXpWL2dMTEtZMHVaUWg=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08088d4e-9f39-1040-9df0-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.121240Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020018,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020018
+cn: Tania Kartika
+sn: Kartika
+givenName: Tania
+displayName: Tania Kartika
+mail: tania@petra.petra.ac.id
+mailAlternateAddress: tania.kartika@alumni.petra.ac.id
+mailAlternateAddress: tania.kartika@google.com
+mailAlternateAddress: tania.kartika@yahoo.com
+mailAlternateAddress: tania.kartika@petra.petra.ac.id
+petraUUID: 3cd3cbcc-16cc-4dde-a08f-c7bfc7e73355
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023026978
+userPassword:: e1NTSEF9K2ZYK2I1OFRzT2grazB1UTF5RHNWZ05hOGpHSk16ZHE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0808b49a-9f39-1040-9df1-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.122246Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020019,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020019
+cn: Utami Sari
+sn: Sari
+givenName: Utami
+displayName: Utami Sari
+mail: utami@petra.petra.ac.id
+mailAlternateAddress: utami.sari@alumni.petra.ac.id
+mailAlternateAddress: utami.sari@google.com
+mailAlternateAddress: utami.sari@yahoo.com
+mailAlternateAddress: utami.sari@john.petra.ac.id
+petraUUID: cbb166c2-8eed-4194-b91e-824cf4b95ba1
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023813697
+userPassword:: e1NTSEF9UDl4VTc0ZUJEcUNIR1RLTHdsYzE1a2pTQ0NnNjhJVk0=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0808df6a-9f39-1040-9df2-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.123342Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020020,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020020
+cn: Vito Mahendra
+sn: Mahendra
+givenName: Vito
+displayName: Vito Mahendra
+mail: vito@petra.petra.ac.id
+mailAlternateAddress: vito.mahendra@alumni.petra.ac.id
+mailAlternateAddress: vito.mahendra@google.com
+mailAlternateAddress: vito.mahendra@yahoo.com
+mailAlternateAddress: vito.mahendra@john.petra.ac.id
+petraUUID: de3bcc47-d0b3-4611-88f4-6e27b14c47b7
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023478220
+userPassword:: e1NTSEF9L1hMaHR5TW92ZGVNZmI1WS9vL1IyRC9wWWZLZFgzSnI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0809239e-9f39-1040-9df3-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.125087Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020021,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020021
+cn: Wulan Purnama
+sn: Purnama
+givenName: Wulan
+displayName: Wulan Purnama
+mail: wulan@peter.petra.ac.id
+mailAlternateAddress: wulan.purnama@alumni.petra.ac.id
+mailAlternateAddress: wulan.purnama@google.com
+mailAlternateAddress: wulan.purnama@yahoo.com
+mailAlternateAddress: wulan.purnama@petra.petra.ac.id
+petraUUID: 01c62550-fd06-49f6-a502-41703139b723
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023332972
+userPassword:: e1NTSEF9UjhNZW4weVBJMVRMaFpYdDZ4NWJNMDVSb3E3WFRtT0M=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0809477a-9f39-1040-9df4-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.126006Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020022,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020022
+cn: Yusuf Kurnia
+sn: Kurnia
+givenName: Yusuf
+displayName: Yusuf Kurnia
+mail: yusuf@petra.petra.ac.id
+mailAlternateAddress: yusuf.kurnia@alumni.petra.ac.id
+mailAlternateAddress: yusuf.kurnia@google.com
+mailAlternateAddress: yusuf.kurnia@yahoo.com
+mailAlternateAddress: yusuf.kurnia@john.petra.ac.id
+petraUUID: f4c80ca4-c23f-49d6-86f5-deb1fba6c289
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023048302
+userPassword:: e1NTSEF9SlpWVFZOZVdNZUI2MktsY1ZoZll4K0JOdG1XTG9WZFY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08096d9a-9f39-1040-9df5-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.126981Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020023,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020023
+cn: Zahra Aulia
+sn: Aulia
+givenName: Zahra
+displayName: Zahra Aulia
+mail: zahra@john.petra.ac.id
+mailAlternateAddress: zahra.aulia@alumni.petra.ac.id
+mailAlternateAddress: zahra.aulia@google.com
+mailAlternateAddress: zahra.aulia@yahoo.com
+mailAlternateAddress: zahra.aulia@peter.petra.ac.id
+petraUUID: ddab9042-d3d0-4f0d-bb98-d89f4c5c5ac4
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023482725
+userPassword:: e1NTSEF9eDFTejBQb1FWOGw2NS9KQ2ZmVFBjNVd0L0FJT0d6Zjk=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0809aa6c-9f39-1040-9df6-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.128538Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020024,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020024
+cn: Bagas Wijaya
+sn: Wijaya
+givenName: Bagas
+displayName: Bagas Wijaya
+mail: bagas@john.petra.ac.id
+mailAlternateAddress: bagas.wijaya@alumni.petra.ac.id
+mailAlternateAddress: bagas.wijaya@google.com
+mailAlternateAddress: bagas.wijaya@yahoo.com
+mailAlternateAddress: bagas.wijaya@peter.petra.ac.id
+petraUUID: c7312b3d-ee5a-4cc0-9fef-1bf163b5f4e6
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023226559
+userPassword:: e1NTSEF9Mk1zNXV3bGRZOWRTTzRGdkxtb0E3akMwM21GSHQ1eFE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0809cf7e-9f39-1040-9df7-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.129488Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020025,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020025
+cn: Chandra Surya
+sn: Surya
+givenName: Chandra
+displayName: Chandra Surya
+mail: chandra@petra.petra.ac.id
+mailAlternateAddress: chandra.surya@alumni.petra.ac.id
+mailAlternateAddress: chandra.surya@google.com
+mailAlternateAddress: chandra.surya@yahoo.com
+mailAlternateAddress: chandra.surya@petra.petra.ac.id
+petraUUID: 1a5c12cb-8e1e-4953-b390-3539c1a300d9
+petraAffiliation: student
+petraAccountStatus: suspended
+studentNumber: 5023515899
+userPassword:: e1NTSEF9b0czVjJDQ1lHM3EzNXNzT1Z4NU11Uzl3S3hYeW9UdXk=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0809f6a2-9f39-1040-9df8-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.130490Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020026,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020026
+cn: Dara Amelia
+sn: Amelia
+givenName: Dara
+displayName: Dara Amelia
+mail: dara@john.petra.ac.id
+mailAlternateAddress: dara.amelia@alumni.petra.ac.id
+mailAlternateAddress: dara.amelia@google.com
+mailAlternateAddress: dara.amelia@yahoo.com
+mailAlternateAddress: dara.amelia@john.petra.ac.id
+petraUUID: 80d87e2c-7afe-4bfe-8e3a-507dd9cd7b57
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023522205
+userPassword:: e1NTSEF9dFd1TXhWNDdFeVdKeHVpWElZV0trY0hYdlV1cHIrUkk=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080a31da-9f39-1040-9df9-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.132006Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020027,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020027
+cn: Elang Prakoso
+sn: Prakoso
+givenName: Elang
+displayName: Elang Prakoso
+mail: elang@peter.petra.ac.id
+mailAlternateAddress: elang.prakoso@alumni.petra.ac.id
+mailAlternateAddress: elang.prakoso@google.com
+mailAlternateAddress: elang.prakoso@yahoo.com
+mailAlternateAddress: elang.prakoso@peter.petra.ac.id
+petraUUID: 0af86676-dc33-487d-9225-c8a55d1e4d1f
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023171656
+userPassword:: e1NTSEF9OWpWUVJ4cTFJa3ZaN2NpYTlCdVlKeDRwMUN5anRUYmY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080a62c2-9f39-1040-9dfa-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.133257Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020028,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020028
+cn: Fadli Saputro
+sn: Saputro
+givenName: Fadli
+displayName: Fadli Saputro
+mail: fadli@john.petra.ac.id
+mailAlternateAddress: fadli.saputro@alumni.petra.ac.id
+mailAlternateAddress: fadli.saputro@google.com
+mailAlternateAddress: fadli.saputro@yahoo.com
+mailAlternateAddress: fadli.saputro@petra.petra.ac.id
+petraUUID: c098cc36-fbb2-40b4-b7b8-ca7c0c841fc0
+petraAffiliation: student
+petraAccountStatus: suspended
+studentNumber: 5023407121
+userPassword:: e1NTSEF9R01NbGNpNE9jRUt0bnRWckFWVVp3UTBjVmhSSGJBRFE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080a8fe0-9f39-1040-9dfb-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.134412Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020029,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020029
+cn: Gita Puspita
+sn: Puspita
+givenName: Gita
+displayName: Gita Puspita
+mail: gita@petra.petra.ac.id
+mailAlternateAddress: gita.puspita@alumni.petra.ac.id
+mailAlternateAddress: gita.puspita@google.com
+mailAlternateAddress: gita.puspita@yahoo.com
+mailAlternateAddress: gita.puspita@peter.petra.ac.id
+petraUUID: 07bc104b-ffdf-49a5-94f6-1276be373666
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: 5023277519
+userPassword:: e1NTSEF9Y3lHendFelR6VWtKckpBWXBhVVpKMjdqM2lzaDRhcU4=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080ad22a-9f39-1040-9dfc-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.136110Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020030,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020030
+cn: Hendra Firmansyah
+sn: Firmansyah
+givenName: Hendra
+displayName: Hendra Firmansyah
+mail: hendra@petra.petra.ac.id
+mailAlternateAddress: hendra.firmansyah@alumni.petra.ac.id
+mailAlternateAddress: hendra.firmansyah@google.com
+mailAlternateAddress: hendra.firmansyah@yahoo.com
+mailAlternateAddress: hendra.firmansyah@peter.petra.ac.id
+petraUUID: cce05ee3-f328-4610-869d-1656b35a7793
+petraAffiliation: staff
+userPassword:: e1NTSEF9c3Q0c3lhSDBXWHlkdHdqQWNnMk1wNnZ4bmo2WDN5bms=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080afdb8-9f39-1040-9dfd-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+petraAccountStatus: active
+entryCSN: 20260217091916.286595Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260217091916Z
+
+dn: uid=u-00020031,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020031
+cn: Indra Kusuma
+sn: Kusuma
+givenName: Indra
+displayName: Indra Kusuma
+mail: indra@peter.petra.ac.id
+mailAlternateAddress: indra.kusuma@alumni.petra.ac.id
+mailAlternateAddress: indra.kusuma@google.com
+mailAlternateAddress: indra.kusuma@yahoo.com
+mailAlternateAddress: indra.kusuma@john.petra.ac.id
+petraUUID: 1316b2cc-d0f8-40f3-8255-ef2ef6397e93
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9VGc4azExQk9sY2JteWZFc1dpZWViYXFHZUI1WGVZSDE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080b5ce0-9f39-1040-9dfe-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.139660Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020032,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020032
+cn: Jelita Damayanti
+sn: Damayanti
+givenName: Jelita
+displayName: Jelita Damayanti
+mail: jelita@peter.petra.ac.id
+mailAlternateAddress: jelita.damayanti@alumni.petra.ac.id
+mailAlternateAddress: jelita.damayanti@google.com
+mailAlternateAddress: jelita.damayanti@yahoo.com
+mailAlternateAddress: jelita.damayanti@petra.petra.ac.id
+petraUUID: f96e2292-864b-4d69-92f0-9f4ed4d725f7
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9V3RKQ00waEZUNmxSZmhhNDN3ZWI4MHVnRjNFWUoxS1I=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080ba470-9f39-1040-9dff-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.141493Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020033,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020033
+cn: Kevin Hartono
+sn: Hartono
+givenName: Kevin
+displayName: Kevin Hartono
+mail: kevin@petra.petra.ac.id
+mailAlternateAddress: kevin.hartono@alumni.petra.ac.id
+mailAlternateAddress: kevin.hartono@google.com
+mailAlternateAddress: kevin.hartono@yahoo.com
+mailAlternateAddress: kevin.hartono@john.petra.ac.id
+petraUUID: d7c7275c-212e-4710-8aea-e0373d163776
+petraAffiliation: staff
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9ZW1qM3lvajRaMXdoNkhGR3NwMksxbDFLOU52WWxVQ2c=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080bcc5c-9f39-1040-9e00-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.142514Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020034,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020034
+cn: Luthfi Prabowo
+sn: Prabowo
+givenName: Luthfi
+displayName: Luthfi Prabowo
+mail: luthfi@peter.petra.ac.id
+mailAlternateAddress: luthfi.prabowo@alumni.petra.ac.id
+mailAlternateAddress: luthfi.prabowo@google.com
+mailAlternateAddress: luthfi.prabowo@yahoo.com
+mailAlternateAddress: luthfi.prabowo@john.petra.ac.id
+petraUUID: a7dbcee6-4818-46b3-b040-2fa6eb4726af
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9TlVLS2lGM1VkSlUvWEpDc1pTdG9uU0FpTVYrZUJkRlQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080bf484-9f39-1040-9e01-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.143543Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020035,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020035
+cn: Mita Anindya
+sn: Anindya
+givenName: Mita
+displayName: Mita Anindya
+mail: mita@john.petra.ac.id
+mailAlternateAddress: mita.anindya@alumni.petra.ac.id
+mailAlternateAddress: mita.anindya@google.com
+mailAlternateAddress: mita.anindya@yahoo.com
+mailAlternateAddress: mita.anindya@peter.petra.ac.id
+petraUUID: 6d5862a1-35cc-4a3d-b394-e95254008077
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9dDEyVHhYNndreWp4SldkRjlYSFRIK293OGRjUjZ6YnU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080c387c-9f39-1040-9e02-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.145282Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020036,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020036
+cn: Nanda Pramana
+sn: Pramana
+givenName: Nanda
+displayName: Nanda Pramana
+mail: nanda@john.petra.ac.id
+mailAlternateAddress: nanda.pramana@alumni.petra.ac.id
+mailAlternateAddress: nanda.pramana@google.com
+mailAlternateAddress: nanda.pramana@yahoo.com
+mailAlternateAddress: nanda.pramana@peter.petra.ac.id
+petraUUID: 3f0c26fa-c00d-439b-890f-f443e07820aa
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9YXNvcSs1Q1NkL0cwMjRUc25yczZoZWtEZWRvKzVMQVE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080c6752-9f39-1040-9e03-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.146481Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020037,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020037
+cn: Olin Nirmala
+sn: Nirmala
+givenName: Olin
+displayName: Olin Nirmala
+mail: olin@petra.petra.ac.id
+mailAlternateAddress: olin.nirmala@alumni.petra.ac.id
+mailAlternateAddress: olin.nirmala@google.com
+mailAlternateAddress: olin.nirmala@yahoo.com
+mailAlternateAddress: olin.nirmala@john.petra.ac.id
+petraUUID: 4a0fe285-ba3d-46bc-ac98-5c2d7bd6e119
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9THd2YVhkdjhkWWVXZFdKSFFBd0ZQZDFRTjRLNFNTSEM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080c939e-9f39-1040-9e04-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.147606Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020038,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020038
+cn: Prita Wulandari
+sn: Wulandari
+givenName: Prita
+displayName: Prita Wulandari
+mail: prita@petra.petra.ac.id
+mailAlternateAddress: prita.wulandari@alumni.petra.ac.id
+mailAlternateAddress: prita.wulandari@google.com
+mailAlternateAddress: prita.wulandari@yahoo.com
+mailAlternateAddress: prita.wulandari@peter.petra.ac.id
+petraUUID: 2adb4fc7-ac97-4fab-b016-e659654d8b8e
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9dXJuQ2ZISUQyUUFJNStRQ0M2SWVPNUdFakxuVXdIVHA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080cdda4-9f39-1040-9e05-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.149510Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020039,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020039
+cn: Rangga Pamungkas
+sn: Pamungkas
+givenName: Rangga
+displayName: Rangga Pamungkas
+mail: rangga@john.petra.ac.id
+mailAlternateAddress: rangga.pamungkas@alumni.petra.ac.id
+mailAlternateAddress: rangga.pamungkas@google.com
+mailAlternateAddress: rangga.pamungkas@yahoo.com
+mailAlternateAddress: rangga.pamungkas@john.petra.ac.id
+petraUUID: f32f4e1e-6379-45bc-b2e1-9c34b7906c42
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9MHI4ai9ab0V2Sm8wZUVxUWN5bjFLckN6QUtIaFNFbzA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080d0720-9f39-1040-9e06-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.150544Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020040,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020040
+cn: Sinta Marcellina
+sn: Marcellina
+givenName: Sinta
+displayName: Sinta Marcellina
+mail: sinta@petra.petra.ac.id
+mailAlternateAddress: sinta.marcellina@alumni.petra.ac.id
+mailAlternateAddress: sinta.marcellina@google.com
+mailAlternateAddress: sinta.marcellina@yahoo.com
+mailAlternateAddress: sinta.marcellina@peter.petra.ac.id
+petraUUID: 409b00e4-bc9c-46e7-bb47-de07000fb64a
+petraAffiliation: staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9RlFxMmNLeXh1WFZWWmV6cXhyLzJyZnhsMWhXQ2JmUkY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080d3ac4-9f39-1040-9e07-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.151894Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020041,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020041
+cn: Taufik Akbar
+sn: Akbar
+givenName: Taufik
+displayName: Taufik Akbar
+mail: taufik@john.petra.ac.id
+mailAlternateAddress: taufik.akbar@alumni.petra.ac.id
+mailAlternateAddress: taufik.akbar@google.com
+mailAlternateAddress: taufik.akbar@yahoo.com
+mailAlternateAddress: taufik.akbar@john.petra.ac.id
+petraUUID: ab003128-7fcb-428a-a1cf-85ff1c7f0fd3
+petraAffiliation: staff
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9RFJ6NUp5aC9GVnRNMk1vT21xQ0V6Y3dITXRGMXJLZC8=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080d7cd2-9f39-1040-9e08-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.153586Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020042,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020042
+cn: Umar Fadillah
+sn: Fadillah
+givenName: Umar
+displayName: Umar Fadillah
+mail: umar@peter.petra.ac.id
+mailAlternateAddress: umar.fadillah@alumni.petra.ac.id
+mailAlternateAddress: umar.fadillah@google.com
+mailAlternateAddress: umar.fadillah@yahoo.com
+mailAlternateAddress: umar.fadillah@petra.petra.ac.id
+petraUUID: 6bfcb122-ca50-4f6a-a5ab-238fa99b80c3
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9MVo1NE1JQXJDejFzKzhtNzZiMGZZYjIxSWN0VnM5dlI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080da824-9f39-1040-9e09-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.154695Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020043,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020043
+cn: Vania Safitri
+sn: Safitri
+givenName: Vania
+displayName: Vania Safitri
+mail: vania@john.petra.ac.id
+mailAlternateAddress: vania.safitri@alumni.petra.ac.id
+mailAlternateAddress: vania.safitri@google.com
+mailAlternateAddress: vania.safitri@yahoo.com
+mailAlternateAddress: vania.safitri@peter.petra.ac.id
+petraUUID: d6b02dbf-cf81-4aca-92e8-e93ee781f09c
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9aGM0dnBoR09Bd3lqeUtDT2dJbVFoT0RaWTBTTlFxV2Q=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080de5e6-9f39-1040-9e0a-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.156275Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020044,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020044
+cn: Wahyu Hapsari
+sn: Hapsari
+givenName: Wahyu
+displayName: Wahyu Hapsari
+mail: wahyu@peter.petra.ac.id
+mailAlternateAddress: wahyu.hapsari@alumni.petra.ac.id
+mailAlternateAddress: wahyu.hapsari@google.com
+mailAlternateAddress: wahyu.hapsari@yahoo.com
+mailAlternateAddress: wahyu.hapsari@peter.petra.ac.id
+petraUUID: f6d17730-7306-407c-a67d-5ec8dff5196d
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9NVBEL3NRVTd0VmptUWl6Qm1weU1Uc0FxazBLWnlWK3A=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080e9982-9f39-1040-9e0b-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.160872Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020045,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020045
+cn: Yohana Kristina
+sn: Kristina
+givenName: Yohana
+displayName: Yohana Kristina
+mail: yohana@john.petra.ac.id
+mailAlternateAddress: yohana.kristina@alumni.petra.ac.id
+mailAlternateAddress: yohana.kristina@google.com
+mailAlternateAddress: yohana.kristina@yahoo.com
+mailAlternateAddress: yohana.kristina@john.petra.ac.id
+petraUUID: d76368ec-3976-48c3-87cc-66d7654a5166
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9cjBOTzA2NHpNVXMwUUdFb2M5cUdwNDRvOFg4b2U1Y2g=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080ee054-9f39-1040-9e0c-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.162687Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020046,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020046
+cn: Zaki Firmanto
+sn: Firmanto
+givenName: Zaki
+displayName: Zaki Firmanto
+mail: zaki@john.petra.ac.id
+mailAlternateAddress: zaki.firmanto@alumni.petra.ac.id
+mailAlternateAddress: zaki.firmanto@google.com
+mailAlternateAddress: zaki.firmanto@yahoo.com
+mailAlternateAddress: zaki.firmanto@petra.petra.ac.id
+petraUUID: c812bbd1-e4da-4c85-9e51-c99dac947f4b
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9MTN1VTUrUVJaMzgycy81TGNVbFl1TG5mRHpFeFJxZ00=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080f1cb8-9f39-1040-9e0d-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.164232Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020047,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020047
+cn: Arga Prameswara
+sn: Prameswara
+givenName: Arga
+displayName: Arga Prameswara
+mail: arga@john.petra.ac.id
+mailAlternateAddress: arga.prameswara@alumni.petra.ac.id
+mailAlternateAddress: arga.prameswara@google.com
+mailAlternateAddress: arga.prameswara@yahoo.com
+mailAlternateAddress: arga.prameswara@john.petra.ac.id
+petraUUID: b94f90c1-be99-4d94-9269-2d3b0ee22dd0
+petraAffiliation: alumni
+petraAccountStatus: active
+userPassword:: e1NTSEF9d3FQSGN6TjdDYVVad3R4RUwyVmtNalhUMlByMmFMRWU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080f6c7c-9f39-1040-9e0e-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.166274Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020048,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020048
+cn: Bella Candrawati
+sn: Candrawati
+givenName: Bella
+displayName: Bella Candrawati
+mail: bella@petra.petra.ac.id
+mailAlternateAddress: bella.candrawati@alumni.petra.ac.id
+mailAlternateAddress: bella.candrawati@google.com
+mailAlternateAddress: bella.candrawati@yahoo.com
+mailAlternateAddress: bella.candrawati@peter.petra.ac.id
+petraUUID: a15bb193-eb50-412c-9292-a8df82bb67ac
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9c0ZlM1ZIbzQ0aXNRMTIxeTIyYmlDdzlrRkdsUFNBYmg=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080f9a8a-9f39-1040-9e0f-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.167452Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020049,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020049
+cn: Citra Permadi
+sn: Permadi
+givenName: Citra
+displayName: Citra Permadi
+mail: citra@peter.petra.ac.id
+mailAlternateAddress: citra.permadi@alumni.petra.ac.id
+mailAlternateAddress: citra.permadi@google.com
+mailAlternateAddress: citra.permadi@yahoo.com
+mailAlternateAddress: citra.permadi@peter.petra.ac.id
+petraUUID: e0316b30-0227-4d33-aa20-f7f59fd374a9
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9YzNsdFlPZmRJMFJpc2VIMHFuRElhYVdMWVd6MXkrWWg=
+structuralObjectClass: inetOrgPerson
+entryUUID: 080fcbae-9f39-1040-9e10-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.168712Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020050,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020050
+cn: Nova Dynamics
+sn: Dynamics
+givenName: Nova
+displayName: Nova Dynamics
+mail: nova@peter.petra.ac.id
+mailAlternateAddress: nova.dynamics@alumni.petra.ac.id
+mailAlternateAddress: nova.dynamics@google.com
+mailAlternateAddress: nova.dynamics@yahoo.com
+mailAlternateAddress: nova.dynamics@john.petra.ac.id
+petraUUID: 4f0503f6-e625-43c6-8eee-83f77fcf92f6
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9U1dyVWNDeG9ZVlpkSi9NVFFHVjg0bzcwektHQU5nOW4=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08101c58-9f39-1040-9e11-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.170775Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020051,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020051
+cn: Atlas Forge
+sn: Forge
+givenName: Atlas
+displayName: Atlas Forge
+mail: atlas@john.petra.ac.id
+mailAlternateAddress: atlas.forge@alumni.petra.ac.id
+mailAlternateAddress: atlas.forge@google.com
+mailAlternateAddress: atlas.forge@yahoo.com
+mailAlternateAddress: atlas.forge@john.petra.ac.id
+petraUUID: 68032003-dda5-40f9-9d22-44738ab1688d
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9V0xpcmZFWWZGQWhtcURydnh1MzgwdWdHRFBsNWFWMCs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08106f50-9f39-1040-9e12-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.172900Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020052,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020052
+cn: Quantum Harbor
+sn: Harbor
+givenName: Quantum
+displayName: Quantum Harbor
+mail: quantum@petra.petra.ac.id
+mailAlternateAddress: quantum.harbor@alumni.petra.ac.id
+mailAlternateAddress: quantum.harbor@google.com
+mailAlternateAddress: quantum.harbor@yahoo.com
+mailAlternateAddress: quantum.harbor@peter.petra.ac.id
+petraUUID: 31baef37-1e01-419f-b16b-61b204447f94
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9UmlpTjFvaXhhSHlSeStiS0t2OGVEZDBvMGMrUk5GOGI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0810ab00-9f39-1040-9e13-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.174428Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020053,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020053
+cn: Pixel Foundry
+sn: Foundry
+givenName: Pixel
+displayName: Pixel Foundry
+mail: pixel@peter.petra.ac.id
+mailAlternateAddress: pixel.foundry@alumni.petra.ac.id
+mailAlternateAddress: pixel.foundry@google.com
+mailAlternateAddress: pixel.foundry@yahoo.com
+mailAlternateAddress: pixel.foundry@petra.petra.ac.id
+petraUUID: c5885d0a-f148-44c2-b4e0-3c58217a18d0
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9NmlCSkVhTXdYV0F1SHFqYUVoQ3BFL1RUaG9Ob3U1Qnc=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081100a0-9f39-1040-9e14-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.176621Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020054,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020054
+cn: Garuda Systems
+sn: Systems
+givenName: Garuda
+displayName: Garuda Systems
+mail: garuda@peter.petra.ac.id
+mailAlternateAddress: garuda.systems@alumni.petra.ac.id
+mailAlternateAddress: garuda.systems@google.com
+mailAlternateAddress: garuda.systems@yahoo.com
+mailAlternateAddress: garuda.systems@john.petra.ac.id
+petraUUID: 0c874dfe-36c2-4a79-9e09-96d751c60446
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9VnczZEZ4NlZ4T2FCN1RMM045TDZaeGtxYUhYMG00akE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08115168-9f39-1040-9e15-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.178689Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020055,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020055
+cn: Ember Studio
+sn: Studio
+givenName: Ember
+displayName: Ember Studio
+mail: ember@petra.petra.ac.id
+mailAlternateAddress: ember.studio@alumni.petra.ac.id
+mailAlternateAddress: ember.studio@google.com
+mailAlternateAddress: ember.studio@yahoo.com
+mailAlternateAddress: ember.studio@peter.petra.ac.id
+petraUUID: 57a9568b-c8d6-4eff-993e-4ea8768f17f6
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9T0JhaGlSUllJSHQwSjlpWGtPMXoreHd0RytLWTIrVHU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0811abc2-9f39-1040-9e16-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.181002Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020056,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020056
+cn: Aurora Ventures
+sn: Ventures
+givenName: Aurora
+displayName: Aurora Ventures
+mail: aurora@john.petra.ac.id
+mailAlternateAddress: aurora.ventures@alumni.petra.ac.id
+mailAlternateAddress: aurora.ventures@google.com
+mailAlternateAddress: aurora.ventures@yahoo.com
+mailAlternateAddress: aurora.ventures@petra.petra.ac.id
+petraUUID: 81b02ece-b527-48bd-908f-971286195954
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9MEJ1NTRvcHBsSHZRc2pRUkJEVGNHMTlSWU5uamhyTUs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08120612-9f39-1040-9e17-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.183313Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020057,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020057
+cn: Nimbus Works
+sn: Works
+givenName: Nimbus
+displayName: Nimbus Works
+mail: nimbus@john.petra.ac.id
+mailAlternateAddress: nimbus.works@alumni.petra.ac.id
+mailAlternateAddress: nimbus.works@google.com
+mailAlternateAddress: nimbus.works@yahoo.com
+mailAlternateAddress: nimbus.works@john.petra.ac.id
+petraUUID: de984963-9a9c-4313-af7b-37471cbbe9a3
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9YUI1TVk2b2xyREJOZzNzVUJJTEtmNmcxRU9DMkZZWHE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081241a4-9f39-1040-9e18-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.184839Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020058,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020058
+cn: Prism Logistics
+sn: Logistics
+givenName: Prism
+displayName: Prism Logistics
+mail: prism@petra.petra.ac.id
+mailAlternateAddress: prism.logistics@alumni.petra.ac.id
+mailAlternateAddress: prism.logistics@google.com
+mailAlternateAddress: prism.logistics@yahoo.com
+mailAlternateAddress: prism.logistics@john.petra.ac.id
+petraUUID: 89f57004-71f5-41e6-b8c7-f4859c9df90c
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9Q2J0VjRmb0JKRnVlZG5xaTFtMVhzSUxybGs5UnNadWI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0812a8d8-9f39-1040-9e19-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.187480Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020059,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020059
+cn: Kencana Mart
+sn: Mart
+givenName: Kencana
+displayName: Kencana Mart
+mail: kencana@peter.petra.ac.id
+mailAlternateAddress: kencana.mart@alumni.petra.ac.id
+mailAlternateAddress: kencana.mart@google.com
+mailAlternateAddress: kencana.mart@yahoo.com
+mailAlternateAddress: kencana.mart@peter.petra.ac.id
+petraUUID: dd97cf96-bfab-4b8c-a413-9744caee6f04
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9ckNsK3huNUlpU1Q2QTVvVWhNbEdGMjBlZ1EwWjEzVUs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08131c50-9f39-1040-9e1a-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.190436Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020060,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020060
+cn: Sagara Foods
+sn: Foods
+givenName: Sagara
+displayName: Sagara Foods
+mail: sagara@petra.petra.ac.id
+mailAlternateAddress: sagara.foods@alumni.petra.ac.id
+mailAlternateAddress: sagara.foods@google.com
+mailAlternateAddress: sagara.foods@yahoo.com
+mailAlternateAddress: sagara.foods@john.petra.ac.id
+petraUUID: 6897a0ce-4ab7-44b1-97cd-5d74d38f6a2a
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9UG13WndUZ3FHQjhaaUtMUU1KSVQ0QWp3YVNQaGJ6M2U=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08134860-9f39-1040-9e1b-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.191542Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020061,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020061
+cn: Merapi Digital
+sn: Digital
+givenName: Merapi
+displayName: Merapi Digital
+mail: merapi@petra.petra.ac.id
+mailAlternateAddress: merapi.digital@alumni.petra.ac.id
+mailAlternateAddress: merapi.digital@google.com
+mailAlternateAddress: merapi.digital@yahoo.com
+mailAlternateAddress: merapi.digital@peter.petra.ac.id
+petraUUID: 535fde29-17da-4f3e-8e2d-9c4c7542c010
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9UC9yRy94RXRVeUYzRmVnd1lJUjdlT0JZWFZ0TUJHa2k=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0813793e-9f39-1040-9e1c-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.192815Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020062,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020062
+cn: Bintang Fabric
+sn: Fabric
+givenName: Bintang
+displayName: Bintang Fabric
+mail: bintang@john.petra.ac.id
+mailAlternateAddress: bintang.fabric@alumni.petra.ac.id
+mailAlternateAddress: bintang.fabric@google.com
+mailAlternateAddress: bintang.fabric@yahoo.com
+mailAlternateAddress: bintang.fabric@peter.petra.ac.id
+petraUUID: 59a786b9-fb04-4bc4-8eb2-d9c54e22fa1c
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9SW9sOWhaSUZTekl1NUJCSU5DeWlkRjdYSkxzY3FFVzE=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0813b980-9f39-1040-9e1d-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.194461Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020063,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020063
+cn: Cakra Motors
+sn: Motors
+givenName: Cakra
+displayName: Cakra Motors
+mail: cakra@peter.petra.ac.id
+mailAlternateAddress: cakra.motors@alumni.petra.ac.id
+mailAlternateAddress: cakra.motors@google.com
+mailAlternateAddress: cakra.motors@yahoo.com
+mailAlternateAddress: cakra.motors@peter.petra.ac.id
+petraUUID: 19c45914-892f-4c6d-8665-c3cae4ef1b14
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9UUNUQWVGdHgzMkFIVUN3cExobXF6OWNEUXU3NjAzLzk=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0813e928-9f39-1040-9e1e-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.195681Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020064,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020064
+cn: Lentera Labs
+sn: Labs
+givenName: Lentera
+displayName: Lentera Labs
+mail: lentera@john.petra.ac.id
+mailAlternateAddress: lentera.labs@alumni.petra.ac.id
+mailAlternateAddress: lentera.labs@google.com
+mailAlternateAddress: lentera.labs@yahoo.com
+mailAlternateAddress: lentera.labs@john.petra.ac.id
+petraUUID: dd080e9e-0f82-4198-8927-1dd4b465866c
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9S0dxRFNhMXdwbys4RERJYzAxR0RNQ1Y4L214VVJwQWc=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08141d1c-9f39-1040-9e1f-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.197011Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020065,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020065
+cn: Nusantara Cloud
+sn: Cloud
+givenName: Nusantara
+displayName: Nusantara Cloud
+mail: nusantara@peter.petra.ac.id
+mailAlternateAddress: nusantara.cloud@alumni.petra.ac.id
+mailAlternateAddress: nusantara.cloud@google.com
+mailAlternateAddress: nusantara.cloud@yahoo.com
+mailAlternateAddress: nusantara.cloud@peter.petra.ac.id
+petraUUID: d7b4c396-c92a-4441-bad0-286b03985d5f
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9cWN5bjB4d0g3RVBqQnpyb0hlcnZsdUhIclRGY2RSbWo=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081463bc-9f39-1040-9e20-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.198819Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020066,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020066
+cn: Arunika Media
+sn: Media
+givenName: Arunika
+displayName: Arunika Media
+mail: arunika@petra.petra.ac.id
+mailAlternateAddress: arunika.media@alumni.petra.ac.id
+mailAlternateAddress: arunika.media@google.com
+mailAlternateAddress: arunika.media@yahoo.com
+mailAlternateAddress: arunika.media@petra.petra.ac.id
+petraUUID: 7db64361-fb20-46a3-aad6-a1630017ec41
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9bFpMRy9FMVJJaEdVVStER1BLdWlEM3hCQkRYWnVsV1o=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08149666-9f39-1040-9e21-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.200116Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020067,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020067
+cn: Tirta Supply
+sn: Supply
+givenName: Tirta
+displayName: Tirta Supply
+mail: tirta@peter.petra.ac.id
+mailAlternateAddress: tirta.supply@alumni.petra.ac.id
+mailAlternateAddress: tirta.supply@google.com
+mailAlternateAddress: tirta.supply@yahoo.com
+mailAlternateAddress: tirta.supply@john.petra.ac.id
+petraUUID: 0846def1-ee15-49a9-8ff2-ac4a8c1e13d0
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9TXJvbmd2QVJ4L1FTOEZoK0dWWWZlWnVMMlQyVFdBbVQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0814ccda-9f39-1040-9e22-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.201510Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020068,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020068
+cn: Rajawali Cargo
+sn: Cargo
+givenName: Rajawali
+displayName: Rajawali Cargo
+mail: rajawali@john.petra.ac.id
+mailAlternateAddress: rajawali.cargo@alumni.petra.ac.id
+mailAlternateAddress: rajawali.cargo@google.com
+mailAlternateAddress: rajawali.cargo@yahoo.com
+mailAlternateAddress: rajawali.cargo@petra.petra.ac.id
+petraUUID: ee4df282-2313-4551-9ca4-6332776c1b19
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9U2phQTVBeDV5TVFNTlI3dHhTUUovSGt0eWFSdklYM28=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08150d30-9f39-1040-9e23-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.203157Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020069,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020069
+cn: Samudra Tech
+sn: Tech
+givenName: Samudra
+displayName: Samudra Tech
+mail: samudra@petra.petra.ac.id
+mailAlternateAddress: samudra.tech@alumni.petra.ac.id
+mailAlternateAddress: samudra.tech@google.com
+mailAlternateAddress: samudra.tech@yahoo.com
+mailAlternateAddress: samudra.tech@john.petra.ac.id
+petraUUID: a02ba13e-33c9-4245-9399-7d3a4086ab27
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9NTlyN0c4T29IbWwxODJWVFhIREhJdmJxLytaTmZNUUQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08153fa8-9f39-1040-9e24-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.204449Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020070,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020070
+cn: Pertiwi Energy
+sn: Energy
+givenName: Pertiwi
+displayName: Pertiwi Energy
+mail: pertiwi@petra.petra.ac.id
+mailAlternateAddress: pertiwi.energy@alumni.petra.ac.id
+mailAlternateAddress: pertiwi.energy@google.com
+mailAlternateAddress: pertiwi.energy@yahoo.com
+mailAlternateAddress: pertiwi.energy@petra.petra.ac.id
+petraUUID: 3c15b5ef-df69-4d82-8c39-38836eadecc3
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9WWx3QmpZNVZBc1lqYUMxejBDblZkSkRldkpnTWhLYjQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08156e56-9f39-1040-9e25-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.205643Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020071,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020071
+cn: Seruni Pharma
+sn: Pharma
+givenName: Seruni
+displayName: Seruni Pharma
+mail: seruni@john.petra.ac.id
+mailAlternateAddress: seruni.pharma@alumni.petra.ac.id
+mailAlternateAddress: seruni.pharma@google.com
+mailAlternateAddress: seruni.pharma@yahoo.com
+mailAlternateAddress: seruni.pharma@john.petra.ac.id
+petraUUID: 9bf6be96-b2dd-43c5-a68c-c8d54768fd40
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9ekpWR1FiVXExTlZFTEpDenJHaHRMQVR6TytyWUV5elM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0815b532-9f39-1040-9e26-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.207457Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020072,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020072
+cn: Pelangi Retail
+sn: Retail
+givenName: Pelangi
+displayName: Pelangi Retail
+mail: pelangi@petra.petra.ac.id
+mailAlternateAddress: pelangi.retail@alumni.petra.ac.id
+mailAlternateAddress: pelangi.retail@google.com
+mailAlternateAddress: pelangi.retail@yahoo.com
+mailAlternateAddress: pelangi.retail@petra.petra.ac.id
+petraUUID: 4a48a10e-7feb-4a7a-af9f-4141341ead22
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9eVhrRnp2YzhYdGNhd3hwL2tSWDkwTnkxcXJxN0ozT0M=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0815e336-9f39-1040-9e27-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.208635Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020073,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020073
+cn: Borneo Trading
+sn: Trading
+givenName: Borneo
+displayName: Borneo Trading
+mail: borneo@john.petra.ac.id
+mailAlternateAddress: borneo.trading@alumni.petra.ac.id
+mailAlternateAddress: borneo.trading@google.com
+mailAlternateAddress: borneo.trading@yahoo.com
+mailAlternateAddress: borneo.trading@peter.petra.ac.id
+petraUUID: 8e340670-bc51-479d-8c60-e7ed831658a8
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9cWJaZ3FvMzBQRi9MSjFzM1lySVJhZWgzQ0VVYWVwNnY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081618c4-9f39-1040-9e28-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.210006Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020074,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020074
+cn: Bali Botanics
+sn: Botanics
+givenName: Bali
+displayName: Bali Botanics
+mail: bali@petra.petra.ac.id
+mailAlternateAddress: bali.botanics@alumni.petra.ac.id
+mailAlternateAddress: bali.botanics@google.com
+mailAlternateAddress: bali.botanics@yahoo.com
+mailAlternateAddress: bali.botanics@peter.petra.ac.id
+petraUUID: fa249c34-00b8-4dac-9fd1-fb4ed56f8de8
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9QXJNZW1jN0dDcEpkNGlMMUdmK1pzREFJZlgySjhEVEs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081658a2-9f39-1040-9e29-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.211642Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020075,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020075
+cn: Sulawesi Mining
+sn: Mining
+givenName: Sulawesi
+displayName: Sulawesi Mining
+mail: sulawesi@petra.petra.ac.id
+mailAlternateAddress: sulawesi.mining@alumni.petra.ac.id
+mailAlternateAddress: sulawesi.mining@google.com
+mailAlternateAddress: sulawesi.mining@yahoo.com
+mailAlternateAddress: sulawesi.mining@petra.petra.ac.id
+petraUUID: 33810fb5-bcd0-43fb-a1f2-dd7b5e77bc2d
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9eG9SdnFkS1phajRnV1BNQ1BJM1pVTXZ6OE5tN25zZUM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08168750-9f39-1040-9e2a-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.212837Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020076,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020076
+cn: Sumatra Agro
+sn: Agro
+givenName: Sumatra
+displayName: Sumatra Agro
+mail: sumatra@petra.petra.ac.id
+mailAlternateAddress: sumatra.agro@alumni.petra.ac.id
+mailAlternateAddress: sumatra.agro@google.com
+mailAlternateAddress: sumatra.agro@yahoo.com
+mailAlternateAddress: sumatra.agro@peter.petra.ac.id
+petraUUID: 0fec9b8b-5a97-4b1a-bf61-dc43864afd98
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9ZjlzdG05ZmJXSS9iekFlUVkvd0hPd0NycGtaazhKRHo=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0816bafe-9f39-1040-9e2b-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.214159Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020077,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020077
+cn: Jawa Textiles
+sn: Textiles
+givenName: Jawa
+displayName: Jawa Textiles
+mail: jawa@peter.petra.ac.id
+mailAlternateAddress: jawa.textiles@alumni.petra.ac.id
+mailAlternateAddress: jawa.textiles@google.com
+mailAlternateAddress: jawa.textiles@yahoo.com
+mailAlternateAddress: jawa.textiles@peter.petra.ac.id
+petraUUID: dc0fd704-5821-4631-bcaf-868a2ae7fc6d
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9QWFwem12L2ZJMm9LRkFrUjhlSEVOR0ExV3RCc3h4TmM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081724e4-9f39-1040-9e2c-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.216871Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020078,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020078
+cn: Kalimantan Timber
+sn: Timber
+givenName: Kalimantan
+displayName: Kalimantan Timber
+mail: kalimantan@john.petra.ac.id
+mailAlternateAddress: kalimantan.timber@alumni.petra.ac.id
+mailAlternateAddress: kalimantan.timber@google.com
+mailAlternateAddress: kalimantan.timber@yahoo.com
+mailAlternateAddress: kalimantan.timber@peter.petra.ac.id
+petraUUID: 68ceb7fc-4182-408a-a402-bc7ba2f6281a
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9a3oxMk44WU4xMndMc2tDRE5BQUVRMWVTQVpmUm5yWm8=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081761d4-9f39-1040-9e2d-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.218430Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020079,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020079
+cn: Komodo Travel
+sn: Travel
+givenName: Komodo
+displayName: Komodo Travel
+mail: komodo@peter.petra.ac.id
+mailAlternateAddress: komodo.travel@alumni.petra.ac.id
+mailAlternateAddress: komodo.travel@google.com
+mailAlternateAddress: komodo.travel@yahoo.com
+mailAlternateAddress: komodo.travel@john.petra.ac.id
+petraUUID: 8f3aea29-01d5-4730-a4a7-0d1ac5d8e5cd
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9SG9DaE1kYjV1SGtVV0psYThpKzRPWE9sbDRoeDBLbTY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08179e4c-9f39-1040-9e2e-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.219979Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020080,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020080
+cn: Mentari Finance
+sn: Finance
+givenName: Mentari
+displayName: Mentari Finance
+mail: mentari@peter.petra.ac.id
+mailAlternateAddress: mentari.finance@alumni.petra.ac.id
+mailAlternateAddress: mentari.finance@google.com
+mailAlternateAddress: mentari.finance@yahoo.com
+mailAlternateAddress: mentari.finance@petra.petra.ac.id
+petraUUID: ded0c60a-0020-4e00-b679-170ad1b7bbd0
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9V0MrTllrV0Vwa0VIRWt0eVFGQnNkMVdqOFpaSTVDelU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0817e960-9f39-1040-9e2f-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.221900Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020081,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020081
+cn: Langit Telecom
+sn: Telecom
+givenName: Langit
+displayName: Langit Telecom
+mail: langit@peter.petra.ac.id
+mailAlternateAddress: langit.telecom@alumni.petra.ac.id
+mailAlternateAddress: langit.telecom@google.com
+mailAlternateAddress: langit.telecom@yahoo.com
+mailAlternateAddress: langit.telecom@peter.petra.ac.id
+petraUUID: b406bd64-adea-4aed-aef3-10156beb15f1
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9OXNKekF4bHlSRk9QeVFVdVFxTW5FYkFyMWxZdFhiOEI=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081825ce-9f39-1040-9e30-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.223448Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020082,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020082
+cn: Rimba Outfitters
+sn: Outfitters
+givenName: Rimba
+displayName: Rimba Outfitters
+mail: rimba@peter.petra.ac.id
+mailAlternateAddress: rimba.outfitters@alumni.petra.ac.id
+mailAlternateAddress: rimba.outfitters@google.com
+mailAlternateAddress: rimba.outfitters@yahoo.com
+mailAlternateAddress: rimba.outfitters@peter.petra.ac.id
+petraUUID: 4b8e0e45-38ff-415a-9622-430ea92f9e9f
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9ZHltWlovd1UrZzIzVXVoZUlSQWI3cWYyUXBXK2xQQkY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08186a02-9f39-1040-9e31-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.225194Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020083,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020083
+cn: Batu Brew
+sn: Brew
+givenName: Batu
+displayName: Batu Brew
+mail: batu@peter.petra.ac.id
+mailAlternateAddress: batu.brew@alumni.petra.ac.id
+mailAlternateAddress: batu.brew@google.com
+mailAlternateAddress: batu.brew@yahoo.com
+mailAlternateAddress: batu.brew@peter.petra.ac.id
+petraUUID: 5c4ccf0a-47a5-4d76-a41e-af4694987779
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9T2ZRbk9jeXpQL0VHVTJqbm1aWTdTU0QvczRYTzFiZEs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08190cc8-9f39-1040-9e32-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.229360Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020084,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020084
+cn: Kopi Corner
+sn: Corner
+givenName: Kopi
+displayName: Kopi Corner
+mail: kopi@john.petra.ac.id
+mailAlternateAddress: kopi.corner@alumni.petra.ac.id
+mailAlternateAddress: kopi.corner@google.com
+mailAlternateAddress: kopi.corner@yahoo.com
+mailAlternateAddress: kopi.corner@petra.petra.ac.id
+petraUUID: 8473e8a8-2699-4547-a42a-ebe9f20493c3
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9T0hQM2h6QTR5YmNCVGw0REZGenBzaHZ1VUtyVnhhbnA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08194be8-9f39-1040-9e33-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.230977Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020085,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020085
+cn: Sate Station
+sn: Station
+givenName: Sate
+displayName: Sate Station
+mail: sate@peter.petra.ac.id
+mailAlternateAddress: sate.station@alumni.petra.ac.id
+mailAlternateAddress: sate.station@google.com
+mailAlternateAddress: sate.station@yahoo.com
+mailAlternateAddress: sate.station@john.petra.ac.id
+petraUUID: 065f8ac6-3493-45fd-a62d-3765187820ac
+petraAffiliation: external
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9V2dPa0FBMnNuN1JZMXR3bXhPQ05lMWd1VlFoVERWU1M=
+structuralObjectClass: inetOrgPerson
+entryUUID: 08198432-9f39-1040-9e34-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.232418Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020086,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020086
+cn: Roti Republic
+sn: Republic
+givenName: Roti
+displayName: Roti Republic
+mail: roti@petra.petra.ac.id
+mailAlternateAddress: roti.republic@alumni.petra.ac.id
+mailAlternateAddress: roti.republic@google.com
+mailAlternateAddress: roti.republic@yahoo.com
+mailAlternateAddress: roti.republic@john.petra.ac.id
+petraUUID: 5416424c-4886-4add-8094-0c52bb09d79c
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9dUlyaDdDRHZGLzBqeldTaElWa1BwejZqamZ5K2FONWU=
+structuralObjectClass: inetOrgPerson
+entryUUID: 0819db08-9f39-1040-9e35-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.234641Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020087,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020087
+cn: Ayam Avenue
+sn: Avenue
+givenName: Ayam
+displayName: Ayam Avenue
+mail: ayam@john.petra.ac.id
+mailAlternateAddress: ayam.avenue@alumni.petra.ac.id
+mailAlternateAddress: ayam.avenue@google.com
+mailAlternateAddress: ayam.avenue@yahoo.com
+mailAlternateAddress: ayam.avenue@john.petra.ac.id
+petraUUID: fc0790c6-7d67-4b44-80be-c423c6193c21
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9V0xXYTc1R1VFbHQ1VVkwcUF1bWdyUEtwUndIZ1ZhRnA=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081a079a-9f39-1040-9e36-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.235782Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020088,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020088
+cn: Teh Terrace
+sn: Terrace
+givenName: Teh
+displayName: Teh Terrace
+mail: teh@peter.petra.ac.id
+mailAlternateAddress: teh.terrace@alumni.petra.ac.id
+mailAlternateAddress: teh.terrace@google.com
+mailAlternateAddress: teh.terrace@yahoo.com
+mailAlternateAddress: teh.terrace@petra.petra.ac.id
+petraUUID: 18365524-f032-4b60-9251-1c73d8a00b3f
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9aFVxU0JwT2NDZWdDQkRCZEJzZms0Nnp6c0dCSXlRR2w=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081a3134-9f39-1040-9e37-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.236847Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020089,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020089
+cn: Nasi Network
+sn: Network
+givenName: Nasi
+displayName: Nasi Network
+mail: nasi@peter.petra.ac.id
+mailAlternateAddress: nasi.network@alumni.petra.ac.id
+mailAlternateAddress: nasi.network@google.com
+mailAlternateAddress: nasi.network@yahoo.com
+mailAlternateAddress: nasi.network@john.petra.ac.id
+petraUUID: 173baa31-ea8a-41a7-857a-6ef15201386a
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9M045VHNMM1YvK0dyQXJNVm8vK21UZXZkb21KWTRCVHQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081a6dfc-9f39-1040-9e38-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.238402Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020090,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020090
+cn: Hydro Pulse
+sn: Pulse
+givenName: Hydro
+displayName: Hydro Pulse
+mail: hydro@peter.petra.ac.id
+mailAlternateAddress: hydro.pulse@alumni.petra.ac.id
+mailAlternateAddress: hydro.pulse@google.com
+mailAlternateAddress: hydro.pulse@yahoo.com
+mailAlternateAddress: hydro.pulse@peter.petra.ac.id
+petraUUID: 4514be41-cf8e-43c6-9863-ce30228100cd
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9M0hDVENyWUMzSXgvNzBHbVNkU3RUbXF1WUVHSmhDSFk=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081a9444-9f39-1040-9e39-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.239383Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020091,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020091
+cn: Solar Crescent
+sn: Crescent
+givenName: Solar
+displayName: Solar Crescent
+mail: solar@peter.petra.ac.id
+mailAlternateAddress: solar.crescent@alumni.petra.ac.id
+mailAlternateAddress: solar.crescent@google.com
+mailAlternateAddress: solar.crescent@yahoo.com
+mailAlternateAddress: solar.crescent@petra.petra.ac.id
+petraUUID: bd664efe-6ca4-4ba4-9ad0-02bdfcde3516
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9U0ZKRXlEQmtQWjdtejNZaVFFeE5KL0RYUEthNG1waW8=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081ab4a6-9f39-1040-9e3a-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.240212Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020092,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020092
+cn: Titan Fabrication
+sn: Fabrication
+givenName: Titan
+displayName: Titan Fabrication
+mail: titan@petra.petra.ac.id
+mailAlternateAddress: titan.fabrication@alumni.petra.ac.id
+mailAlternateAddress: titan.fabrication@google.com
+mailAlternateAddress: titan.fabrication@yahoo.com
+mailAlternateAddress: titan.fabrication@peter.petra.ac.id
+petraUUID: f7249804-ad11-4a06-8d17-a803ef94352d
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9OHN1WkdRTEYwY2JoQVAxa1IyMmdFNjB0VkZUTkpFUHM=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081aebb0-9f39-1040-9e3b-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.241621Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020093,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020093
+cn: Orbit Appliance
+sn: Appliance
+givenName: Orbit
+displayName: Orbit Appliance
+mail: orbit@john.petra.ac.id
+mailAlternateAddress: orbit.appliance@alumni.petra.ac.id
+mailAlternateAddress: orbit.appliance@google.com
+mailAlternateAddress: orbit.appliance@yahoo.com
+mailAlternateAddress: orbit.appliance@peter.petra.ac.id
+petraUUID: ac1357c8-4484-42b8-9ad1-c2da2d344df9
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9NzFTZzZLaEM2Q1VaRE54OGlRNlNWd1VyeTlEQWowUVY=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081b11c6-9f39-1040-9e3c-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.242596Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020094,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020094
+cn: Zenith Analytics
+sn: Analytics
+givenName: Zenith
+displayName: Zenith Analytics
+mail: zenith@john.petra.ac.id
+mailAlternateAddress: zenith.analytics@alumni.petra.ac.id
+mailAlternateAddress: zenith.analytics@google.com
+mailAlternateAddress: zenith.analytics@yahoo.com
+mailAlternateAddress: zenith.analytics@petra.petra.ac.id
+petraUUID: 5d696dd7-4f6f-406a-b8e4-b8cc2586152d
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9VVpuS3pNdXpTZjZSNUZWM09TZ0I1TERrVE1uN0Y1V2M=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081b33ea-9f39-1040-9e3d-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.243470Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020095,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020095
+cn: Vertex Security
+sn: Security
+givenName: Vertex
+displayName: Vertex Security
+mail: vertex@john.petra.ac.id
+mailAlternateAddress: vertex.security@alumni.petra.ac.id
+mailAlternateAddress: vertex.security@google.com
+mailAlternateAddress: vertex.security@yahoo.com
+mailAlternateAddress: vertex.security@peter.petra.ac.id
+petraUUID: aac878e2-f14d-416b-a815-1346b0a8d98a
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9Z3V5Z2hTMUNkM29NN1ZFeTVSNVIya1RDQ0FFYk9DN1I=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081b6a22-9f39-1040-9e3e-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.244858Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020096,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020096
+cn: Cedar Capital
+sn: Capital
+givenName: Cedar
+displayName: Cedar Capital
+mail: cedar@john.petra.ac.id
+mailAlternateAddress: cedar.capital@alumni.petra.ac.id
+mailAlternateAddress: cedar.capital@google.com
+mailAlternateAddress: cedar.capital@yahoo.com
+mailAlternateAddress: cedar.capital@john.petra.ac.id
+petraUUID: da5b8754-97df-4c95-aa1b-a6ae5e516457
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9bldKYnhpWnIwT3RrMm8xampaQWhBcTB2NWJ4QUpkRSs=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081b8c64-9f39-1040-9e3f-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.245734Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020097,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020097
+cn: Marble Atelier
+sn: Atelier
+givenName: Marble
+displayName: Marble Atelier
+mail: marble@john.petra.ac.id
+mailAlternateAddress: marble.atelier@alumni.petra.ac.id
+mailAlternateAddress: marble.atelier@google.com
+mailAlternateAddress: marble.atelier@yahoo.com
+mailAlternateAddress: marble.atelier@petra.petra.ac.id
+petraUUID: 922d53db-e853-4cf0-b7d1-79f1658b6935
+petraAffiliation: external
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9U1lqQXRLMWJ1N3NoY2ZtT0QxRWcvMmQzQ2RGQzZVakQ=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081bb388-9f39-1040-9e40-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.246737Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020098,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020098
+cn: Oceanic Portfolio
+sn: Portfolio
+givenName: Oceanic
+displayName: Oceanic Portfolio
+mail: oceanic@petra.petra.ac.id
+mailAlternateAddress: oceanic.portfolio@alumni.petra.ac.id
+mailAlternateAddress: oceanic.portfolio@google.com
+mailAlternateAddress: oceanic.portfolio@yahoo.com
+mailAlternateAddress: oceanic.portfolio@peter.petra.ac.id
+petraUUID: 032eddd0-bde2-4015-90d4-5515a55134bf
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9WGpNSXNpbFpwcDJ5bmU3V28rcjNORjFBZ2Zwb2F6TFc=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081bf046-9f39-1040-9e41-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.248288Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+
+dn: uid=u-00020099,ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: u-00020099
+cn: Crystal District
+sn: District
+givenName: Crystal
+displayName: Crystal District
+mail: crystal@peter.petra.ac.id
+mailAlternateAddress: crystal.district@alumni.petra.ac.id
+mailAlternateAddress: crystal.district@google.com
+mailAlternateAddress: crystal.district@yahoo.com
+mailAlternateAddress: crystal.district@john.petra.ac.id
+petraUUID: 1604d402-1dd3-46b8-896a-7f49e2d2f1ce
+petraAffiliation: external
+petraAccountStatus: active
+userPassword:: e1NTSEF9Wit3UUJJUllpdFBkYWw1ZTlpZjJOeHFpdGdUM1hhMWo=
+structuralObjectClass: inetOrgPerson
+entryUUID: 081c17ce-9f39-1040-9e42-81fc015fd1e3
+creatorsName: cn=admin,dc=petra,dc=ac,dc=id
+createTimestamp: 20260216040928Z
+entryCSN: 20260216040928.249304Z#000000#000#000000
+modifiersName: cn=admin,dc=petra,dc=ac,dc=id
+modifyTimestamp: 20260216040928Z
+

@@ -1,0 +1,7 @@
+dn: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+uid: dummy
+cn: Dummy Member
+sn: Member
+mail: dummy@petra.ac.id
+userPassword: {SSHA}vU7RwJ8/MV8SfCNtcNKMw4zA2dpqaYd/

@@ -1,0 +1,53 @@
+dn: ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: students
+
+dn: ou=staff,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: staff
+
+dn: ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: alumni
+
+dn: ou=external,ou=people,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: external
+
+dn: ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: roles
+
+dn: ou=units,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: units
+
+dn: ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: apps
+
+dn: ou=services,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: services
+
+dn: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+cn: Dummy Member
+sn: Member
+uid: dummy
+
+dn: ou=devices,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: devices
+
+dn: ou=policies,dc=petra,dc=ac,dc=id
+objectClass: organizationalUnit
+ou: policies

@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres
+  labels:
+    io.kompose.service: postgres
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: postgres
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        io.kompose.service: postgres
+    spec:
+      containers:
+        - name: petra-kc-postgres
+          image: postgres:16
+          env:
+            - name: POSTGRES_DB
+              value: "keycloak"
+            - name: POSTGRES_USER
+              value: "keycloak"
+            - name: POSTGRES_PASSWORD
+              value: "SeongJinWoo999!"
+            - name: TZ
+              value: "Asia/Jakarta"
+          livenessProbe:
+            exec:
+              command:
+                - /bin/sh
+                - -lc
+                - "pg_isready -U keycloak -d keycloak"
+            failureThreshold: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+          readinessProbe:
+            exec:
+              command:
+                - /bin/sh
+                - -lc
+                - "pg_isready -U keycloak -d keycloak"
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 5
+          volumeMounts:
+            - mountPath: /var/lib/postgresql/data
+              name: kc-pgdata
+      volumes:
+        - name: kc-pgdata
+          persistentVolumeClaim:
+            claimName: kc-pgdata

@@ -1,0 +1,16 @@
+dn: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: 018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99
+cn: John Doe
+sn: Doe
+givenName: John
+displayName: John Doe
+mail: john@john.petra.ac.id
+mailAlternateAddress: john.doe@gmail.com
+userNIK: 3515011201990001
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: C14210157
+studentNumberHistory: C14210157
+userPassword: {SSHA}vU7RwJ8/MV8SfCNtcNKMw4zA2dpqaYd/

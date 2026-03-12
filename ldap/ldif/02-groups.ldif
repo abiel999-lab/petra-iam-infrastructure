@@ -1,0 +1,29 @@
+dn: cn=role-student,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-student
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+
+dn: cn=role-alumni,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-alumni
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-staff
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+
+dn: cn=app-mypetra,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-mypetra
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+
+dn: cn=app-wifi-dot1x,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-wifi-dot1x
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+
+dn: cn=app-mypetra-helpdesk,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: app-mypetra-helpdesk
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id

@@ -1,0 +1,45 @@
+dn: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+cn: Dummy Member
+sn: Member
+uid: dummy
+structuralObjectClass: inetOrgPerson
+entryUUID: 710c6e6c-a1a7-1040-9a1e-3bce38e83940
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260219062451Z
+entryCSN: 20260219062451.273243Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260219062451Z
+entryDN: uid=dummy,ou=services,dc=petra,dc=ac,dc=id
+subschemaSubentry: cn=Subschema
+hasSubordinates: FALSE
+
+dn: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=petra,dc
+ =ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: 018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99
+cn: John Doe
+sn: Doe
+givenName: John
+displayName: John Doe
+mail: john@john.petra.ac.id
+mailAlternateAddress: john.doe@gmail.com
+userNIK: 3515011201990001
+petraAffiliation: student
+petraAccountStatus: active
+studentNumber: C14210157
+studentNumberHistory: C14210157
+userPassword:: e1NTSEF9dlU3UndKOC9NVjhTZkNOdGNOS013NHpBMmRwcWFZZC8=
+structuralObjectClass: inetOrgPerson
+entryUUID: 714b0e60-a1a7-1040-9a8b-3bce38e83940
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20260219062451Z
+entryCSN: 20260219062451.683658Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20260219062451Z
+entryDN: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=pet
+ ra,dc=ac,dc=id
+subschemaSubentry: cn=Subschema
+hasSubordinates: FALSE
+

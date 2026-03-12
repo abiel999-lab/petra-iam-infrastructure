@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: keycloak-root-redirect
+  namespace: petra-iam
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/temporal-redirect: https://auth-ldap.ppsi.petra.ac.id/realms/petra/account/
+spec:
+  ingressClassName: public
+  rules:
+    - host: auth-ldap.ppsi.petra.ac.id
+      http:
+        paths:
+          - path: /
+            pathType: Exact
+            backend:
+              service:
+                name: keycloak
+                port:
+                  name: http
+  tls:
+    - hosts:
+        - auth-ldap.ppsi.petra.ac.id
+      secretName: auth-ldap-tls

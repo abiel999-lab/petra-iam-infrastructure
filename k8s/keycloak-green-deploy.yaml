@@ -1,0 +1,135 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "33"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"labels":{"io.kompose.service":"keycloak"},"name":"keycloak","namespace":"petra-iam"},"spec":{"replicas":1,"selector":{"matchLabels":{"io.kompose.service":"keycloak"}},"strategy":{"type":"Recreate"},"template":{"metadata":{"labels":{"io.kompose.service":"keycloak"}},"spec":{"containers":[{"args":["start","--http-enabled=true","--http-port=8080","--proxy-headers=xforwarded","--hostname-strict=false","--spi-theme-cache-themes=false","--spi-theme-cache-templates=false"],"env":[{"name":"KC_BOOTSTRAP_ADMIN_USERNAME","value":"admin"},{"name":"KC_BOOTSTRAP_ADMIN_PASSWORD","value":"SeongJinWoo999!"},{"name":"KC_DB","value":"postgres"},{"name":"KC_DB_URL_HOST","value":"postgres"},{"name":"KC_DB_URL_DATABASE","value":"keycloak"},{"name":"KC_DB_USERNAME","value":"keycloak"},{"name":"KC_DB_PASSWORD","value":"SeongJinWoo999!"},{"name":"TZ","value":"Asia/Jakarta"}],"image":"petra-keycloak:26.0-pg-theme","imagePullPolicy":"IfNotPresent","name":"petra-keycloak","ports":[{"containerPort":8080,"protocol":"TCP"}]}]}}}}
+  creationTimestamp: "2026-02-19T04:40:40Z"
+  generation: 55
+  labels:
+    io.kompose.service: keycloak
+  name: keycloak
+  namespace: petra-iam
+  resourceVersion: "890673"
+  uid: 581f91fc-400d-43e8-81cd-ef5ddc4bfd96
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      io.kompose.service: keycloak
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kubectl.kubernetes.io/restartedAt: "2026-02-22T18:36:25+07:00"
+      creationTimestamp: null
+      labels:
+        io.kompose.service: keycloak
+    spec:
+      containers:
+      - args:
+        - start
+        - --http-enabled=true
+        - --http-port=8080
+        - --proxy-headers=xforwarded
+        - --hostname=auth-ldap.ppsi.petra.ac.id
+        - --hostname-strict=false
+        - --log-level=INFO
+        env:
+        - name: KC_BOOTSTRAP_ADMIN_USERNAME
+          value: admin
+        - name: KC_BOOTSTRAP_ADMIN_PASSWORD
+          value: SeongJinWoo999!
+        - name: KC_DB
+          value: postgres
+        - name: KC_DB_URL_HOST
+          value: postgres
+        - name: KC_DB_URL_DATABASE
+          value: keycloak
+        - name: KC_DB_USERNAME
+          value: keycloak
+        - name: KC_DB_PASSWORD
+          value: SeongJinWoo999!
+        - name: TZ
+          value: Asia/Jakarta
+        - name: KC_PROXY_HEADERS
+          value: xforwarded
+        - name: KC_HOSTNAME
+          value: auth-ldap.ppsi.petra.ac.id
+        - name: KC_HOSTNAME_STRICT
+          value: "false"
+        - name: KC_HTTP_ENABLED
+          value: "true"
+        - name: KC_LOG_LEVEL
+          value: INFO
+        - name: KC_LOG_LEVEL_ORG_KEYCLOAK_PROTOCOL_SAML
+          value: DEBUG
+        - name: KC_LOG_LEVEL_ORG_KEYCLOAK_SAML
+          value: DEBUG
+        - name: KC_HEALTH_ENABLED
+          value: "true"
+        - name: KC_METRICS_ENABLED
+          value: "true"
+        image: petra-keycloak:26.0-pg-theme
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 10
+          httpGet:
+            path: /realms/master
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 120
+          periodSeconds: 15
+          successThreshold: 1
+          timeoutSeconds: 5
+        name: petra-keycloak
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 18
+          httpGet:
+            path: /realms/master
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 45
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 5
+        resources:
+          limits:
+            cpu: "1"
+            memory: 1536Mi
+          requests:
+            cpu: 200m
+            memory: 512Mi
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2026-02-23T16:08:41Z"
+    lastUpdateTime: "2026-02-23T16:08:41Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2026-02-19T04:40:40Z"
+    lastUpdateTime: "2026-02-23T16:08:41Z"
+    message: ReplicaSet "keycloak-777658f84f" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 55
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

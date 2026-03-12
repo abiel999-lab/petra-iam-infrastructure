@@ -1,0 +1,14 @@
+dn: cn=role-student,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+add: member
+member: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=petra,dc=ac,dc=id
+
+dn: cn=app-mypetra,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+add: member
+member: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=petra,dc=ac,dc=id
+
+dn: cn=app-wifi-dot1x,ou=apps,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+add: member
+member: uid=018f2c7a-9b7d-7a12-b3c1-9a4c2f3d1e99,ou=students,ou=people,dc=petra,dc=ac,dc=id

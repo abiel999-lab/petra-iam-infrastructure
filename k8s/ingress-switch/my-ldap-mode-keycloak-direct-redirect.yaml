@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ldap-ingress
+  namespace: my-ldap
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/temporal-redirect: https://auth-ldap.ppsi.petra.ac.id/realms/petra/account/
+spec:
+  ingressClassName: public
+  rules:
+    - host: my-ldap.ppsi.petra.ac.id
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: my-ldap-apache
+                port:
+                  number: 8080
+  tls:
+    - hosts:
+        - my-ldap.ppsi.petra.ac.id
+      secretName: my-ldap-tls

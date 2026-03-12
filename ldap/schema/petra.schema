@@ -1,0 +1,84 @@
+# Petra custom schema
+# OID base: 1.3.6.1.4.1.55555
+
+# ------------------------------------------------------------
+# userNIK: Identity anchor (No KTP) - pengganti petraUUID
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.10
+  NAME 'userNIK'
+  DESC 'National ID (No KTP) as primary identity anchor'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+# ------------------------------------------------------------
+# petraAffiliation: student/staff/alumni/external
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.2
+  NAME 'petraAffiliation'
+  DESC 'Affiliation: student/staff/alumni/external'
+  EQUALITY caseIgnoreMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+# ------------------------------------------------------------
+# petraAccountStatus: active/disabled/suspended
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.3
+  NAME 'petraAccountStatus'
+  DESC 'Account status: active/disabled/suspended'
+  EQUALITY caseIgnoreMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+# ------------------------------------------------------------
+# studentNumber: NRP/NIM aktif (boleh kosong) - SINGLE
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.4
+  NAME 'studentNumber'
+  DESC 'Student number (NRP/NIM) - active'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+# ------------------------------------------------------------
+# studentNumberHistory: riwayat NRP/NIM (S1/S2/S3) - MULTI
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.11
+  NAME 'studentNumberHistory'
+  DESC 'History of student numbers (NRP/NIM); may be multi-value'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+# ------------------------------------------------------------
+# mailAlternateAddress: multi alternate emails
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.1.50
+  NAME 'mailAlternateAddress'
+  DESC 'Alternate email address'
+  EQUALITY caseIgnoreIA5Match
+  SUBSTR caseIgnoreIA5SubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.26 )
+
+# IMPORTANT:
+# petraPerson = AUXILIARY (tidak boleh SUP inetOrgPerson)
+#
+# NOTE:
+# - uid sudah dari inetOrgPerson (isi pakai UUIDv7 OK)
+# - employeeNumber adalah atribut standar LDAP (bisa dipakai langsung)
+objectclass ( 1.3.6.1.4.1.55555.2.1
+  NAME 'petraPerson'
+  DESC 'Petra person extension'
+  AUXILIARY
+  MAY (
+    userNIK
+    $ petraAffiliation
+    $ petraAccountStatus
+    $ studentNumber
+    $ studentNumberHistory
+    $ employeeNumber
+    $ mailAlternateAddress
+  ) )

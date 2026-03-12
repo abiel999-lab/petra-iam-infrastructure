@@ -1,0 +1,38 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{"nginx.ingress.kubernetes.io/backend-protocol":"HTTP","nginx.ingress.kubernetes.io/configuration-snippet":"proxy_set_header X-Forwarded-Proto https;\nproxy_set_header X-Forwarded-Port 443;\nproxy_set_header X-Forwarded-Host $host;\n","nginx.ingress.kubernetes.io/proxy-body-size":"50m","nginx.ingress.kubernetes.io/proxy-buffer-size":"16k","nginx.ingress.kubernetes.io/ssl-redirect":"true"},"name":"keycloak-ingress","namespace":"petra-iam"},"spec":{"ingressClassName":"public","rules":[{"host":"auth-ldap.ppsi.petra.ac.id","http":{"paths":[{"backend":{"service":{"name":"keycloak","port":{"name":"http"}}},"path":"/","pathType":"Prefix"}]}}],"tls":[{"hosts":["auth-ldap.ppsi.petra.ac.id"],"secretName":"auth-ldap-tls"}]}}
+    nginx.ingress.kubernetes.io/backend-protocol: HTTP
+    nginx.ingress.kubernetes.io/proxy-body-size: 50m
+    nginx.ingress.kubernetes.io/proxy-buffer-size: 16k
+    nginx.ingress.kubernetes.io/proxy-set-headers: petra-iam/keycloak-proxy-headers
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  creationTimestamp: "2026-02-19T06:39:24Z"
+  generation: 3
+  name: keycloak-ingress
+  namespace: petra-iam
+  resourceVersion: "1669775"
+  uid: fa50b830-7289-44b3-b247-61d4f9e6ff24
+spec:
+  ingressClassName: public
+  rules:
+  - host: auth-ldap.ppsi.petra.ac.id
+    http:
+      paths:
+      - backend:
+          service:
+            name: keycloak
+            port:
+              name: http
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - auth-ldap.ppsi.petra.ac.id
+    secretName: auth-ldap-tls
+status:
+  loadBalancer:
+    ingress:
+    - ip: 127.0.0.1

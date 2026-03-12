@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.all.yml -o k8s/
+    kompose.version: 1.38.0 (a8f5d1cbd)
+  labels:
+    io.kompose.service: phpldapadmin
+  name: phpldapadmin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: phpldapadmin
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f docker-compose.all.yml -o k8s/
+        kompose.version: 1.38.0 (a8f5d1cbd)
+      labels:
+        io.kompose.service: phpldapadmin
+    spec:
+      containers:
+        - env:
+            - name: PHPLDAPADMIN_HTTPS
+              value: "false"
+            - name: PHPLDAPADMIN_LDAP_HOSTS
+              value: openldap
+          image: osixia/phpldapadmin:0.9.0
+          name: petra-phpldapadmin
+          ports:
+            - containerPort: 80
+              protocol: TCP
+      restartPolicy: Always

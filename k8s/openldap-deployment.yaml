@@ -1,0 +1,105 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: openldap
+  name: openldap
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: openldap
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        io.kompose.service: openldap
+    spec:
+      initContainers:
+        - name: init-copy-bootstrap
+          image: busybox:1.36
+          command:
+            - sh
+            - -lc
+            - |
+              set -e
+              echo "[init] copying schema + ldif from configmap to writable volumes..."
+              mkdir -p /work/schema /work/ldif
+              cp -a /cm/schema/. /work/schema/ || true
+              cp -a /cm/ldif/. /work/ldif/ || true
+              echo "[init] done. listing:"
+              ls -lah /work/schema || true
+              ls -lah /work/ldif || true
+          volumeMounts:
+            - name: openldap-cm2
+              mountPath: /cm/schema
+              readOnly: true
+            - name: openldap-cm3
+              mountPath: /cm/ldif
+              readOnly: true
+            - name: openldap-bootstrap-schema
+              mountPath: /work/schema
+            - name: openldap-bootstrap-ldif
+              mountPath: /work/ldif
+
+      containers:
+        - name: petra-openldap
+          image: osixia/openldap:1.5.0
+          ports:
+            - containerPort: 389
+              protocol: TCP
+            - containerPort: 636
+              protocol: TCP
+          env:
+            - name: LDAP_ORGANISATION
+              value: "Universitas Kristen Petra"
+            - name: LDAP_DOMAIN
+              value: "petra.ac.id"
+            - name: LDAP_ADMIN_PASSWORD
+              value: "SeongJinWoo999!"
+            - name: LDAP_CONFIG_PASSWORD
+              value: "SeongJinWoo999!"
+            - name: LDAP_READONLY_USER
+              value: "true"
+            - name: LDAP_READONLY_USER_USERNAME
+              value: "readonly"
+            - name: LDAP_READONLY_USER_PASSWORD
+              value: "SeongJinWoo999!"
+            - name: LDAP_TLS
+              value: "false"
+            - name: LDAP_MEMBEROF
+              value: "true"
+            - name: LDAP_REFINT
+              value: "true"
+            - name: LDAP_REMOVE_CONFIG_AFTER_SETUP
+              value: "false"
+          volumeMounts:
+            # persistent DB
+            - name: openldap-data
+              mountPath: /var/lib/ldap
+
+            # writable bootstrap (hasil copy dari initContainer)
+            - name: openldap-bootstrap-schema
+              mountPath: /container/service/slapd/assets/config/bootstrap/schema/custom
+            - name: openldap-bootstrap-ldif
+              mountPath: /container/service/slapd/assets/config/bootstrap/ldif/custom
+
+      volumes:
+        - name: openldap-data
+          persistentVolumeClaim:
+            claimName: openldap-data
+
+        # sumber read-only dari configmap
+        - name: openldap-cm2
+          configMap:
+            name: openldap-cm2
+        - name: openldap-cm3
+          configMap:
+            name: openldap-cm3
+
+        # target writable untuk bootstrap
+        - name: openldap-bootstrap-schema
+          emptyDir: {}
+        - name: openldap-bootstrap-ldif
+          emptyDir: {}

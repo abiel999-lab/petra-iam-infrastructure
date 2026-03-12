@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.all.yml -o k8s/
+    kompose.version: 1.38.0 (a8f5d1cbd)
+  labels:
+    io.kompose.service: phpldapadmin
+  name: phpldapadmin
+spec:
+  ports:
+    - name: "8089"
+      port: 8089
+      targetPort: 80
+  selector:
+    io.kompose.service: phpldapadmin
