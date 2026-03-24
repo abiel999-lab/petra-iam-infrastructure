@@ -2,7 +2,7 @@
 # OID base: 1.3.6.1.4.1.55555
 
 # ------------------------------------------------------------
-# userNIK: Identity anchor (No KTP) - pengganti petraUUID
+# userNIK: Identity anchor (No KTP)
 # ------------------------------------------------------------
 attributetype ( 1.3.6.1.4.1.55555.1.10
   NAME 'userNIK'
@@ -13,14 +13,27 @@ attributetype ( 1.3.6.1.4.1.55555.1.10
   SINGLE-VALUE )
 
 # ------------------------------------------------------------
-# petraAffiliation: student/staff/alumni/external
+# petraAffiliation: PRIMARY affiliation (single-value)
+# contoh: student, staff, alumni, external
 # ------------------------------------------------------------
 attributetype ( 1.3.6.1.4.1.55555.1.2
   NAME 'petraAffiliation'
-  DESC 'Affiliation: student/staff/alumni/external'
+  DESC 'Primary affiliation; single-value (student/staff/alumni/external)'
   EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
   SINGLE-VALUE )
+
+# ------------------------------------------------------------
+# petraAlternateAffiliation: alternate affiliations (multi-value)
+# contoh: student, staff, alumni, external
+# ------------------------------------------------------------
+attributetype ( 1.3.6.1.4.1.55555.1.12
+  NAME 'petraAlternateAffiliation'
+  DESC 'Alternate affiliations; multi-value (student/staff/alumni/external)'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
 
 # ------------------------------------------------------------
 # petraAccountStatus: active/disabled/suspended
@@ -64,11 +77,9 @@ attributetype ( 1.3.6.1.4.1.55555.1.1.50
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.26 )
 
 # IMPORTANT:
-# petraPerson = AUXILIARY (tidak boleh SUP inetOrgPerson)
-#
-# NOTE:
-# - uid sudah dari inetOrgPerson (isi pakai UUIDv7 OK)
-# - employeeNumber adalah atribut standar LDAP (bisa dipakai langsung)
+# petraPerson = AUXILIARY
+# - uid sudah dari inetOrgPerson
+# - employeeNumber adalah atribut standar LDAP
 objectclass ( 1.3.6.1.4.1.55555.2.1
   NAME 'petraPerson'
   DESC 'Petra person extension'
@@ -76,6 +87,7 @@ objectclass ( 1.3.6.1.4.1.55555.2.1
   MAY (
     userNIK
     $ petraAffiliation
+    $ petraAlternateAffiliation
     $ petraAccountStatus
     $ studentNumber
     $ studentNumberHistory

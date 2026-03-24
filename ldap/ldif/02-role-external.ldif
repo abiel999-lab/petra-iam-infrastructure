@@ -1,0 +1,4 @@
+dn: cn=role-external,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+objectClass: groupOfNames
+cn: role-external
+member: uid=dummy,ou=services,dc=petra,dc=ac,dc=id

@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -u
+
+LDAP_URI="${LDAP_URI:-ldap://127.0.0.1:30389}"
+LDAP_BIND_DN="${LDAP_BIND_DN:-cn=admin,dc=petra,dc=ac,dc=id}"
+LDAP_BIND_PW="${LDAP_BIND_PW:-SeongJinWoo999!}"
+
+SYNC_SCRIPT="/opt/petra_iam_big_project/ldap/scripts/sync_petra_affiliation_hierarchy.sh"
+LOCK_FILE="/tmp/petra_affiliation_daemon.lock"
+
+log() {
+  echo "[$(date '+%F %T')] $*"
+}
+
+if [[ ! -x "$SYNC_SCRIPT" ]]; then
+  log "ERROR: sync script not found or not executable: $SYNC_SCRIPT"
+  exit 1
+fi
+
+exec 9>"$LOCK_FILE"
+if ! flock -n 9; then
+  log "Another daemon instance is already running. Exiting."
+  exit 0
+fi
+
+log "Petra affiliation daemon started."
+
+while true; do
+  LDAP_URI="$LDAP_URI" \
+  LDAP_BIND_DN="$LDAP_BIND_DN" \
+  LDAP_BIND_PW="$LDAP_BIND_PW" \
+  "$SYNC_SCRIPT"
+
+  sleep 10
+done

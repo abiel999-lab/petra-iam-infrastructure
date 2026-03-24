@@ -38,7 +38,7 @@ while [[ $# -gt 0 ]]; do
     --out) OUT="${2:-}"; shift 2;;
     --revert-out) REVERT_OUT="${2:-}"; shift 2;;
     -h|--help)
-      sed -n '1,60p' "$0"
+      sed -n '1,80p' "$0"
       exit 0
       ;;
     *)
@@ -68,22 +68,29 @@ NIK_REGION_CODES=(
   "317301" "337401" "347101" "517101" "127101"
 )
 
+# define early
+EMP_LEN=(6 7 8 9 10)
+LVL=(S1 S2 S3)
+
 # -------------------------
 # 2) Deterministic RNG (seeded)
 # -------------------------
 # LCG 31-bit
 RSTATE=$(( (SEED + 0) & 0x7fffffff ))
+
 rand_u31() {
   # glibc-like LCG
   RSTATE=$(( (1103515245 * RSTATE + 12345) & 0x7fffffff ))
   echo "$RSTATE"
 }
+
 rand_range() { # [min,max]
   local min="$1" max="$2"
   local r
   r="$(rand_u31)"
   echo $(( min + (r % (max - min + 1)) ))
 }
+
 rand_choice() { # array name
   local arr_name="$1"
   local -n arr_ref="$arr_name"
@@ -91,6 +98,7 @@ rand_choice() { # array name
   idx="$(rand_range 0 $(( ${#arr_ref[@]} - 1 )) )"
   echo "${arr_ref[$idx]}"
 }
+
 rand_prob() { # prob_0_100
   local p="$1"
   local x
@@ -112,7 +120,6 @@ slugify() {
 split_two_words() {
   # output: "given|sn"
   local full="$1"
-  # shellsplit by spaces
   local first rest
   first="${full%% *}"
   rest="${full#* }"
@@ -132,7 +139,6 @@ ssha_hash() {
   local password="$1"
   local salt_hex sha1_hex digest_hex out_b64
   salt_hex="$(openssl rand -hex 4)"
-  # sha1 of (password bytes + salt bytes)
   sha1_hex="$(
     { printf '%s' "$password"; printf '%s' "$salt_hex" | xxd -r -p; } \
       | openssl dgst -sha1 -binary | xxd -p -c 256
@@ -157,45 +163,12 @@ build_mail_alternates() {
   echo "${handle}@alumni.petra.ac.id|${handle}@google.com|${handle}@yahoo.com|${handle}@${alt_sub}.petra.ac.id"
 }
 
-# UUIDv7-like generator in shell:
-# time_ms (48 bits) + version 7 + rand
-uuid7_str() {
-  # We build 16 bytes:
-  # bytes0-5: timestamp ms big-endian (48-bit)
-  # bytes6: high nibble version=7, low nibble random
-  # bytes7: random
-  # byte8: variant 10xx + 6 random bits
-  # bytes9-15: random
-  local ts_ms ts_hex b0 b1 b2 b3 b4 b5
-  ts_ms="$(date -u +%s%3N)"
-  # keep 48 bits
-  ts_ms=$(( ts_ms & 0xFFFFFFFFFFFF ))
-  ts_hex="$(printf '%012x' "$ts_ms")"
-  b0="${ts_hex:0:2}"
-  b1="${ts_hex:2:2}"
-  b2="${ts_hex:4:2}"
-  b3="${ts_hex:6:2}"
-  b4="${ts_hex:8:2}"
-  b5="${ts_hex:10:2}"
-
-  local r6 r7 r8 rrest hex32
-  r6="$(printf '%02x' "$(rand_range 0 255)")"
-  r7="$(printf '%02x' "$(rand_range 0 255)")"
-  r8="$(printf '%02x' "$(rand_range 0 255)")"
-
-  # set version=7 on byte6 high nibble
-  r6="$(printf '%02x' "$(( (0x$r6 & 0x0F) | 0x70 ))")"
-  # set variant 10xx on byte8
-  r8="$(printf '%02x' "$(( (0x$r8 & 0x3F) | 0x80 ))")"
-
-  # remaining 7 bytes random (bytes9-15)
-  rrest=""
-  for _ in {1..7}; do
-    rrest+=$(printf '%02x' "$(rand_range 0 255)")
-  done
-
-  hex32="${b0}${b1}${b2}${b3}${b4}${b5}${r6}${r7}${r8}${rrest}"
-  echo "${hex32:0:8}-${hex32:8:4}-${hex32:12:4}-${hex32:16:4}-${hex32:20:12}"
+# UID generator (deterministic, short, unique, non-UUID)
+# Result examples:
+#   usr000001 ... usr000100
+generate_uid() {
+  local seq="$1"
+  printf 'usr%06d' "$seq"
 }
 
 generate_nik() {
@@ -235,14 +208,6 @@ generate_student_number() {
   urut="$(rand_range 1 9999)"
   printf '%s%02d%02d%04d' "$letter" "$angkatan" "$prodi" "$urut"
 }
-
-generate_employee_number() {
-  # 6-10 digits
-  local length first rest i
-  length="$(rand_choice EMP_LEN)"
-}
-# define EMP_LEN after function reference is okay in bash? safer define now:
-EMP_LEN=(6 7 8 9 10)
 
 generate_employee_number() {
   local length first rest i
@@ -341,11 +306,7 @@ scenario_for_human() {
   echo "||"
 }
 
-LVL=(S1 S2 S3)
-
 status_for_index() {
-  # 80 active, 10 disabled, 10 suspended (shuffled)
-  # We'll prebuild statuses array.
   local idx="$1"
   echo "${STATUSES[$idx]}"
 }
@@ -425,7 +386,7 @@ TS="$(date -Iseconds)"
   echo "# Generated: ${TS}"
   echo "# Base DN: ${BASE_DN}"
   echo "# Entities: 100 (50 human, 50 non-human)"
-  echo "# uid: UUIDv7-like"
+  echo "# uid: deterministic unique short ID (usr000001..usr000100)"
   echo "# userNIK: Indonesian NIK (16 digits, realistic format) for human entries"
   echo "# studentNumber: active NRP/NIM (optional)"
   echo "# studentNumberHistory: multi-value history (optional)"
@@ -524,10 +485,11 @@ for i in "${!HUMAN_FULLNAMES[@]}"; do
   IFS='|' read -r given sn <<< "$(split_two_words "$full")"
   cn="${given} ${sn}"
 
-  uid="$(uuid7_str)"
+  seq=$(( i + 1 ))
+  uid="$(generate_uid "$seq")"
   dn="uid=${uid},$(ou_dn_for_key "$ou_key")"
 
-  mail_local="$(slugify "${given}.${uid:0:8}")"
+  mail_local="$(slugify "${given}.${uid}")"
   mail="$(build_mail "$mail_local")"
 
   handle="$(slugify "${given}.${sn}")"
@@ -567,10 +529,11 @@ for i in "${!NONHUMAN_NAMES[@]}"; do
   IFS='|' read -r given sn <<< "$(split_two_words "$name")"
   cn="${given} ${sn}"
 
-  uid="$(uuid7_str)"
+  seq=$(( 50 + i + 1 ))
+  uid="$(generate_uid "$seq")"
   dn="uid=${uid},$(ou_dn_for_key "$ou_key")"
 
-  mail_local="$(slugify "$given")"
+  mail_local="$(slugify "${given}.${uid}")"
   mail="$(build_mail "$mail_local")"
 
   handle="$(slugify "${given}.${sn}")"
@@ -587,4 +550,4 @@ for i in "${!NONHUMAN_NAMES[@]}"; do
 done
 
 echo "OK: wrote ${OUT} and ${REVERT_OUT}"
-echo "UID: UUIDv7-like for all entries"
+echo "UID: deterministic unique short ID (usr000001..usr000100)"

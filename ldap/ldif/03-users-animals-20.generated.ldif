@@ -1,0 +1,368 @@
+# 03-users-animals-20.generated.ldif
+# Generated: 2026-03-16T17:12:45+07:00
+# Base DN: dc=petra,dc=ac,dc=id
+# Target DN: ou=people,dc=petra,dc=ac,dc=id
+# Total entities: 20
+# uid format: ani0001..ani0020
+# petraAffiliation = exact role cn
+#
+dn: uid=ani0001,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0001
+cn: Kucing Anggora
+sn: Anggora
+givenName: Kucing
+displayName: Kucing Anggora
+mail: kucing.anggora.ani0001@john.petra.ac.id
+mailAlternateAddress: kucing.anggora@alumni.petra.ac.id
+mailAlternateAddress: kucing.anggora@google.com
+mailAlternateAddress: kucing.anggora@yahoo.com
+mailAlternateAddress: kucing.anggora@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9a0RRRDlsTDYxYU85bXpsdVgxRFZMVmdxcEhxTm9ieFE=
+
+dn: uid=ani0002,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0002
+cn: Anjing Golden
+sn: Golden
+givenName: Anjing
+displayName: Anjing Golden
+mail: anjing.golden.ani0002@john.petra.ac.id
+mailAlternateAddress: anjing.golden@alumni.petra.ac.id
+mailAlternateAddress: anjing.golden@google.com
+mailAlternateAddress: anjing.golden@yahoo.com
+mailAlternateAddress: anjing.golden@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9NnhlUTNEdENROHlGWHU2NjExK0tZaUhqUWlnS2FzUkg=
+
+dn: uid=ani0003,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0003
+cn: Harimau Sumatra
+sn: Sumatra
+givenName: Harimau
+displayName: Harimau Sumatra
+mail: harimau.sumatra.ani0003@john.petra.ac.id
+mailAlternateAddress: harimau.sumatra@alumni.petra.ac.id
+mailAlternateAddress: harimau.sumatra@google.com
+mailAlternateAddress: harimau.sumatra@yahoo.com
+mailAlternateAddress: harimau.sumatra@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9SlpRTlpOTVRqbEJBTVpOOS94eFpSVVFmQ2VrLzdKT2U=
+
+dn: uid=ani0004,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0004
+cn: Gajah Asia
+sn: Asia
+givenName: Gajah
+displayName: Gajah Asia
+mail: gajah.asia.ani0004@john.petra.ac.id
+mailAlternateAddress: gajah.asia@alumni.petra.ac.id
+mailAlternateAddress: gajah.asia@google.com
+mailAlternateAddress: gajah.asia@yahoo.com
+mailAlternateAddress: gajah.asia@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9MUdnTlJ2clROMEpFOVdMNEpoMWc5cVYvZmxYM09XU2I=
+
+dn: uid=ani0005,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0005
+cn: Singa Afrika
+sn: Afrika
+givenName: Singa
+displayName: Singa Afrika
+mail: singa.afrika.ani0005@john.petra.ac.id
+mailAlternateAddress: singa.afrika@alumni.petra.ac.id
+mailAlternateAddress: singa.afrika@google.com
+mailAlternateAddress: singa.afrika@yahoo.com
+mailAlternateAddress: singa.afrika@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9MGhMb2JRclRCSTJHOHU2akdlWmZFRzlydlJGT3NKek4=
+
+dn: uid=ani0006,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0006
+cn: Panda Raksasa
+sn: Raksasa
+givenName: Panda
+displayName: Panda Raksasa
+mail: panda.raksasa.ani0006@john.petra.ac.id
+mailAlternateAddress: panda.raksasa@alumni.petra.ac.id
+mailAlternateAddress: panda.raksasa@google.com
+mailAlternateAddress: panda.raksasa@yahoo.com
+mailAlternateAddress: panda.raksasa@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9Q2h3U0FpZnJIaEJ4cVAyNzZBYlg1VWNValdkeUZyazA=
+
+dn: uid=ani0007,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0007
+cn: Koala Lucu
+sn: Lucu
+givenName: Koala
+displayName: Koala Lucu
+mail: koala.lucu.ani0007@john.petra.ac.id
+mailAlternateAddress: koala.lucu@alumni.petra.ac.id
+mailAlternateAddress: koala.lucu@google.com
+mailAlternateAddress: koala.lucu@yahoo.com
+mailAlternateAddress: koala.lucu@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9T20yYjNLQ2dWYzMxMDNOSHhjNG5FVzdZZEtUY2RmZ0g=
+
+dn: uid=ani0008,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0008
+cn: Kelinci Putih
+sn: Putih
+givenName: Kelinci
+displayName: Kelinci Putih
+mail: kelinci.putih.ani0008@john.petra.ac.id
+mailAlternateAddress: kelinci.putih@alumni.petra.ac.id
+mailAlternateAddress: kelinci.putih@google.com
+mailAlternateAddress: kelinci.putih@yahoo.com
+mailAlternateAddress: kelinci.putih@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9d20zUk10clZISlFnTEhBQkhPSDlJdHZWbDUrZ3dSQVM=
+
+dn: uid=ani0009,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0009
+cn: Rusa Timor
+sn: Timor
+givenName: Rusa
+displayName: Rusa Timor
+mail: rusa.timor.ani0009@john.petra.ac.id
+mailAlternateAddress: rusa.timor@alumni.petra.ac.id
+mailAlternateAddress: rusa.timor@google.com
+mailAlternateAddress: rusa.timor@yahoo.com
+mailAlternateAddress: rusa.timor@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9bU1qT21qb2NERkpNUS93RWRSNC9VWWhWeHU5QWx0VGg=
+
+dn: uid=ani0010,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0010
+cn: Burung Elang
+sn: Elang
+givenName: Burung
+displayName: Burung Elang
+mail: burung.elang.ani0010@john.petra.ac.id
+mailAlternateAddress: burung.elang@alumni.petra.ac.id
+mailAlternateAddress: burung.elang@google.com
+mailAlternateAddress: burung.elang@yahoo.com
+mailAlternateAddress: burung.elang@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9dURKaUxSRTZ1KzJ3Qm9DbkJsMnoxeHlrT2ZTRlhsLzY=
+
+dn: uid=ani0011,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0011
+cn: Lumba Lumba
+sn: Lumba
+givenName: Lumba
+displayName: Lumba Lumba
+mail: lumba.lumba.ani0011@john.petra.ac.id
+mailAlternateAddress: lumba.lumba@alumni.petra.ac.id
+mailAlternateAddress: lumba.lumba@google.com
+mailAlternateAddress: lumba.lumba@yahoo.com
+mailAlternateAddress: lumba.lumba@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9RkRWcHNEL3Z4RGpzSmlYWitzdlNvcVJoVmk5MWtIMlo=
+
+dn: uid=ani0012,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0012
+cn: Paus Biru
+sn: Biru
+givenName: Paus
+displayName: Paus Biru
+mail: paus.biru.ani0012@john.petra.ac.id
+mailAlternateAddress: paus.biru@alumni.petra.ac.id
+mailAlternateAddress: paus.biru@google.com
+mailAlternateAddress: paus.biru@yahoo.com
+mailAlternateAddress: paus.biru@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9L1paQlZxcVFGVWlLUFR0TWFWaG91VVlXanQ0OEVuUXA=
+
+dn: uid=ani0013,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0013
+cn: Ikan Koi
+sn: Koi
+givenName: Ikan
+displayName: Ikan Koi
+mail: ikan.koi.ani0013@john.petra.ac.id
+mailAlternateAddress: ikan.koi@alumni.petra.ac.id
+mailAlternateAddress: ikan.koi@google.com
+mailAlternateAddress: ikan.koi@yahoo.com
+mailAlternateAddress: ikan.koi@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9aFNDK1VxTUJscS9sV3AwbzU2VXR6M2RJV0p2djgwYWg=
+
+dn: uid=ani0014,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0014
+cn: Kuda Laut
+sn: Laut
+givenName: Kuda
+displayName: Kuda Laut
+mail: kuda.laut.ani0014@john.petra.ac.id
+mailAlternateAddress: kuda.laut@alumni.petra.ac.id
+mailAlternateAddress: kuda.laut@google.com
+mailAlternateAddress: kuda.laut@yahoo.com
+mailAlternateAddress: kuda.laut@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9Z3pxdnJza0dsbmp3RVNWNzdpMU55ek1hdzBaWUNMRGY=
+
+dn: uid=ani0015,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0015
+cn: Kura Kura
+sn: Kura
+givenName: Kura
+displayName: Kura Kura
+mail: kura.kura.ani0015@john.petra.ac.id
+mailAlternateAddress: kura.kura@alumni.petra.ac.id
+mailAlternateAddress: kura.kura@google.com
+mailAlternateAddress: kura.kura@yahoo.com
+mailAlternateAddress: kura.kura@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9SnkzTmxybFNRWlpuaXI3QWJYeGlLSFBqRHF0dHNxTVc=
+
+dn: uid=ani0016,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0016
+cn: Buaya Muara
+sn: Muara
+givenName: Buaya
+displayName: Buaya Muara
+mail: buaya.muara.ani0016@john.petra.ac.id
+mailAlternateAddress: buaya.muara@alumni.petra.ac.id
+mailAlternateAddress: buaya.muara@google.com
+mailAlternateAddress: buaya.muara@yahoo.com
+mailAlternateAddress: buaya.muara@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9YVRmWUFzZGYreFhyZDg2Y00xNzlpdzBTYjNoZjJ6NEU=
+
+dn: uid=ani0017,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0017
+cn: Ular Piton
+sn: Piton
+givenName: Ular
+displayName: Ular Piton
+mail: ular.piton.ani0017@john.petra.ac.id
+mailAlternateAddress: ular.piton@alumni.petra.ac.id
+mailAlternateAddress: ular.piton@google.com
+mailAlternateAddress: ular.piton@yahoo.com
+mailAlternateAddress: ular.piton@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9RzNkRFBsSG0wRzZkYWg3dExvOWREK0NCUW1xMlFncVA=
+
+dn: uid=ani0018,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0018
+cn: Katak Pohon
+sn: Pohon
+givenName: Katak
+displayName: Katak Pohon
+mail: katak.pohon.ani0018@john.petra.ac.id
+mailAlternateAddress: katak.pohon@alumni.petra.ac.id
+mailAlternateAddress: katak.pohon@google.com
+mailAlternateAddress: katak.pohon@yahoo.com
+mailAlternateAddress: katak.pohon@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9UjRYWW9RWTNJelJEUkk4MDRSVjg2TlF1aHJTUFJzVjU=
+
+dn: uid=ani0019,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0019
+cn: Serigala Abu
+sn: Abu
+givenName: Serigala
+displayName: Serigala Abu
+mail: serigala.abu.ani0019@john.petra.ac.id
+mailAlternateAddress: serigala.abu@alumni.petra.ac.id
+mailAlternateAddress: serigala.abu@google.com
+mailAlternateAddress: serigala.abu@yahoo.com
+mailAlternateAddress: serigala.abu@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9RXRCdkN6SHJURGg5aGJGdnlFT1hPOHBWbmdrZTc5a3Q=
+
+dn: uid=ani0020,ou=people,dc=petra,dc=ac,dc=id
+objectClass: inetOrgPerson
+objectClass: petraPerson
+uid: ani0020
+cn: Beruang Madu
+sn: Madu
+givenName: Beruang
+displayName: Beruang Madu
+mail: beruang.madu.ani0020@john.petra.ac.id
+mailAlternateAddress: beruang.madu@alumni.petra.ac.id
+mailAlternateAddress: beruang.madu@google.com
+mailAlternateAddress: beruang.madu@yahoo.com
+mailAlternateAddress: beruang.madu@john.petra.ac.id
+userNIK: 3515016210918293
+petraAffiliation: role-staff
+petraAccountStatus: active
+userPassword:: e1NTSEF9RWRwT0tNU21ITDVXWThCcG5pZzU3SVQ5VWtsdXhKOE8=
+

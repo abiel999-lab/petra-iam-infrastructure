@@ -1,8 +1,8 @@
 # 03-users.generated.ldif
-# Generated: 2026-02-19T14:28:58
+# Generated: 2026-03-17T01:32:59+07:00
 # Base DN: dc=petra,dc=ac,dc=id
 # Entities: 100 (50 human, 50 non-human)
-# uid: UUIDv7
+# uid: deterministic unique short ID (usr000001..usr000100)
 # userNIK: Indonesian NIK (16 digits, realistic format) for human entries
 # studentNumber: active NRP/NIM (optional)
 # studentNumberHistory: multi-value history (optional)
@@ -10,1833 +10,1843 @@
 # mail domains: john.petra.ac.id / peter.petra.ac.id / petra.petra.ac.id (random)
 # mailAlternateAddress ALWAYS includes: alumni.petra.ac.id + google.com + yahoo.com + one-of john/peter/petra.petra.ac.id
 #
-dn: uid=019c734c-ca1e-742e-8531-a146bdde0ceb,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000001,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-742e-8531-a146bdde0ceb
+uid: usr000001
 cn: Aditya Pratama
 sn: Pratama
 givenName: Aditya
 displayName: Aditya Pratama
-mail: aditya.019c734c@petra.petra.ac.id
+mail: aditya.usr000001@john.petra.ac.id
 mailAlternateAddress: aditya.pratama@alumni.petra.ac.id
 mailAlternateAddress: aditya.pratama@google.com
 mailAlternateAddress: aditya.pratama@yahoo.com
-mailAlternateAddress: aditya.pratama@peter.petra.ac.id
-userNIK: 3374012011776683
+mailAlternateAddress: aditya.pratama@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: O23942224
-userPassword:: e1NTSEF9RDA5dy8wQmNldkFWalBNMGxRcGpRVUtxcFBtTGQ1by8=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9akJHbThIU0lGNW9CQkdQNEgyK2p4NzNqY2YzdVFPekM=
 
-dn: uid=019c734c-ca1e-7658-9a95-512dfe5f4b76,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000002,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-7658-9a95-512dfe5f4b76
+uid: usr000002
 cn: Bima Saputra
 sn: Saputra
 givenName: Bima
 displayName: Bima Saputra
-mail: bima.019c734c@petra.petra.ac.id
+mail: bima.usr000002@john.petra.ac.id
 mailAlternateAddress: bima.saputra@alumni.petra.ac.id
 mailAlternateAddress: bima.saputra@google.com
 mailAlternateAddress: bima.saputra@yahoo.com
-mailAlternateAddress: bima.saputra@peter.petra.ac.id
-userNIK: 3471012201763707
+mailAlternateAddress: bima.saputra@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: Y16996851
-employeeNumber: 856457289
-userPassword:: e1NTSEF9Zi81RlVKMVIxY3Q0NHNDdjdiRHZJR0FkdDNmRXlpc3E=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9Qktyd09yOGZMc1N2SHBUb3dYc0x3ajdpTnNpSXB1OC8=
 
-dn: uid=019c734c-ca1e-7069-b7e1-48778a8e40c1,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000003,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-7069-b7e1-48778a8e40c1
+uid: usr000003
 cn: Cahya Wibowo
 sn: Wibowo
 givenName: Cahya
 displayName: Cahya Wibowo
-mail: cahya.019c734c@john.petra.ac.id
+mail: cahya.usr000003@john.petra.ac.id
 mailAlternateAddress: cahya.wibowo@alumni.petra.ac.id
 mailAlternateAddress: cahya.wibowo@google.com
 mailAlternateAddress: cahya.wibowo@yahoo.com
-mailAlternateAddress: cahya.wibowo@petra.petra.ac.id
-userNIK: 3173014310900755
+mailAlternateAddress: cahya.wibowo@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: H18443540
-employeeNumber: 9701744229
-userPassword:: e1NTSEF9Mk1QVmx1ODF6RThIaHhOREgyMGFZVExjWFlNMHlOak8=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9VFlNQk1UVkNzVlh6N1VLZDZNbXROS3JUb1ZLZnBLRnQ=
 
-dn: uid=019c734c-ca1e-7636-95fc-2a9a8074f484,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000004,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-7636-95fc-2a9a8074f484
+uid: usr000004
 cn: Dimas Setiawan
 sn: Setiawan
 givenName: Dimas
 displayName: Dimas Setiawan
-mail: dimas.019c734c@peter.petra.ac.id
+mail: dimas.usr000004@john.petra.ac.id
 mailAlternateAddress: dimas.setiawan@alumni.petra.ac.id
 mailAlternateAddress: dimas.setiawan@google.com
 mailAlternateAddress: dimas.setiawan@yahoo.com
-mailAlternateAddress: dimas.setiawan@petra.petra.ac.id
-userNIK: 3273016012941265
+mailAlternateAddress: dimas.setiawan@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: F19738876
-studentNumberHistory: K15692864
-userPassword:: e1NTSEF9Z01mQ3cxdWs3eVdjNWVHQUgxTFY0TnFlTkdEMjdEakc=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9STlaQ2JzNUpQNXVGUVFKWVdaZXlFc1NpY1RvRzdnMG4=
 
-dn: uid=019c734c-ca1e-7024-b07d-88c86f589a24,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000005,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-7024-b07d-88c86f589a24
+uid: usr000005
 cn: Eka Santoso
 sn: Santoso
 givenName: Eka
 displayName: Eka Santoso
-mail: eka.019c734c@petra.petra.ac.id
+mail: eka.usr000005@john.petra.ac.id
 mailAlternateAddress: eka.santoso@alumni.petra.ac.id
 mailAlternateAddress: eka.santoso@google.com
 mailAlternateAddress: eka.santoso@yahoo.com
 mailAlternateAddress: eka.santoso@john.petra.ac.id
-userNIK: 3173010302982135
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: F21590452
-studentNumberHistory: Q21238911
-userPassword:: e1NTSEF9OWd5TTV3blVsZXEyQ2VZTDhGUHVBRlViWXl2ZGlUcFU=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9M0JjbUZjT2F5Z2R4a3BkaFh2KzA3UDFjUmVlZGVJUnY=
 
-dn: uid=019c734c-ca1e-7420-b267-1ee330601684,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000006,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-7420-b267-1ee330601684
+uid: usr000006
 cn: Farhan Hidayat
 sn: Hidayat
 givenName: Farhan
 displayName: Farhan Hidayat
-mail: farhan.019c734c@petra.petra.ac.id
+mail: farhan.usr000006@john.petra.ac.id
 mailAlternateAddress: farhan.hidayat@alumni.petra.ac.id
 mailAlternateAddress: farhan.hidayat@google.com
 mailAlternateAddress: farhan.hidayat@yahoo.com
 mailAlternateAddress: farhan.hidayat@john.petra.ac.id
-userNIK: 3515015808920972
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: disabled
-studentNumber: P19502260
-userPassword:: e1NTSEF9d2U1K3g5UnFURHVzQTdmNkowQmF1VjJRZlNGZmMwMG4=
+petraAccountStatus: active
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9SmlISDFNNXV5MVdmNlM3elBkbmV5dzN0NGJqQW4xZzc=
 
-dn: uid=019c734c-ca1e-709d-9d4a-65fce79ed3be,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000007,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1e-709d-9d4a-65fce79ed3be
+uid: usr000007
 cn: Gilang Nugroho
 sn: Nugroho
 givenName: Gilang
 displayName: Gilang Nugroho
-mail: gilang.019c734c@peter.petra.ac.id
+mail: gilang.usr000007@john.petra.ac.id
 mailAlternateAddress: gilang.nugroho@alumni.petra.ac.id
 mailAlternateAddress: gilang.nugroho@google.com
 mailAlternateAddress: gilang.nugroho@yahoo.com
-mailAlternateAddress: gilang.nugroho@petra.petra.ac.id
-userNIK: 3471011904841224
+mailAlternateAddress: gilang.nugroho@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: active
-studentNumber: F25297040
-studentNumberHistory: T20807421
-employeeNumber: 535405874
-userPassword:: e1NTSEF9dzRTY3JCYXZBZE9JYW8vSm9QbzNackk0MHVLYTBhbjM=
+petraAccountStatus: suspended
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9ay8wcmVqTnEzb3pBeXM4NmRYSXd5SUEwRk5lcU1ldjk=
 
-dn: uid=019c734c-ca1f-75b8-97a6-d079d91d3b8d,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000008,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-75b8-97a6-d079d91d3b8d
+uid: usr000008
 cn: Hana Putri
 sn: Putri
 givenName: Hana
 displayName: Hana Putri
-mail: hana.019c734c@peter.petra.ac.id
+mail: hana.usr000008@john.petra.ac.id
 mailAlternateAddress: hana.putri@alumni.petra.ac.id
 mailAlternateAddress: hana.putri@google.com
 mailAlternateAddress: hana.putri@yahoo.com
-mailAlternateAddress: hana.putri@peter.petra.ac.id
-userNIK: 3374014509722550
+mailAlternateAddress: hana.putri@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: M18644550
-userPassword:: e1NTSEF9SFVmbXRINDlFZXNlMU1QRGhOSXlka01FbnBHL3ROdkc=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9ZjMxOGhKcDBSN2xWTFlhck1JN0xac0pjYjB2TFVHTmM=
 
-dn: uid=019c734c-ca1f-7921-a9e7-7293e1482c47,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000009,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7921-a9e7-7293e1482c47
+uid: usr000009
 cn: Iqbal Ramadhan
 sn: Ramadhan
 givenName: Iqbal
 displayName: Iqbal Ramadhan
-mail: iqbal.019c734c@peter.petra.ac.id
+mail: iqbal.usr000009@john.petra.ac.id
 mailAlternateAddress: iqbal.ramadhan@alumni.petra.ac.id
 mailAlternateAddress: iqbal.ramadhan@google.com
 mailAlternateAddress: iqbal.ramadhan@yahoo.com
 mailAlternateAddress: iqbal.ramadhan@john.petra.ac.id
-userNIK: 3273012503993039
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: V21604362
-userPassword:: e1NTSEF9clhwZUN0SEhmNDQvZzVmYko3TFpvL3lLcXJBSURERUI=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9SEhLc3BGOXc0blZJTVpXRnVaNHQ5TkhGTHI2Z3FmOG0=
 
-dn: uid=019c734c-ca1f-73e3-bf42-f616de75cc90,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000010,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-73e3-bf42-f616de75cc90
+uid: usr000010
 cn: Jihan Permata
 sn: Permata
 givenName: Jihan
 displayName: Jihan Permata
-mail: jihan.019c734c@john.petra.ac.id
+mail: jihan.usr000010@john.petra.ac.id
 mailAlternateAddress: jihan.permata@alumni.petra.ac.id
 mailAlternateAddress: jihan.permata@google.com
 mailAlternateAddress: jihan.permata@yahoo.com
-mailAlternateAddress: jihan.permata@petra.petra.ac.id
-userNIK: 3374014503836476
+mailAlternateAddress: jihan.permata@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: D20741873
-studentNumberHistory: Z19702701
-employeeNumber: 808904640
-userPassword:: e1NTSEF9ZTIybmVsVGRoQ3Nub0w2UTcxT1BqNEQ4aTdXMUJueUk=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9NmNaajE1QTJ2S0tNQmd2N1Z4OEkzWWpkRGNxVnFpRGU=
 
-dn: uid=019c734c-ca1f-78f9-b3f5-1f30f6ce3211,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000011,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-78f9-b3f5-1f30f6ce3211
+uid: usr000011
 cn: Kurniawan Siregar
 sn: Siregar
 givenName: Kurniawan
 displayName: Kurniawan Siregar
-mail: kurniawan.019c734c@peter.petra.ac.id
+mail: kurniawan.usr000011@john.petra.ac.id
 mailAlternateAddress: kurniawan.siregar@alumni.petra.ac.id
 mailAlternateAddress: kurniawan.siregar@google.com
 mailAlternateAddress: kurniawan.siregar@yahoo.com
-mailAlternateAddress: kurniawan.siregar@petra.petra.ac.id
-userNIK: 1271012005990922
+mailAlternateAddress: kurniawan.siregar@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: I23709446
-employeeNumber: 91221494
-userPassword:: e1NTSEF9eTBrZDh6eE9jaE9BV1JidXg1M0hiU1lDWnIvSk80ZFU=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9TGx5NlRySUs2a0syTlhhZ3dDcGRCOE5aemJBanJvemY=
 
-dn: uid=019c734c-ca1f-7448-8f0d-9034683e606e,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000012,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7448-8f0d-9034683e606e
+uid: usr000012
 cn: Laila Anggraini
 sn: Anggraini
 givenName: Laila
 displayName: Laila Anggraini
-mail: laila.019c734c@petra.petra.ac.id
+mail: laila.usr000012@john.petra.ac.id
 mailAlternateAddress: laila.anggraini@alumni.petra.ac.id
 mailAlternateAddress: laila.anggraini@google.com
 mailAlternateAddress: laila.anggraini@yahoo.com
-mailAlternateAddress: laila.anggraini@peter.petra.ac.id
-userNIK: 3273010607998426
+mailAlternateAddress: laila.anggraini@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: active
-studentNumber: P21186241
-userPassword:: e1NTSEF9WGdoWEhLWXFhVEROTTNNdjVqSFFFMTd2U2prRTlnWlY=
+petraAccountStatus: disabled
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9SWxkNnNUN0lyUGR3bEFCSmJaNm5tSWtaY0VVK0xoZEw=
 
-dn: uid=019c734c-ca1f-7522-8654-3cb3641e165e,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000013,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7522-8654-3cb3641e165e
+uid: usr000013
 cn: Made Wirawan
 sn: Wirawan
 givenName: Made
 displayName: Made Wirawan
-mail: made.019c734c@peter.petra.ac.id
+mail: made.usr000013@john.petra.ac.id
 mailAlternateAddress: made.wirawan@alumni.petra.ac.id
 mailAlternateAddress: made.wirawan@google.com
 mailAlternateAddress: made.wirawan@yahoo.com
-mailAlternateAddress: made.wirawan@petra.petra.ac.id
-userNIK: 3515016805867521
+mailAlternateAddress: made.wirawan@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: suspended
-studentNumber: C19348621
-studentNumberHistory: J14879336
-employeeNumber: 3688705
-userPassword:: e1NTSEF9azJnNDBwZWVKdnRDVWg3blpSRlo5SlkyY3dzUUhseis=
+petraAccountStatus: disabled
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9d1F6VzZsNHlNamZJblNoM0JwOHdqL2lOUEYySU5GV1o=
 
-dn: uid=019c734c-ca1f-7d97-8db3-5dd43dfdc9ca,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000014,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7d97-8db3-5dd43dfdc9ca
+uid: usr000014
 cn: Nabila Maharani
 sn: Maharani
 givenName: Nabila
 displayName: Nabila Maharani
-mail: nabila.019c734c@petra.petra.ac.id
+mail: nabila.usr000014@john.petra.ac.id
 mailAlternateAddress: nabila.maharani@alumni.petra.ac.id
 mailAlternateAddress: nabila.maharani@google.com
 mailAlternateAddress: nabila.maharani@yahoo.com
-mailAlternateAddress: nabila.maharani@petra.petra.ac.id
-userNIK: 5171012406769613
+mailAlternateAddress: nabila.maharani@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: E18288345
-studentNumberHistory: I18499520
-employeeNumber: 8850522933
-userPassword:: e1NTSEF9QzJyTlZ2NU9qQnQzSU0xN05RbHBHVFczQ3FBaVFLUU4=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9c2FTNzZMMkVHRytEN2l4ckxsT0toei9Hb2ZPaFhOU1c=
 
-dn: uid=019c734c-ca1f-7fc9-b5d9-bc5bd887d809,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000015,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7fc9-b5d9-bc5bd887d809
+uid: usr000015
 cn: Oka Prasetyo
 sn: Prasetyo
 givenName: Oka
 displayName: Oka Prasetyo
-mail: oka.019c734c@peter.petra.ac.id
+mail: oka.usr000015@john.petra.ac.id
 mailAlternateAddress: oka.prasetyo@alumni.petra.ac.id
 mailAlternateAddress: oka.prasetyo@google.com
 mailAlternateAddress: oka.prasetyo@yahoo.com
 mailAlternateAddress: oka.prasetyo@john.petra.ac.id
-userNIK: 3374012105833551
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: suspended
-studentNumber: C21587529
-userPassword:: e1NTSEF9czV1dlNGT2lhMHA4MnBqWTBPSmZMbm8wQ25HTzUxMkw=
+petraAccountStatus: active
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9S0RLa2lPV2sxcTc1QzBnVEFNb1B4S3hXbWpzMUZLMHk=
 
-dn: uid=019c734c-ca1f-70bf-bc27-aae86b1d4dac,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000016,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-70bf-bc27-aae86b1d4dac
+uid: usr000016
 cn: Putri Lestari
 sn: Lestari
 givenName: Putri
 displayName: Putri Lestari
-mail: putri.019c734c@peter.petra.ac.id
+mail: putri.usr000016@john.petra.ac.id
 mailAlternateAddress: putri.lestari@alumni.petra.ac.id
 mailAlternateAddress: putri.lestari@google.com
 mailAlternateAddress: putri.lestari@yahoo.com
 mailAlternateAddress: putri.lestari@john.petra.ac.id
-userNIK: 3174015012834306
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: R16483290
-studentNumberHistory: A24105032
-userPassword:: e1NTSEF9bjVjcWxWMTVjQmlyTlRTZ29hMnhTMldka3UyZnppZFo=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9Y082MWVZM3A1Z3VwTmpkQk5rRE9pUTNVazROcW53Zlo=
 
-dn: uid=019c734c-ca1f-78ba-9881-f4f26a91dcf7,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000017,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-78ba-9881-f4f26a91dcf7
+uid: usr000017
 cn: Raisa Octaviani
 sn: Octaviani
 givenName: Raisa
 displayName: Raisa Octaviani
-mail: raisa.019c734c@john.petra.ac.id
+mail: raisa.usr000017@john.petra.ac.id
 mailAlternateAddress: raisa.octaviani@alumni.petra.ac.id
 mailAlternateAddress: raisa.octaviani@google.com
 mailAlternateAddress: raisa.octaviani@yahoo.com
 mailAlternateAddress: raisa.octaviani@john.petra.ac.id
-userNIK: 3515012407783395
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: O14204009
-userPassword:: e1NTSEF9Y3JFT1daYnZMcWdGS2hkOTRJaWFIc0haUWsydG1qa0I=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9TUtSS0tPRGI1OUphVDlrdDJlZ2dIWXF0WXU0ekMzZ1U=
 
-dn: uid=019c734c-ca1f-7b44-996d-b5e465d3675e,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000018,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7b44-996d-b5e465d3675e
+uid: usr000018
 cn: Satria Gunawan
 sn: Gunawan
 givenName: Satria
 displayName: Satria Gunawan
-mail: satria.019c734c@petra.petra.ac.id
+mail: satria.usr000018@john.petra.ac.id
 mailAlternateAddress: satria.gunawan@alumni.petra.ac.id
 mailAlternateAddress: satria.gunawan@google.com
 mailAlternateAddress: satria.gunawan@yahoo.com
-mailAlternateAddress: satria.gunawan@petra.petra.ac.id
-userNIK: 3515012209735186
+mailAlternateAddress: satria.gunawan@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: P18329277
-employeeNumber: 102538324
-userPassword:: e1NTSEF9LzFLMUxBVTV6NFJRTEpkbzhOSWxiVTRKbVp1QjAyVWw=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9cllCcWVZandiSFVQM1pQdnIyVzlmZVdXTzhFcHNRQWY=
 
-dn: uid=019c734c-ca1f-73d2-b0e4-6bc34443fd41,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000019,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-73d2-b0e4-6bc34443fd41
+uid: usr000019
 cn: Tania Kartika
 sn: Kartika
 givenName: Tania
 displayName: Tania Kartika
-mail: tania.019c734c@petra.petra.ac.id
+mail: tania.usr000019@john.petra.ac.id
 mailAlternateAddress: tania.kartika@alumni.petra.ac.id
 mailAlternateAddress: tania.kartika@google.com
 mailAlternateAddress: tania.kartika@yahoo.com
-mailAlternateAddress: tania.kartika@petra.petra.ac.id
-userNIK: 3515012508029737
+mailAlternateAddress: tania.kartika@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: W16643771
-studentNumberHistory: E17262303
-employeeNumber: 4474857
-userPassword:: e1NTSEF9dFZEVnRESUFqYzBEc0twalUyNDdrZXJnc1ptbVlBaGo=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9U1EzUStETWhHOGFqS3p0NEMxNVNacDlvbzloZHBCMzU=
 
-dn: uid=019c734c-ca1f-7d3d-ad0b-a6eee3aa0abe,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000020,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7d3d-ad0b-a6eee3aa0abe
+uid: usr000020
 cn: Utami Sari
 sn: Sari
 givenName: Utami
 displayName: Utami Sari
-mail: utami.019c734c@petra.petra.ac.id
+mail: utami.usr000020@john.petra.ac.id
 mailAlternateAddress: utami.sari@alumni.petra.ac.id
 mailAlternateAddress: utami.sari@google.com
 mailAlternateAddress: utami.sari@yahoo.com
-mailAlternateAddress: utami.sari@petra.petra.ac.id
-userNIK: 5171016103897436
+mailAlternateAddress: utami.sari@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: O23139603
-studentNumberHistory: N19516912
-userPassword:: e1NTSEF9VUluUzAraENpR29iSE42eXBwNnhwMzVqSzhzNHpHTm4=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9OTkxR0h3bHcyS1BINmRVQjAyYkUzdi9QQ3E5M0cxM3c=
 
-dn: uid=019c734c-ca1f-7160-8e07-54ebdf4137b2,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000021,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7160-8e07-54ebdf4137b2
+uid: usr000021
 cn: Vito Mahendra
 sn: Mahendra
 givenName: Vito
 displayName: Vito Mahendra
-mail: vito.019c734c@peter.petra.ac.id
+mail: vito.usr000021@john.petra.ac.id
 mailAlternateAddress: vito.mahendra@alumni.petra.ac.id
 mailAlternateAddress: vito.mahendra@google.com
 mailAlternateAddress: vito.mahendra@yahoo.com
-mailAlternateAddress: vito.mahendra@peter.petra.ac.id
-userNIK: 1271016609877253
+mailAlternateAddress: vito.mahendra@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: L23677961
-employeeNumber: 42207422
-userPassword:: e1NTSEF9M0dlajRDeWdFejJqSS9YSG93VVJTWXNrcVBjTHFqZUE=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9RFJUV0ZmMVlPRlRXTTg3LzZsM3Z0V0NwSGd3NTJxTHk=
 
-dn: uid=019c734c-ca1f-7d61-b6d6-3b31a52e3e50,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000022,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7d61-b6d6-3b31a52e3e50
+uid: usr000022
 cn: Wulan Purnama
 sn: Purnama
 givenName: Wulan
 displayName: Wulan Purnama
-mail: wulan.019c734c@petra.petra.ac.id
+mail: wulan.usr000022@john.petra.ac.id
 mailAlternateAddress: wulan.purnama@alumni.petra.ac.id
 mailAlternateAddress: wulan.purnama@google.com
 mailAlternateAddress: wulan.purnama@yahoo.com
 mailAlternateAddress: wulan.purnama@john.petra.ac.id
-userNIK: 3173012704007446
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: J25273944
-studentNumberHistory: R23888546
-userPassword:: e1NTSEF9V2JBLzkrZC9kc0l2cUFOY29GUUk2OFl2SDZaWnRsWTA=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9NjQyWElVRXNJUndSZXgzUkpCZXg4NHdSNmhSeVB6SFQ=
 
-dn: uid=019c734c-ca1f-7821-b43b-1d36c34ce949,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000023,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-7821-b43b-1d36c34ce949
+uid: usr000023
 cn: Yusuf Kurnia
 sn: Kurnia
 givenName: Yusuf
 displayName: Yusuf Kurnia
-mail: yusuf.019c734c@petra.petra.ac.id
+mail: yusuf.usr000023@john.petra.ac.id
 mailAlternateAddress: yusuf.kurnia@alumni.petra.ac.id
 mailAlternateAddress: yusuf.kurnia@google.com
 mailAlternateAddress: yusuf.kurnia@yahoo.com
-mailAlternateAddress: yusuf.kurnia@peter.petra.ac.id
-userNIK: 3515014905892952
+mailAlternateAddress: yusuf.kurnia@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: N15284321
-userPassword:: e1NTSEF9blRFWkVPZytqaTBQcVlEdk9BdklJOUNDQkttVThYUHo=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9OGlVVWVyTVUyb242K3NXNk9WcEpITXRMcUtaL1NKaGQ=
 
-dn: uid=019c734c-ca1f-76db-92a9-a3fb3dbc4b29,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000024,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca1f-76db-92a9-a3fb3dbc4b29
+uid: usr000024
 cn: Zahra Aulia
 sn: Aulia
 givenName: Zahra
 displayName: Zahra Aulia
-mail: zahra.019c734c@john.petra.ac.id
+mail: zahra.usr000024@john.petra.ac.id
 mailAlternateAddress: zahra.aulia@alumni.petra.ac.id
 mailAlternateAddress: zahra.aulia@google.com
 mailAlternateAddress: zahra.aulia@yahoo.com
-mailAlternateAddress: zahra.aulia@petra.petra.ac.id
-userNIK: 3514010703835514
+mailAlternateAddress: zahra.aulia@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: K16322678
-studentNumberHistory: P15389608
-userPassword:: e1NTSEF9ODRuNWlieHdZY1l4MDJiOGxzMDA2TVYxMjFKZFFiaTE=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9VnJIYVFmN0tuMEV5bHMvYTNyYXdUaHVDVUtIZEUrdWU=
 
-dn: uid=019c734c-ca20-7d3d-86dc-89d56eed80b4,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000025,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7d3d-86dc-89d56eed80b4
+uid: usr000025
 cn: Bagas Wijaya
 sn: Wijaya
 givenName: Bagas
 displayName: Bagas Wijaya
-mail: bagas.019c734c@petra.petra.ac.id
+mail: bagas.usr000025@john.petra.ac.id
 mailAlternateAddress: bagas.wijaya@alumni.petra.ac.id
 mailAlternateAddress: bagas.wijaya@google.com
 mailAlternateAddress: bagas.wijaya@yahoo.com
 mailAlternateAddress: bagas.wijaya@john.petra.ac.id
-userNIK: 3174014502748558
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: active
-studentNumber: Z14529808
-userPassword:: e1NTSEF9d0dFUlJuK3huU3BpZWNyeFE3T3k0N3RqQXgxcFc2VzQ=
+petraAccountStatus: suspended
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9aFUrS1YxSHJ3MVFpSUQyUUkzK2tUbjJXTjFxTXMxOU8=
 
-dn: uid=019c734c-ca20-718e-a997-d07ed8bc8bee,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000026,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-718e-a997-d07ed8bc8bee
+uid: usr000026
 cn: Chandra Surya
 sn: Surya
 givenName: Chandra
 displayName: Chandra Surya
-mail: chandra.019c734c@peter.petra.ac.id
+mail: chandra.usr000026@john.petra.ac.id
 mailAlternateAddress: chandra.surya@alumni.petra.ac.id
 mailAlternateAddress: chandra.surya@google.com
 mailAlternateAddress: chandra.surya@yahoo.com
-mailAlternateAddress: chandra.surya@petra.petra.ac.id
-userNIK: 3173016409926368
+mailAlternateAddress: chandra.surya@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: suspended
-studentNumber: E18924651
-studentNumberHistory: I25594338
-userPassword:: e1NTSEF9N2RLUTZMazFkOWRYcWYyS01RbGtCZkRseUsySGk4c0U=
+petraAccountStatus: active
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9S3l1NE11Z0piWWd2QkZ5VVJsaTN5SytVZi9jY1kzR2s=
 
-dn: uid=019c734c-ca20-7ba9-86de-34d09281bbe2,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000027,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7ba9-86de-34d09281bbe2
+uid: usr000027
 cn: Dara Amelia
 sn: Amelia
 givenName: Dara
 displayName: Dara Amelia
-mail: dara.019c734c@peter.petra.ac.id
+mail: dara.usr000027@john.petra.ac.id
 mailAlternateAddress: dara.amelia@alumni.petra.ac.id
 mailAlternateAddress: dara.amelia@google.com
 mailAlternateAddress: dara.amelia@yahoo.com
 mailAlternateAddress: dara.amelia@john.petra.ac.id
-userNIK: 3578011204804155
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: C17476028
-studentNumberHistory: R23372748
-employeeNumber: 718869
-userPassword:: e1NTSEF9SEpFNHpsVk9Obm5NK0NRUW5sN3Evb2NibnFma1pCbDA=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9Z2hRWi9HT1kyZTBvMkgxNFJyRGVNMm9wV1BpZkcxbTc=
 
-dn: uid=019c734c-ca20-76d3-a46b-d231f4ef886d,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000028,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-76d3-a46b-d231f4ef886d
+uid: usr000028
 cn: Elang Prakoso
 sn: Prakoso
 givenName: Elang
 displayName: Elang Prakoso
-mail: elang.019c734c@petra.petra.ac.id
+mail: elang.usr000028@john.petra.ac.id
 mailAlternateAddress: elang.prakoso@alumni.petra.ac.id
 mailAlternateAddress: elang.prakoso@google.com
 mailAlternateAddress: elang.prakoso@yahoo.com
-mailAlternateAddress: elang.prakoso@petra.petra.ac.id
-userNIK: 1271016509801446
+mailAlternateAddress: elang.prakoso@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: F17235690
-studentNumberHistory: B21434114
-employeeNumber: 535439
-userPassword:: e1NTSEF9T2RMRzVRbm5LdVRuUHAwWW1DeU5jb2syWGFtSHAzZFA=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9K2tLSmhEMnNPV1RMNzZMS01Yam5zVlBoMTc5dGFWWmQ=
 
-dn: uid=019c734c-ca20-7e88-8554-14e11023b7f1,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000029,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7e88-8554-14e11023b7f1
+uid: usr000029
 cn: Fadli Saputro
 sn: Saputro
 givenName: Fadli
 displayName: Fadli Saputro
-mail: fadli.019c734c@john.petra.ac.id
+mail: fadli.usr000029@john.petra.ac.id
 mailAlternateAddress: fadli.saputro@alumni.petra.ac.id
 mailAlternateAddress: fadli.saputro@google.com
 mailAlternateAddress: fadli.saputro@yahoo.com
-mailAlternateAddress: fadli.saputro@peter.petra.ac.id
-userNIK: 3515012605862590
+mailAlternateAddress: fadli.saputro@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
-petraAccountStatus: suspended
-studentNumber: Y16289170
-employeeNumber: 32550127
-userPassword:: e1NTSEF9TnluWnIxclNCcnNhY2I3eWpxTnV5d3NCS2VMRGxBWDk=
+petraAccountStatus: active
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9cEJhNmxwcnNpZHZaNXNNUk13b3M3RGpkeDhnUWtwb3M=
 
-dn: uid=019c734c-ca20-766b-9ff2-2380b5c7c460,ou=students,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000030,ou=students,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-766b-9ff2-2380b5c7c460
+uid: usr000030
 cn: Gita Puspita
 sn: Puspita
 givenName: Gita
 displayName: Gita Puspita
-mail: gita.019c734c@petra.petra.ac.id
+mail: gita.usr000030@john.petra.ac.id
 mailAlternateAddress: gita.puspita@alumni.petra.ac.id
 mailAlternateAddress: gita.puspita@google.com
 mailAlternateAddress: gita.puspita@yahoo.com
-mailAlternateAddress: gita.puspita@peter.petra.ac.id
-userNIK: 3273014511837468
+mailAlternateAddress: gita.puspita@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: student
 petraAccountStatus: active
-studentNumber: K18559597
-studentNumberHistory: N16195355
-userPassword:: e1NTSEF9cThGb1VGVHBKWE1Qd1lmNnMrdnRGczkyeHZ5Z2dnbzE=
+studentNumber: F20796847
+studentNumberHistory: F19796847
+userPassword:: e1NTSEF9SVJGbzZSVklnOTJIVEUzYmtITkhSRDk4alFBTTJOTG8=
 
-dn: uid=019c734c-ca20-7bca-b3af-f36644de3564,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000031,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7bca-b3af-f36644de3564
+uid: usr000031
 cn: Hendra Firmansyah
 sn: Firmansyah
 givenName: Hendra
 displayName: Hendra Firmansyah
-mail: hendra.019c734c@petra.petra.ac.id
+mail: hendra.usr000031@john.petra.ac.id
 mailAlternateAddress: hendra.firmansyah@alumni.petra.ac.id
 mailAlternateAddress: hendra.firmansyah@google.com
 mailAlternateAddress: hendra.firmansyah@yahoo.com
-mailAlternateAddress: hendra.firmansyah@peter.petra.ac.id
-userNIK: 3515015308980994
+mailAlternateAddress: hendra.firmansyah@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
-petraAccountStatus: disabled
-studentNumberHistory: M19261663
-employeeNumber: 669440
-userPassword:: e1NTSEF9TCtSVnppeVc0dE5ibzZrb1hSVStCVHRkOTVGZWdUL3g=
+petraAccountStatus: active
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9V05uWVZDNVkxTjBsZHJRSU9veEMrYTZ0L1dSaUh4RXA=
 
-dn: uid=019c734c-ca20-7ecd-b751-017ff88d7784,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000032,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7ecd-b751-017ff88d7784
+uid: usr000032
 cn: Indra Kusuma
 sn: Kusuma
 givenName: Indra
 displayName: Indra Kusuma
-mail: indra.019c734c@peter.petra.ac.id
+mail: indra.usr000032@john.petra.ac.id
 mailAlternateAddress: indra.kusuma@alumni.petra.ac.id
 mailAlternateAddress: indra.kusuma@google.com
 mailAlternateAddress: indra.kusuma@yahoo.com
 mailAlternateAddress: indra.kusuma@john.petra.ac.id
-userNIK: 3578012007919793
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-studentNumberHistory: S23144525
-employeeNumber: 7948960
-userPassword:: e1NTSEF9cUdPM0p3cXV3UnFSQjEwUEZSUkwySGlHYVRQVmpVeXQ=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9Q2tTRWFTRlVlTzY5SlZHemFuYVlZMDlvTkNFSWlZQmc=
 
-dn: uid=019c734c-ca20-77bc-b85c-d5ef0a058040,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000033,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-77bc-b85c-d5ef0a058040
+uid: usr000033
 cn: Jelita Damayanti
 sn: Damayanti
 givenName: Jelita
 displayName: Jelita Damayanti
-mail: jelita.019c734c@petra.petra.ac.id
+mail: jelita.usr000033@john.petra.ac.id
 mailAlternateAddress: jelita.damayanti@alumni.petra.ac.id
 mailAlternateAddress: jelita.damayanti@google.com
 mailAlternateAddress: jelita.damayanti@yahoo.com
-mailAlternateAddress: jelita.damayanti@petra.petra.ac.id
-userNIK: 3374010104767946
+mailAlternateAddress: jelita.damayanti@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-employeeNumber: 980382
-userPassword:: e1NTSEF9VzlURk1EaUxQdzcxOXpiaGc3VllFOVJCUXpUY1h5cnY=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9cmdkT0lZdXBHMi85ZkYyaEZrd2VvV0N5ZFN6Q24yQnA=
 
-dn: uid=019c734c-ca20-77d0-88f9-fcd8b97a4a82,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000034,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-77d0-88f9-fcd8b97a4a82
+uid: usr000034
 cn: Kevin Hartono
 sn: Hartono
 givenName: Kevin
 displayName: Kevin Hartono
-mail: kevin.019c734c@petra.petra.ac.id
+mail: kevin.usr000034@john.petra.ac.id
 mailAlternateAddress: kevin.hartono@alumni.petra.ac.id
 mailAlternateAddress: kevin.hartono@google.com
 mailAlternateAddress: kevin.hartono@yahoo.com
 mailAlternateAddress: kevin.hartono@john.petra.ac.id
-userNIK: 3174010505716670
+userNIK: 1271012610036847
 petraAffiliation: staff
-petraAccountStatus: disabled
-employeeNumber: 651307
-userPassword:: e1NTSEF9RGlacSs4dWh3UEZkRVc0SEsxeVd6dmRMTHppSjIyVEk=
+petraAccountStatus: active
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9L3dUNnU2T0ZNQkVpaEdLdE1DdjF0YUxzem5DOERXSng=
 
-dn: uid=019c734c-ca20-7512-a362-021eb7025e8c,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000035,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7512-a362-021eb7025e8c
+uid: usr000035
 cn: Luthfi Prabowo
 sn: Prabowo
 givenName: Luthfi
 displayName: Luthfi Prabowo
-mail: luthfi.019c734c@petra.petra.ac.id
+mail: luthfi.usr000035@john.petra.ac.id
 mailAlternateAddress: luthfi.prabowo@alumni.petra.ac.id
 mailAlternateAddress: luthfi.prabowo@google.com
 mailAlternateAddress: luthfi.prabowo@yahoo.com
-mailAlternateAddress: luthfi.prabowo@petra.petra.ac.id
-userNIK: 5171014306847150
+mailAlternateAddress: luthfi.prabowo@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-employeeNumber: 891616250
-userPassword:: e1NTSEF9TGEwUTVNb3BMaC94eXFIZ1pONklac0xjZ3Rna2UyUHk=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9MkxGOGthbU5WOHNsQWVUbktRbTdiTkk2YU1WQmF1Mm0=
 
-dn: uid=019c734c-ca20-766f-a9b1-884cd8f80758,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000036,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-766f-a9b1-884cd8f80758
+uid: usr000036
 cn: Mita Anindya
 sn: Anindya
 givenName: Mita
 displayName: Mita Anindya
-mail: mita.019c734c@peter.petra.ac.id
+mail: mita.usr000036@john.petra.ac.id
 mailAlternateAddress: mita.anindya@alumni.petra.ac.id
 mailAlternateAddress: mita.anindya@google.com
 mailAlternateAddress: mita.anindya@yahoo.com
-mailAlternateAddress: mita.anindya@petra.petra.ac.id
-userNIK: 3471011609721028
+mailAlternateAddress: mita.anindya@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-studentNumberHistory: X18483295
-employeeNumber: 5216124548
-userPassword:: e1NTSEF9Nm54bU9vcWdzUENPbUtkYjVTQ0hGMlc1c0RMMmk4QWc=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9aytQSzZYZ3h0Qmx3djJLNFoyM1QySVY2Y2ErM0JRV3g=
 
-dn: uid=019c734c-ca20-7f61-996e-20deb04afea9,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000037,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7f61-996e-20deb04afea9
+uid: usr000037
 cn: Nanda Pramana
 sn: Pramana
 givenName: Nanda
 displayName: Nanda Pramana
-mail: nanda.019c734c@john.petra.ac.id
+mail: nanda.usr000037@john.petra.ac.id
 mailAlternateAddress: nanda.pramana@alumni.petra.ac.id
 mailAlternateAddress: nanda.pramana@google.com
 mailAlternateAddress: nanda.pramana@yahoo.com
 mailAlternateAddress: nanda.pramana@john.petra.ac.id
-userNIK: 3174016105912174
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-employeeNumber: 9502995
-userPassword:: e1NTSEF9RmdQMEViY2dPVTgva2Y4NFVSM013OFRYbHYyR0FxVGk=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9cWFla3U3Wm9hVWdra2h1MHN0VXhvY3RpMjFIRnBuVzI=
 
-dn: uid=019c734c-ca20-78e1-a6d9-818b79c77604,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000038,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-78e1-a6d9-818b79c77604
+uid: usr000038
 cn: Olin Nirmala
 sn: Nirmala
 givenName: Olin
 displayName: Olin Nirmala
-mail: olin.019c734c@petra.petra.ac.id
+mail: olin.usr000038@john.petra.ac.id
 mailAlternateAddress: olin.nirmala@alumni.petra.ac.id
 mailAlternateAddress: olin.nirmala@google.com
 mailAlternateAddress: olin.nirmala@yahoo.com
-mailAlternateAddress: olin.nirmala@petra.petra.ac.id
-userNIK: 3514010412757428
+mailAlternateAddress: olin.nirmala@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-employeeNumber: 4455502
-userPassword:: e1NTSEF9aHRmQkhhN3lBOXZTRjNrdFdFQ3lhSjd4RGh0elBydXM=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9M0VkQ0VGU2RmQlRsMFNEV2prN1UvcjY1VjMyUHdGTzA=
 
-dn: uid=019c734c-ca20-786e-97ae-a6b205fceeb3,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000039,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-786e-97ae-a6b205fceeb3
+uid: usr000039
 cn: Prita Wulandari
 sn: Wulandari
 givenName: Prita
 displayName: Prita Wulandari
-mail: prita.019c734c@peter.petra.ac.id
+mail: prita.usr000039@john.petra.ac.id
 mailAlternateAddress: prita.wulandari@alumni.petra.ac.id
 mailAlternateAddress: prita.wulandari@google.com
 mailAlternateAddress: prita.wulandari@yahoo.com
-mailAlternateAddress: prita.wulandari@petra.petra.ac.id
-userNIK: 3174015811959937
+mailAlternateAddress: prita.wulandari@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
-petraAccountStatus: active
-employeeNumber: 821048154
-userPassword:: e1NTSEF9YjNKaTFac2M3Y3lTSXV3SmxEY1BOdG9tQlRzVTMrelk=
+petraAccountStatus: suspended
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9ZWNGQlNHVlVKbGZsSWVOa3NGTHlwV24rRXJ5RVAwVDU=
 
-dn: uid=019c734c-ca20-7355-8c2f-c36a56c8505a,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000040,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7355-8c2f-c36a56c8505a
+uid: usr000040
 cn: Rangga Pamungkas
 sn: Pamungkas
 givenName: Rangga
 displayName: Rangga Pamungkas
-mail: rangga.019c734c@peter.petra.ac.id
+mail: rangga.usr000040@john.petra.ac.id
 mailAlternateAddress: rangga.pamungkas@alumni.petra.ac.id
 mailAlternateAddress: rangga.pamungkas@google.com
 mailAlternateAddress: rangga.pamungkas@yahoo.com
 mailAlternateAddress: rangga.pamungkas@john.petra.ac.id
-userNIK: 3273014602923213
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-employeeNumber: 6624852
-userPassword:: e1NTSEF9U0V4UzhCNC9EZjFlMVN2anU3Zjd4OTdjMlhUKzZ5NDY=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9UWVCbVlIY3BsUklKbnR5U1I3MEMrMkZPUVcvejlINng=
 
-dn: uid=019c734c-ca20-7005-a4bf-b40fa17d9662,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000041,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-7005-a4bf-b40fa17d9662
+uid: usr000041
 cn: Sinta Marcellina
 sn: Marcellina
 givenName: Sinta
 displayName: Sinta Marcellina
-mail: sinta.019c734c@petra.petra.ac.id
+mail: sinta.usr000041@john.petra.ac.id
 mailAlternateAddress: sinta.marcellina@alumni.petra.ac.id
 mailAlternateAddress: sinta.marcellina@google.com
 mailAlternateAddress: sinta.marcellina@yahoo.com
-mailAlternateAddress: sinta.marcellina@petra.petra.ac.id
-userNIK: 3173011211916820
+mailAlternateAddress: sinta.marcellina@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
 petraAccountStatus: active
-studentNumberHistory: F21107574
-employeeNumber: 71248443
-userPassword:: e1NTSEF9VkRpOXJmaldOMDh1UVlmSktYOGtiZnJCeVJjd3k0U3M=
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9TStraXdmVzAzcTJGOGxkZzRTeWRmVm8vMjY3Ym13YjE=
 
-dn: uid=019c734c-ca20-747b-a767-322583d23695,ou=staff,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000042,ou=staff,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-747b-a767-322583d23695
+uid: usr000042
 cn: Taufik Akbar
 sn: Akbar
 givenName: Taufik
 displayName: Taufik Akbar
-mail: taufik.019c734c@peter.petra.ac.id
+mail: taufik.usr000042@john.petra.ac.id
 mailAlternateAddress: taufik.akbar@alumni.petra.ac.id
 mailAlternateAddress: taufik.akbar@google.com
 mailAlternateAddress: taufik.akbar@yahoo.com
-mailAlternateAddress: taufik.akbar@petra.petra.ac.id
-userNIK: 3173016305992875
+mailAlternateAddress: taufik.akbar@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: staff
-petraAccountStatus: disabled
-studentNumberHistory: N18570381
-employeeNumber: 381488246
-userPassword:: e1NTSEF9M0hLSEx6NW1SMVRRMk1leUFoWVl1VG9SZVV1MFI0VVo=
+petraAccountStatus: active
+studentNumberHistory: F23796847
+employeeNumber: 7999999999
+userPassword:: e1NTSEF9T1d4NHFaUUNWQkJGUjI5L1hERHpmWTFWUzNXL1FXeFA=
 
-dn: uid=019c734c-ca20-746b-883b-c399555ea218,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000043,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca20-746b-883b-c399555ea218
+uid: usr000043
 cn: Umar Fadillah
 sn: Fadillah
 givenName: Umar
 displayName: Umar Fadillah
-mail: umar.019c734c@john.petra.ac.id
+mail: umar.usr000043@john.petra.ac.id
 mailAlternateAddress: umar.fadillah@alumni.petra.ac.id
 mailAlternateAddress: umar.fadillah@google.com
 mailAlternateAddress: umar.fadillah@yahoo.com
-mailAlternateAddress: umar.fadillah@peter.petra.ac.id
-userNIK: 3514010202876412
+mailAlternateAddress: umar.fadillah@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
-petraAccountStatus: active
-studentNumberHistory: W18215363
-userPassword:: e1NTSEF9RzI3cmRkZTk0aWg1QlNweFZMeFM3VmN2NGZVRTF1T2o=
+petraAccountStatus: disabled
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9UFNEVm5aTEk3RDczNWh2d09MOE1sS1ZjUUJHS2ZyY0E=
 
-dn: uid=019c734c-ca21-7c1b-b879-300926f5fe5a,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000044,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7c1b-b879-300926f5fe5a
+uid: usr000044
 cn: Vania Safitri
 sn: Safitri
 givenName: Vania
 displayName: Vania Safitri
-mail: vania.019c734c@peter.petra.ac.id
+mail: vania.usr000044@john.petra.ac.id
 mailAlternateAddress: vania.safitri@alumni.petra.ac.id
 mailAlternateAddress: vania.safitri@google.com
 mailAlternateAddress: vania.safitri@yahoo.com
-mailAlternateAddress: vania.safitri@peter.petra.ac.id
-userNIK: 1271014408858658
+mailAlternateAddress: vania.safitri@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
 petraAccountStatus: active
-studentNumberHistory: Y26861313
-userPassword:: e1NTSEF9enJUUjZ0T1VDeXA1SitwQlQ0dmZ6QVp2clZSV0FXcFc=
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9Z05XMnZIc1E0VkdycFRFRTF1cHUxakdRUXZVNEpyK0U=
 
-dn: uid=019c734c-ca21-7ecd-a32f-5e6363a0e84b,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000045,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7ecd-a32f-5e6363a0e84b
+uid: usr000045
 cn: Wahyu Hapsari
 sn: Hapsari
 givenName: Wahyu
 displayName: Wahyu Hapsari
-mail: wahyu.019c734c@peter.petra.ac.id
+mail: wahyu.usr000045@john.petra.ac.id
 mailAlternateAddress: wahyu.hapsari@alumni.petra.ac.id
 mailAlternateAddress: wahyu.hapsari@google.com
 mailAlternateAddress: wahyu.hapsari@yahoo.com
-mailAlternateAddress: wahyu.hapsari@peter.petra.ac.id
-userNIK: 3515010607887676
+mailAlternateAddress: wahyu.hapsari@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
 petraAccountStatus: active
-studentNumberHistory: M23317122
-userPassword:: e1NTSEF9eUIyMndhMWtMUU1EODRmOVM0aFJrSzZ5dFV6dHNnR3o=
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9KzhWUVYyQWN2SzhxQVpXa2ZtMVJlUkRzZ0htellock0=
 
-dn: uid=019c734c-ca21-781c-bbb3-3dbc1e70d4e4,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000046,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-781c-bbb3-3dbc1e70d4e4
+uid: usr000046
 cn: Yohana Kristina
 sn: Kristina
 givenName: Yohana
 displayName: Yohana Kristina
-mail: yohana.019c734c@petra.petra.ac.id
+mail: yohana.usr000046@john.petra.ac.id
 mailAlternateAddress: yohana.kristina@alumni.petra.ac.id
 mailAlternateAddress: yohana.kristina@google.com
 mailAlternateAddress: yohana.kristina@yahoo.com
-mailAlternateAddress: yohana.kristina@petra.petra.ac.id
-userNIK: 5171014412851744
+mailAlternateAddress: yohana.kristina@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
 petraAccountStatus: active
-studentNumberHistory: K20494919
-userPassword:: e1NTSEF9Z0FqZGhUemZFMjFhY2VncDRvaWxkK2VjVUNtKy9PNmQ=
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9Ym5vZFZZTW11ajNKbXBLY0RHTUhqSXB5RUx5aFFlbHE=
 
-dn: uid=019c734c-ca21-7532-a5be-839a2f45c270,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000047,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7532-a5be-839a2f45c270
+uid: usr000047
 cn: Zaki Firmanto
 sn: Firmanto
 givenName: Zaki
 displayName: Zaki Firmanto
-mail: zaki.019c734c@john.petra.ac.id
+mail: zaki.usr000047@john.petra.ac.id
 mailAlternateAddress: zaki.firmanto@alumni.petra.ac.id
 mailAlternateAddress: zaki.firmanto@google.com
 mailAlternateAddress: zaki.firmanto@yahoo.com
-mailAlternateAddress: zaki.firmanto@petra.petra.ac.id
-userNIK: 3515011411865288
+mailAlternateAddress: zaki.firmanto@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
 petraAccountStatus: active
-studentNumberHistory: U18273333
-userPassword:: e1NTSEF9ckxNN2ttQXBUTGx3RTBUdWI1dk1vYXhoNHJsZDluZXo=
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9RURJSWVVN2pRaUhJM1lhdy9wa2dCTW04L0NrckhZR1Y=
 
-dn: uid=019c734c-ca21-7246-9e26-8fa8a94ed4ee,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000048,ou=alumni,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7246-9e26-8fa8a94ed4ee
+uid: usr000048
 cn: Arga Prameswara
 sn: Prameswara
 givenName: Arga
 displayName: Arga Prameswara
-mail: arga.019c734c@peter.petra.ac.id
+mail: arga.usr000048@john.petra.ac.id
 mailAlternateAddress: arga.prameswara@alumni.petra.ac.id
 mailAlternateAddress: arga.prameswara@google.com
 mailAlternateAddress: arga.prameswara@yahoo.com
-mailAlternateAddress: arga.prameswara@petra.petra.ac.id
-userNIK: 3471016612812060
+mailAlternateAddress: arga.prameswara@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: alumni
 petraAccountStatus: active
-studentNumberHistory: W19657167
-userPassword:: e1NTSEF9ZlZhblF0ZmcvMXdpU3RGdzI4K1RJbDBobmJWN1gxL0k=
+studentNumberHistory: F23796847
+userPassword:: e1NTSEF9ZDBBZ2dDL3NiOW1lVlkyYTg0VWZibUR4YXc4Mkx6Nmc=
 
-dn: uid=019c734c-ca21-7677-923e-a824c3caad82,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000049,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7677-923e-a824c3caad82
+uid: usr000049
 cn: Bella Candrawati
 sn: Candrawati
 givenName: Bella
 displayName: Bella Candrawati
-mail: bella.019c734c@petra.petra.ac.id
+mail: bella.usr000049@john.petra.ac.id
 mailAlternateAddress: bella.candrawati@alumni.petra.ac.id
 mailAlternateAddress: bella.candrawati@google.com
 mailAlternateAddress: bella.candrawati@yahoo.com
-mailAlternateAddress: bella.candrawati@petra.petra.ac.id
-userNIK: 3515016506916789
+mailAlternateAddress: bella.candrawati@john.petra.ac.id
+userNIK: 1271012610036847
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9NS8zcndUME84MENzME9LZkprdDhXVHFUTExGbmZXOTM=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9RWE4VEZxY0Q2NVp3ZDVvVk9xVG9tQk5YNGYxV0Q0b0Y=
 
-dn: uid=019c734c-ca21-7bd1-925b-bd5749d853ca,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000050,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7bd1-925b-bd5749d853ca
+uid: usr000050
 cn: Citra Permadi
 sn: Permadi
 givenName: Citra
 displayName: Citra Permadi
-mail: citra.019c734c@petra.petra.ac.id
+mail: citra.usr000050@john.petra.ac.id
 mailAlternateAddress: citra.permadi@alumni.petra.ac.id
 mailAlternateAddress: citra.permadi@google.com
 mailAlternateAddress: citra.permadi@yahoo.com
 mailAlternateAddress: citra.permadi@john.petra.ac.id
-userNIK: 5171014202896578
+userNIK: 1271012610036847
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9eWFRcWhDOFVvK2pyWVVMVmFPd0tqUVFucUJ1QjN2Z2Y=
+userPassword:: e1NTSEF9NlhlZ09lV1diOUNybWNZekpxdkZrQWk3ZTlxQ21nQVQ=
 
-dn: uid=019c734c-ca21-73a3-a75c-d84d0277a834,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000051,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-73a3-a75c-d84d0277a834
+uid: usr000051
 cn: Nova Dynamics
 sn: Dynamics
 givenName: Nova
 displayName: Nova Dynamics
-mail: nova@peter.petra.ac.id
+mail: nova.usr000051@john.petra.ac.id
 mailAlternateAddress: nova.dynamics@alumni.petra.ac.id
 mailAlternateAddress: nova.dynamics@google.com
 mailAlternateAddress: nova.dynamics@yahoo.com
-mailAlternateAddress: nova.dynamics@peter.petra.ac.id
+mailAlternateAddress: nova.dynamics@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9dWpWcFd3N0k1MGVBWncwbkpUbHg4MHk5RUMvT0dsVjQ=
+userPassword:: e1NTSEF9MWxGODY1d3NUdjRPL2lBa0RNejlDTmZoRElzOFZyOC8=
 
-dn: uid=019c734c-ca21-725d-b124-efbb02838b2b,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000052,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-725d-b124-efbb02838b2b
+uid: usr000052
 cn: Atlas Forge
 sn: Forge
 givenName: Atlas
 displayName: Atlas Forge
-mail: atlas@petra.petra.ac.id
+mail: atlas.usr000052@john.petra.ac.id
 mailAlternateAddress: atlas.forge@alumni.petra.ac.id
 mailAlternateAddress: atlas.forge@google.com
 mailAlternateAddress: atlas.forge@yahoo.com
-mailAlternateAddress: atlas.forge@petra.petra.ac.id
+mailAlternateAddress: atlas.forge@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9TUE2ZlI2YSttNlUyYVRORWg3V3hJOVhOVzBHalgrODc=
+userPassword:: e1NTSEF9dXRiOHVTQjZ6cVRQVUlsU3hXMjVwWFVTMnc1RTVBdW4=
 
-dn: uid=019c734c-ca21-7412-96f9-c6bc391b1385,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000053,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7412-96f9-c6bc391b1385
+uid: usr000053
 cn: Quantum Harbor
 sn: Harbor
 givenName: Quantum
 displayName: Quantum Harbor
-mail: quantum@john.petra.ac.id
+mail: quantum.usr000053@john.petra.ac.id
 mailAlternateAddress: quantum.harbor@alumni.petra.ac.id
 mailAlternateAddress: quantum.harbor@google.com
 mailAlternateAddress: quantum.harbor@yahoo.com
-mailAlternateAddress: quantum.harbor@petra.petra.ac.id
+mailAlternateAddress: quantum.harbor@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9eDRGVGo5UGhEMXdNNE9PVE9rMXhMWTJNNkpuMDgwalM=
+userPassword:: e1NTSEF9MnVQalZxNlA5TmxNeWNVNGs3Si9ScEg3QXZpa0JHR2M=
 
-dn: uid=019c734c-ca21-703c-9f7f-fbe344441b8a,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000054,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-703c-9f7f-fbe344441b8a
+uid: usr000054
 cn: Pixel Foundry
 sn: Foundry
 givenName: Pixel
 displayName: Pixel Foundry
-mail: pixel@petra.petra.ac.id
+mail: pixel.usr000054@john.petra.ac.id
 mailAlternateAddress: pixel.foundry@alumni.petra.ac.id
 mailAlternateAddress: pixel.foundry@google.com
 mailAlternateAddress: pixel.foundry@yahoo.com
-mailAlternateAddress: pixel.foundry@peter.petra.ac.id
+mailAlternateAddress: pixel.foundry@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9emRnWUNONHpwS0F2MGlaSHhkbWYybmxhcTlHNjhwZFU=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9UlN0RXR1elJBSzc0ZlJHQ3hQbnM0RitFZWhsWGdZQ3M=
 
-dn: uid=019c734c-ca21-7db5-940d-5cd6730f4ab4,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000055,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7db5-940d-5cd6730f4ab4
+uid: usr000055
 cn: Garuda Systems
 sn: Systems
 givenName: Garuda
 displayName: Garuda Systems
-mail: garuda@petra.petra.ac.id
+mail: garuda.usr000055@john.petra.ac.id
 mailAlternateAddress: garuda.systems@alumni.petra.ac.id
 mailAlternateAddress: garuda.systems@google.com
 mailAlternateAddress: garuda.systems@yahoo.com
 mailAlternateAddress: garuda.systems@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9TEVlQkZJcTFObTJtdThUemU3TTlZUmM5blFqQ2JQQlg=
+userPassword:: e1NTSEF9Tzl3czR2Y0xvcmF4QXhyYWxTSTJoSFBaS0h2bnR5RGY=
 
-dn: uid=019c734c-ca21-702c-bf3c-8eca51c3f3ad,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000056,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-702c-bf3c-8eca51c3f3ad
+uid: usr000056
 cn: Ember Studio
 sn: Studio
 givenName: Ember
 displayName: Ember Studio
-mail: ember@peter.petra.ac.id
+mail: ember.usr000056@john.petra.ac.id
 mailAlternateAddress: ember.studio@alumni.petra.ac.id
 mailAlternateAddress: ember.studio@google.com
 mailAlternateAddress: ember.studio@yahoo.com
-mailAlternateAddress: ember.studio@petra.petra.ac.id
+mailAlternateAddress: ember.studio@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9eG13QXU2d1E5Zmg1K3lJZTA1WVdiSFowV1FJN3dFN2U=
+userPassword:: e1NTSEF9N0t3Z1JRdmJ3QThkUUszVmdUQWlFczVjeFFBNHZpWVM=
 
-dn: uid=019c734c-ca21-710b-abf1-49b15f49b15d,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000057,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-710b-abf1-49b15f49b15d
+uid: usr000057
 cn: Aurora Ventures
 sn: Ventures
 givenName: Aurora
 displayName: Aurora Ventures
-mail: aurora@petra.petra.ac.id
+mail: aurora.usr000057@john.petra.ac.id
 mailAlternateAddress: aurora.ventures@alumni.petra.ac.id
 mailAlternateAddress: aurora.ventures@google.com
 mailAlternateAddress: aurora.ventures@yahoo.com
-mailAlternateAddress: aurora.ventures@petra.petra.ac.id
+mailAlternateAddress: aurora.ventures@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9YW94b3Y2cHMrUWlFRjY1d0kwcnpyL3VPUmdrUC9WYUc=
+petraAccountStatus: active
+userPassword:: e1NTSEF9S0dXZmE4ZVJhK2RUS2toZXZmNWZPV2puV1QzRFRoL3Q=
 
-dn: uid=019c734c-ca21-7068-9d51-053662843456,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000058,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7068-9d51-053662843456
+uid: usr000058
 cn: Nimbus Works
 sn: Works
 givenName: Nimbus
 displayName: Nimbus Works
-mail: nimbus@john.petra.ac.id
+mail: nimbus.usr000058@john.petra.ac.id
 mailAlternateAddress: nimbus.works@alumni.petra.ac.id
 mailAlternateAddress: nimbus.works@google.com
 mailAlternateAddress: nimbus.works@yahoo.com
 mailAlternateAddress: nimbus.works@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9dWE1SEh2UngrZXlqKzlaZEJzb0ZNS0d4YWtHdnlIYXI=
+petraAccountStatus: active
+userPassword:: e1NTSEF9UGJCdGFRa3lLVHZpMmJ2WTNaN20xS0FOU0wwRHRCZXo=
 
-dn: uid=019c734c-ca21-72d2-b015-768f33573bf8,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000059,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-72d2-b015-768f33573bf8
+uid: usr000059
 cn: Prism Logistics
 sn: Logistics
 givenName: Prism
 displayName: Prism Logistics
-mail: prism@john.petra.ac.id
+mail: prism.usr000059@john.petra.ac.id
 mailAlternateAddress: prism.logistics@alumni.petra.ac.id
 mailAlternateAddress: prism.logistics@google.com
 mailAlternateAddress: prism.logistics@yahoo.com
-mailAlternateAddress: prism.logistics@petra.petra.ac.id
+mailAlternateAddress: prism.logistics@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9MnkvZFRNMHZnYjJtQXNUSXV6SlIySWRsQzlpaXM2amE=
+userPassword:: e1NTSEF9RS9xUkRmNGVUSmllcXpWaFhYRTc0UE56UlJBNmNuOWw=
 
-dn: uid=019c734c-ca21-753d-b3da-17cb7ec256e7,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000060,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-753d-b3da-17cb7ec256e7
+uid: usr000060
 cn: Kencana Mart
 sn: Mart
 givenName: Kencana
 displayName: Kencana Mart
-mail: kencana@peter.petra.ac.id
+mail: kencana.usr000060@john.petra.ac.id
 mailAlternateAddress: kencana.mart@alumni.petra.ac.id
 mailAlternateAddress: kencana.mart@google.com
 mailAlternateAddress: kencana.mart@yahoo.com
 mailAlternateAddress: kencana.mart@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9U3BWWCtXV3RnTHAyM01zTVBLSW5yOHZ3N0hpNjloaGM=
+petraAccountStatus: active
+userPassword:: e1NTSEF9eDM3cGh2TzUyQ1JaSElKaGVaa0pHSzJKMVVLWTJzamE=
 
-dn: uid=019c734c-ca21-7f6f-8833-a0b0f8ae0f30,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000061,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7f6f-8833-a0b0f8ae0f30
+uid: usr000061
 cn: Sagara Foods
 sn: Foods
 givenName: Sagara
 displayName: Sagara Foods
-mail: sagara@john.petra.ac.id
+mail: sagara.usr000061@john.petra.ac.id
 mailAlternateAddress: sagara.foods@alumni.petra.ac.id
 mailAlternateAddress: sagara.foods@google.com
 mailAlternateAddress: sagara.foods@yahoo.com
-mailAlternateAddress: sagara.foods@peter.petra.ac.id
+mailAlternateAddress: sagara.foods@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9bW40QTdBc0tUb1kzZHdrVUFpOFVtemltdkFqU3plY1E=
+userPassword:: e1NTSEF9cjdmU0ZvVWRBNWJ0RjhVTTYzY1JLSFdGOXYvbU80aW4=
 
-dn: uid=019c734c-ca21-7c66-98ae-30622732408c,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000062,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7c66-98ae-30622732408c
+uid: usr000062
 cn: Merapi Digital
 sn: Digital
 givenName: Merapi
 displayName: Merapi Digital
-mail: merapi@peter.petra.ac.id
+mail: merapi.usr000062@john.petra.ac.id
 mailAlternateAddress: merapi.digital@alumni.petra.ac.id
 mailAlternateAddress: merapi.digital@google.com
 mailAlternateAddress: merapi.digital@yahoo.com
-mailAlternateAddress: merapi.digital@petra.petra.ac.id
+mailAlternateAddress: merapi.digital@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9NDk5Wi9ybE9lczhQQWg5YS9iUzBoMFhqb3FrQXZ6azI=
+userPassword:: e1NTSEF9dXhmdUtDcmFkS052OEIrejZuTHNYNVRMMUxYVFFCWEI=
 
-dn: uid=019c734c-ca21-7d48-8aa8-880c4ef539a8,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000063,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7d48-8aa8-880c4ef539a8
+uid: usr000063
 cn: Bintang Fabric
 sn: Fabric
 givenName: Bintang
 displayName: Bintang Fabric
-mail: bintang@john.petra.ac.id
+mail: bintang.usr000063@john.petra.ac.id
 mailAlternateAddress: bintang.fabric@alumni.petra.ac.id
 mailAlternateAddress: bintang.fabric@google.com
 mailAlternateAddress: bintang.fabric@yahoo.com
-mailAlternateAddress: bintang.fabric@petra.petra.ac.id
+mailAlternateAddress: bintang.fabric@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9Ukc3ekpBQUo1NUx4TVV1NnJ0VzN5Vk5WQXR5d3BYUWs=
+userPassword:: e1NTSEF9V3BzNm40WFd6Qm5LUVhrM09vU0tHOGwxR3ZoWWtqQ1A=
 
-dn: uid=019c734c-ca21-7b26-bee1-e61310384a56,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000064,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7b26-bee1-e61310384a56
+uid: usr000064
 cn: Cakra Motors
 sn: Motors
 givenName: Cakra
 displayName: Cakra Motors
-mail: cakra@petra.petra.ac.id
+mail: cakra.usr000064@john.petra.ac.id
 mailAlternateAddress: cakra.motors@alumni.petra.ac.id
 mailAlternateAddress: cakra.motors@google.com
 mailAlternateAddress: cakra.motors@yahoo.com
 mailAlternateAddress: cakra.motors@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9YkxHTGQ1UWpRTzVMWEhMUU1WejhCSFg3K01tNkxSc3E=
+petraAccountStatus: active
+userPassword:: e1NTSEF9b1R6b3ZlNmloSzRBbThjc1hnbC9OTHNsN2JSOE5xT0I=
 
-dn: uid=019c734c-ca21-7ff6-b356-21f67f4d9911,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000065,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7ff6-b356-21f67f4d9911
+uid: usr000065
 cn: Lentera Labs
 sn: Labs
 givenName: Lentera
 displayName: Lentera Labs
-mail: lentera@peter.petra.ac.id
+mail: lentera.usr000065@john.petra.ac.id
 mailAlternateAddress: lentera.labs@alumni.petra.ac.id
 mailAlternateAddress: lentera.labs@google.com
 mailAlternateAddress: lentera.labs@yahoo.com
 mailAlternateAddress: lentera.labs@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9RGh6MWU5K1FadVNrbktiMVRGbTR1c1BWTVE3NzNXcHU=
+userPassword:: e1NTSEF9WFpqd2FsbUJGVTFvL3RSWEQ2eC9kQ3NsTkZxOTltNHo=
 
-dn: uid=019c734c-ca21-7276-9a49-3061957e2735,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000066,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7276-9a49-3061957e2735
+uid: usr000066
 cn: Nusantara Cloud
 sn: Cloud
 givenName: Nusantara
 displayName: Nusantara Cloud
-mail: nusantara@petra.petra.ac.id
+mail: nusantara.usr000066@john.petra.ac.id
 mailAlternateAddress: nusantara.cloud@alumni.petra.ac.id
 mailAlternateAddress: nusantara.cloud@google.com
 mailAlternateAddress: nusantara.cloud@yahoo.com
 mailAlternateAddress: nusantara.cloud@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9MUI3QTB3RjNYT3dyT1BLMytnRGh5Z0FNaFhNMWJDd3g=
+userPassword:: e1NTSEF9T1c2RUFUbHkyajZqYmJYYzdkamNXSFVibEQ3cW5KU3U=
 
-dn: uid=019c734c-ca21-77a1-bf70-0126a0fe0256,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000067,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-77a1-bf70-0126a0fe0256
+uid: usr000067
 cn: Arunika Media
 sn: Media
 givenName: Arunika
 displayName: Arunika Media
-mail: arunika@john.petra.ac.id
+mail: arunika.usr000067@john.petra.ac.id
 mailAlternateAddress: arunika.media@alumni.petra.ac.id
 mailAlternateAddress: arunika.media@google.com
 mailAlternateAddress: arunika.media@yahoo.com
-mailAlternateAddress: arunika.media@peter.petra.ac.id
+mailAlternateAddress: arunika.media@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9aFg2TEJlSHNxYWw2TDE1NjA5WE5vQU11OGY1SE04VFY=
+userPassword:: e1NTSEF9aC9kaGJFQ0d2eFljaUQ5alpuU2ZtTEp4RXhLckNMaGw=
 
-dn: uid=019c734c-ca21-7dae-9cc9-4bd5fa2a0e1a,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000068,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7dae-9cc9-4bd5fa2a0e1a
+uid: usr000068
 cn: Tirta Supply
 sn: Supply
 givenName: Tirta
 displayName: Tirta Supply
-mail: tirta@john.petra.ac.id
+mail: tirta.usr000068@john.petra.ac.id
 mailAlternateAddress: tirta.supply@alumni.petra.ac.id
 mailAlternateAddress: tirta.supply@google.com
 mailAlternateAddress: tirta.supply@yahoo.com
-mailAlternateAddress: tirta.supply@peter.petra.ac.id
+mailAlternateAddress: tirta.supply@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9czJ5UUNnL1RvaE9QWDRJeXJUWkh2SHVHZlN6dTFILzU=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9dnJqTFpES2tqdjNzMlBaQ2ZNQ2g4WnF5SUNqOXhBeWQ=
 
-dn: uid=019c734c-ca21-7f69-9bc5-b387783660d5,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000069,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7f69-9bc5-b387783660d5
+uid: usr000069
 cn: Rajawali Cargo
 sn: Cargo
 givenName: Rajawali
 displayName: Rajawali Cargo
-mail: rajawali@peter.petra.ac.id
+mail: rajawali.usr000069@john.petra.ac.id
 mailAlternateAddress: rajawali.cargo@alumni.petra.ac.id
 mailAlternateAddress: rajawali.cargo@google.com
 mailAlternateAddress: rajawali.cargo@yahoo.com
 mailAlternateAddress: rajawali.cargo@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9Z1lHOWo2c0F3RlIxSTF2L2d2M0RtOEQ3Tit3bUpINDY=
+userPassword:: e1NTSEF9dXZOaitKZ0U3TDNpUmFDRlpkTnZGK1ZtR25WU1lIUjI=
 
-dn: uid=019c734c-ca21-72cd-87fa-ade3ec20e1d7,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000070,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-72cd-87fa-ade3ec20e1d7
+uid: usr000070
 cn: Samudra Tech
 sn: Tech
 givenName: Samudra
 displayName: Samudra Tech
-mail: samudra@john.petra.ac.id
+mail: samudra.usr000070@john.petra.ac.id
 mailAlternateAddress: samudra.tech@alumni.petra.ac.id
 mailAlternateAddress: samudra.tech@google.com
 mailAlternateAddress: samudra.tech@yahoo.com
-mailAlternateAddress: samudra.tech@petra.petra.ac.id
+mailAlternateAddress: samudra.tech@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9c21ra29rSHBldHlmYVl3VVBDam1TZnpsV0dXaXBFeG0=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9M2hhQ0xqV2JEQmlHWW52aXdLeWtsWW0zbU50ZS9xNHg=
 
-dn: uid=019c734c-ca21-7b7d-b432-dbeb5d338208,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000071,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7b7d-b432-dbeb5d338208
+uid: usr000071
 cn: Pertiwi Energy
 sn: Energy
 givenName: Pertiwi
 displayName: Pertiwi Energy
-mail: pertiwi@petra.petra.ac.id
+mail: pertiwi.usr000071@john.petra.ac.id
 mailAlternateAddress: pertiwi.energy@alumni.petra.ac.id
 mailAlternateAddress: pertiwi.energy@google.com
 mailAlternateAddress: pertiwi.energy@yahoo.com
-mailAlternateAddress: pertiwi.energy@peter.petra.ac.id
+mailAlternateAddress: pertiwi.energy@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9NHdkMTdOZXVPdUc1cmY4c1hZR2ZGdnk3alAwZ2dBTkg=
+userPassword:: e1NTSEF9UVNZR1Jwd29kSU5XQzFmOWttbDZ4bG52VWJlSG9NMEk=
 
-dn: uid=019c734c-ca21-7570-94ab-f2008a586e9d,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000072,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7570-94ab-f2008a586e9d
+uid: usr000072
 cn: Seruni Pharma
 sn: Pharma
 givenName: Seruni
 displayName: Seruni Pharma
-mail: seruni@peter.petra.ac.id
+mail: seruni.usr000072@john.petra.ac.id
 mailAlternateAddress: seruni.pharma@alumni.petra.ac.id
 mailAlternateAddress: seruni.pharma@google.com
 mailAlternateAddress: seruni.pharma@yahoo.com
 mailAlternateAddress: seruni.pharma@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9bExId2VDY1pjZnAzNUl4UHR2aDkyM3gyYUpVbjV1ZnI=
+userPassword:: e1NTSEF9YjhDWDQxNThtaUFRS0JDcmQ5eE5pTGJJa0xxQ0RYZUs=
 
-dn: uid=019c734c-ca21-7bdf-a07d-d00bf0266afc,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000073,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7bdf-a07d-d00bf0266afc
+uid: usr000073
 cn: Pelangi Retail
 sn: Retail
 givenName: Pelangi
 displayName: Pelangi Retail
-mail: pelangi@petra.petra.ac.id
+mail: pelangi.usr000073@john.petra.ac.id
 mailAlternateAddress: pelangi.retail@alumni.petra.ac.id
 mailAlternateAddress: pelangi.retail@google.com
 mailAlternateAddress: pelangi.retail@yahoo.com
-mailAlternateAddress: pelangi.retail@peter.petra.ac.id
+mailAlternateAddress: pelangi.retail@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9ai9Ub0lJdld1VksrV0dtNllIRE9rUzlpV0lRRnNyRW0=
+petraAccountStatus: active
+userPassword:: e1NTSEF9WGZiYkRZWng0SnZxYW5lUzJmMDQwWUxkVXlEYVdBTXM=
 
-dn: uid=019c734c-ca21-7abf-bd67-fbfe8af6f166,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000074,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7abf-bd67-fbfe8af6f166
+uid: usr000074
 cn: Borneo Trading
 sn: Trading
 givenName: Borneo
 displayName: Borneo Trading
-mail: borneo@peter.petra.ac.id
+mail: borneo.usr000074@john.petra.ac.id
 mailAlternateAddress: borneo.trading@alumni.petra.ac.id
 mailAlternateAddress: borneo.trading@google.com
 mailAlternateAddress: borneo.trading@yahoo.com
 mailAlternateAddress: borneo.trading@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9YmE1M0wwR2RRYmlOTmpyYzRoTjl5S0RFKzRWU2tIeFI=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9QTVKbTV0SWVZSDkxenlwWHhsZHJmdmV5R0ZuWFJMdUY=
 
-dn: uid=019c734c-ca21-7a6b-af4f-7c3ad006e5ea,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000075,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7a6b-af4f-7c3ad006e5ea
+uid: usr000075
 cn: Bali Botanics
 sn: Botanics
 givenName: Bali
 displayName: Bali Botanics
-mail: bali@peter.petra.ac.id
+mail: bali.usr000075@john.petra.ac.id
 mailAlternateAddress: bali.botanics@alumni.petra.ac.id
 mailAlternateAddress: bali.botanics@google.com
 mailAlternateAddress: bali.botanics@yahoo.com
-mailAlternateAddress: bali.botanics@petra.petra.ac.id
+mailAlternateAddress: bali.botanics@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9SU5pZDNxZEJGTEtYS3NPUllSZzVWRDN0SS9yenQ1REw=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9dXRoUDNOQ3pZaytad1VBZjB4NDRVVkJrQTBlR0ZwdVo=
 
-dn: uid=019c734c-ca21-7a71-aa7d-b76742001a16,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000076,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7a71-aa7d-b76742001a16
+uid: usr000076
 cn: Sulawesi Mining
 sn: Mining
 givenName: Sulawesi
 displayName: Sulawesi Mining
-mail: sulawesi@peter.petra.ac.id
+mail: sulawesi.usr000076@john.petra.ac.id
 mailAlternateAddress: sulawesi.mining@alumni.petra.ac.id
 mailAlternateAddress: sulawesi.mining@google.com
 mailAlternateAddress: sulawesi.mining@yahoo.com
 mailAlternateAddress: sulawesi.mining@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9MVA5MklNbUJ6MTdCTVEyL2JWOVFBYkRJdTVHbzZYNDA=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9WE1nK0NtZHQydVU1L2s5M1QvUDZ1WVlWZXg5WUpFNFk=
 
-dn: uid=019c734c-ca21-7018-8b39-6d0547d1d72f,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000077,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-7018-8b39-6d0547d1d72f
+uid: usr000077
 cn: Sumatra Agro
 sn: Agro
 givenName: Sumatra
 displayName: Sumatra Agro
-mail: sumatra@peter.petra.ac.id
+mail: sumatra.usr000077@john.petra.ac.id
 mailAlternateAddress: sumatra.agro@alumni.petra.ac.id
 mailAlternateAddress: sumatra.agro@google.com
 mailAlternateAddress: sumatra.agro@yahoo.com
 mailAlternateAddress: sumatra.agro@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9VzNJdEw1NUZCRjNiRjBySjNsSkc5cEl0YVB1MTlVbHo=
+userPassword:: e1NTSEF9Q0k0MUlJNzMzZWRxMGVkeVJnaGp3TnBSSVR1eUYzdis=
 
-dn: uid=019c734c-ca21-727a-aefa-c459077b3a17,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000078,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-727a-aefa-c459077b3a17
+uid: usr000078
 cn: Jawa Textiles
 sn: Textiles
 givenName: Jawa
 displayName: Jawa Textiles
-mail: jawa@petra.petra.ac.id
+mail: jawa.usr000078@john.petra.ac.id
 mailAlternateAddress: jawa.textiles@alumni.petra.ac.id
 mailAlternateAddress: jawa.textiles@google.com
 mailAlternateAddress: jawa.textiles@yahoo.com
-mailAlternateAddress: jawa.textiles@petra.petra.ac.id
+mailAlternateAddress: jawa.textiles@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9Y0ZwWVVhU1VSZUxGaC9ZZHJkYW1kV0huL1JSWUZQUG8=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9a1pHd3JlZUs3Ni9yRTk0dG9Iclh2aXg1SUpjWC90UXE=
 
-dn: uid=019c734c-ca21-70cf-b40b-327cf7b8fc49,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000079,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca21-70cf-b40b-327cf7b8fc49
+uid: usr000079
 cn: Kalimantan Timber
 sn: Timber
 givenName: Kalimantan
 displayName: Kalimantan Timber
-mail: kalimantan@peter.petra.ac.id
+mail: kalimantan.usr000079@john.petra.ac.id
 mailAlternateAddress: kalimantan.timber@alumni.petra.ac.id
 mailAlternateAddress: kalimantan.timber@google.com
 mailAlternateAddress: kalimantan.timber@yahoo.com
 mailAlternateAddress: kalimantan.timber@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9NCtCSTFhWlJCT3BNcjRCT054MkNER0xia1JNSFdBQWQ=
+userPassword:: e1NTSEF9dnJyRWx1d3FwQmIxdVovOWNBTE5Pa24xOU5lMnJtOWc=
 
-dn: uid=019c734c-ca22-733f-9b26-48ee85589a19,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000080,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-733f-9b26-48ee85589a19
+uid: usr000080
 cn: Komodo Travel
 sn: Travel
 givenName: Komodo
 displayName: Komodo Travel
-mail: komodo@john.petra.ac.id
+mail: komodo.usr000080@john.petra.ac.id
 mailAlternateAddress: komodo.travel@alumni.petra.ac.id
 mailAlternateAddress: komodo.travel@google.com
 mailAlternateAddress: komodo.travel@yahoo.com
-mailAlternateAddress: komodo.travel@petra.petra.ac.id
+mailAlternateAddress: komodo.travel@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9M1lhS2tzcUVOWEx3MkRjcUZ3QnJpSW11b0tOK1V2Q0k=
+userPassword:: e1NTSEF9dWpYU20zOUNkY0d2enJxeEZyS2dkeEVTbU5WcmpnbWw=
 
-dn: uid=019c734c-ca22-79aa-8933-724d724b41e8,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000081,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-79aa-8933-724d724b41e8
+uid: usr000081
 cn: Mentari Finance
 sn: Finance
 givenName: Mentari
 displayName: Mentari Finance
-mail: mentari@peter.petra.ac.id
+mail: mentari.usr000081@john.petra.ac.id
 mailAlternateAddress: mentari.finance@alumni.petra.ac.id
 mailAlternateAddress: mentari.finance@google.com
 mailAlternateAddress: mentari.finance@yahoo.com
 mailAlternateAddress: mentari.finance@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9UmVGYnRpOWdFUmxZSUpIOGU0d2ZZR2prTkhYSnlYY3c=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9YmtpWXFLWnVLR0czU21YWHMvYktWQmpDMUVYMXlXZ28=
 
-dn: uid=019c734c-ca22-7bab-97fe-19d04495d516,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000082,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7bab-97fe-19d04495d516
+uid: usr000082
 cn: Langit Telecom
 sn: Telecom
 givenName: Langit
 displayName: Langit Telecom
-mail: langit@john.petra.ac.id
+mail: langit.usr000082@john.petra.ac.id
 mailAlternateAddress: langit.telecom@alumni.petra.ac.id
 mailAlternateAddress: langit.telecom@google.com
 mailAlternateAddress: langit.telecom@yahoo.com
-mailAlternateAddress: langit.telecom@petra.petra.ac.id
+mailAlternateAddress: langit.telecom@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9WXFUSmxMSlhvU0pRdVhBKzkzZWZZcWViWHlCRTFzdlU=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9ZEVxOWpWbDVzdHVUS2hFWThrVDNUT0FvaXovWEZGSis=
 
-dn: uid=019c734c-ca22-740e-9dd2-c863b983028e,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000083,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-740e-9dd2-c863b983028e
+uid: usr000083
 cn: Rimba Outfitters
 sn: Outfitters
 givenName: Rimba
 displayName: Rimba Outfitters
-mail: rimba@john.petra.ac.id
+mail: rimba.usr000083@john.petra.ac.id
 mailAlternateAddress: rimba.outfitters@alumni.petra.ac.id
 mailAlternateAddress: rimba.outfitters@google.com
 mailAlternateAddress: rimba.outfitters@yahoo.com
-mailAlternateAddress: rimba.outfitters@peter.petra.ac.id
+mailAlternateAddress: rimba.outfitters@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9RUM1SlJNaGV0eDJjZVhRU05sL1dUUHpCWFZuK3A4RVI=
+petraAccountStatus: active
+userPassword:: e1NTSEF9c1hNbG5lNFhvSGFTWGd5bWYwWEpyZEVCaHNDek4wZG4=
 
-dn: uid=019c734c-ca22-7fc2-8c61-80ed5b02b0b1,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000084,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7fc2-8c61-80ed5b02b0b1
+uid: usr000084
 cn: Batu Brew
 sn: Brew
 givenName: Batu
 displayName: Batu Brew
-mail: batu@john.petra.ac.id
+mail: batu.usr000084@john.petra.ac.id
 mailAlternateAddress: batu.brew@alumni.petra.ac.id
 mailAlternateAddress: batu.brew@google.com
 mailAlternateAddress: batu.brew@yahoo.com
 mailAlternateAddress: batu.brew@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9bE5PRUgwWS95cC90Z2RhRkx1OWVJK20rRWJDNXdPZnM=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9KzIxT3I5UloxYjZ0VTNsL2JLclRLeDBsekdOS3owN3o=
 
-dn: uid=019c734c-ca22-77c5-9ea6-5da1e1ac2b09,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000085,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-77c5-9ea6-5da1e1ac2b09
+uid: usr000085
 cn: Kopi Corner
 sn: Corner
 givenName: Kopi
 displayName: Kopi Corner
-mail: kopi@john.petra.ac.id
+mail: kopi.usr000085@john.petra.ac.id
 mailAlternateAddress: kopi.corner@alumni.petra.ac.id
 mailAlternateAddress: kopi.corner@google.com
 mailAlternateAddress: kopi.corner@yahoo.com
-mailAlternateAddress: kopi.corner@petra.petra.ac.id
+mailAlternateAddress: kopi.corner@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9YWRvQnlRaEZ0UG9hakJ3RGw1U1JwMVJTL0FQeGkvc1o=
+userPassword:: e1NTSEF9UmNidk1WMzE0aEpnbDE3RU13emFCK1ZDRTRKQmJVV3o=
 
-dn: uid=019c734c-ca22-7721-8fc4-1d8f7f2b4742,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000086,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7721-8fc4-1d8f7f2b4742
+uid: usr000086
 cn: Sate Station
 sn: Station
 givenName: Sate
 displayName: Sate Station
-mail: sate@petra.petra.ac.id
+mail: sate.usr000086@john.petra.ac.id
 mailAlternateAddress: sate.station@alumni.petra.ac.id
 mailAlternateAddress: sate.station@google.com
 mailAlternateAddress: sate.station@yahoo.com
 mailAlternateAddress: sate.station@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: suspended
-userPassword:: e1NTSEF9QVdqRlo5UzVndU9YSGRaQmdwckFWSGJkUVJLMWVDYXA=
+petraAccountStatus: active
+userPassword:: e1NTSEF9UHhnMGlEbURoeWxUZkprcXB4bWhSaUJ5TmtLb1FwUzc=
 
-dn: uid=019c734c-ca22-7a8e-9114-f8509d4addca,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000087,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7a8e-9114-f8509d4addca
+uid: usr000087
 cn: Roti Republic
 sn: Republic
 givenName: Roti
 displayName: Roti Republic
-mail: roti@peter.petra.ac.id
+mail: roti.usr000087@john.petra.ac.id
 mailAlternateAddress: roti.republic@alumni.petra.ac.id
 mailAlternateAddress: roti.republic@google.com
 mailAlternateAddress: roti.republic@yahoo.com
-mailAlternateAddress: roti.republic@petra.petra.ac.id
+mailAlternateAddress: roti.republic@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9YjdpSFEwZVhocFB5M0NYWVBsZE5zK0pqYktsb1VkYjM=
+userPassword:: e1NTSEF9Q3JFQlJQd1FjOTBvR1U1UWVQWFJQdmt2S0hVOVQ4ams=
 
-dn: uid=019c734c-ca22-73dc-9c78-6e8ece5453e8,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000088,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-73dc-9c78-6e8ece5453e8
+uid: usr000088
 cn: Ayam Avenue
 sn: Avenue
 givenName: Ayam
 displayName: Ayam Avenue
-mail: ayam@peter.petra.ac.id
+mail: ayam.usr000088@john.petra.ac.id
 mailAlternateAddress: ayam.avenue@alumni.petra.ac.id
 mailAlternateAddress: ayam.avenue@google.com
 mailAlternateAddress: ayam.avenue@yahoo.com
-mailAlternateAddress: ayam.avenue@peter.petra.ac.id
+mailAlternateAddress: ayam.avenue@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9SjJYWld2Z3R3NlFJYjhaMGxEZ2FZMTMrTFl5UC95bmw=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9TjdsRXVyTWdQQTlISHJtMDRDOERUZVB4Zk1XSDRSR3Q=
 
-dn: uid=019c734c-ca22-70fb-800b-e39ef075fab4,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000089,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-70fb-800b-e39ef075fab4
+uid: usr000089
 cn: Teh Terrace
 sn: Terrace
 givenName: Teh
 displayName: Teh Terrace
-mail: teh@petra.petra.ac.id
+mail: teh.usr000089@john.petra.ac.id
 mailAlternateAddress: teh.terrace@alumni.petra.ac.id
 mailAlternateAddress: teh.terrace@google.com
 mailAlternateAddress: teh.terrace@yahoo.com
 mailAlternateAddress: teh.terrace@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9WlFMazI5TzY3OWdMWVArUjYrdHlJOFdIZ0xHT3RrM1Y=
+userPassword:: e1NTSEF9YmJoK2FLSHZKRjRvR280YjlIeDRXa1VEYTRaRGxNeWU=
 
-dn: uid=019c734c-ca22-7afa-bd15-83bc6de9bac4,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000090,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7afa-bd15-83bc6de9bac4
+uid: usr000090
 cn: Nasi Network
 sn: Network
 givenName: Nasi
 displayName: Nasi Network
-mail: nasi@john.petra.ac.id
+mail: nasi.usr000090@john.petra.ac.id
 mailAlternateAddress: nasi.network@alumni.petra.ac.id
 mailAlternateAddress: nasi.network@google.com
 mailAlternateAddress: nasi.network@yahoo.com
-mailAlternateAddress: nasi.network@peter.petra.ac.id
+mailAlternateAddress: nasi.network@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9Qzc1YUxyeFgyNjZFNyt0QXFQSlJXN1VpTkpoYStURGE=
+petraAccountStatus: suspended
+userPassword:: e1NTSEF9dG4veFJLRjN1K0xzMlA0dVJqYjU1MlNncWFuem94N2Q=
 
-dn: uid=019c734c-ca22-7b37-ae5e-dd599f834099,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000091,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7b37-ae5e-dd599f834099
+uid: usr000091
 cn: Hydro Pulse
 sn: Pulse
 givenName: Hydro
 displayName: Hydro Pulse
-mail: hydro@john.petra.ac.id
+mail: hydro.usr000091@john.petra.ac.id
 mailAlternateAddress: hydro.pulse@alumni.petra.ac.id
 mailAlternateAddress: hydro.pulse@google.com
 mailAlternateAddress: hydro.pulse@yahoo.com
 mailAlternateAddress: hydro.pulse@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9OEtYNXNocVdUWHl5V1BqK3dIeEhLM1Jnc3c1Rzc0cUg=
+userPassword:: e1NTSEF9L3FaUEhrN2FUS3lPdmFVSUZCdnhZU08za1V4ZmpvU1c=
 
-dn: uid=019c734c-ca22-710e-9637-d8bdfb5122b0,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000092,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-710e-9637-d8bdfb5122b0
+uid: usr000092
 cn: Solar Crescent
 sn: Crescent
 givenName: Solar
 displayName: Solar Crescent
-mail: solar@john.petra.ac.id
+mail: solar.usr000092@john.petra.ac.id
 mailAlternateAddress: solar.crescent@alumni.petra.ac.id
 mailAlternateAddress: solar.crescent@google.com
 mailAlternateAddress: solar.crescent@yahoo.com
-mailAlternateAddress: solar.crescent@petra.petra.ac.id
+mailAlternateAddress: solar.crescent@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9M1M5VkZ3Y2RQUG5ub1gvb2t2RnlKaTF5akRwcWFYV2s=
+userPassword:: e1NTSEF9YitpUFNSOS81M3NXZ0o0eU40V05YV2JCMlVTYkhMdGs=
 
-dn: uid=019c734c-ca22-79eb-91c5-692359bae5b6,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000093,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-79eb-91c5-692359bae5b6
+uid: usr000093
 cn: Titan Fabrication
 sn: Fabrication
 givenName: Titan
 displayName: Titan Fabrication
-mail: titan@peter.petra.ac.id
+mail: titan.usr000093@john.petra.ac.id
 mailAlternateAddress: titan.fabrication@alumni.petra.ac.id
 mailAlternateAddress: titan.fabrication@google.com
 mailAlternateAddress: titan.fabrication@yahoo.com
-mailAlternateAddress: titan.fabrication@peter.petra.ac.id
+mailAlternateAddress: titan.fabrication@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9b01ZamRqRElQNVg5L3Q2bzIrL0JHeHZDRXM5aGtvMFM=
+userPassword:: e1NTSEF9RjNiNmsvb3NadTFuOTU4UHByME9Dc3FpRWFRSDhBU0E=
 
-dn: uid=019c734c-ca22-7804-91bf-67892a775787,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000094,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7804-91bf-67892a775787
+uid: usr000094
 cn: Orbit Appliance
 sn: Appliance
 givenName: Orbit
 displayName: Orbit Appliance
-mail: orbit@peter.petra.ac.id
+mail: orbit.usr000094@john.petra.ac.id
 mailAlternateAddress: orbit.appliance@alumni.petra.ac.id
 mailAlternateAddress: orbit.appliance@google.com
 mailAlternateAddress: orbit.appliance@yahoo.com
-mailAlternateAddress: orbit.appliance@peter.petra.ac.id
+mailAlternateAddress: orbit.appliance@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9Tm9KeWluajBKS3k1OEt6MzAweTBodnE5bzNuZUU4N0E=
+userPassword:: e1NTSEF9V3dLYVc0eHV3YnlOdjJmckhVZ2s3YjlUWm04S2I3Si8=
 
-dn: uid=019c734c-ca22-736a-9cb7-be411dff7f77,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000095,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-736a-9cb7-be411dff7f77
+uid: usr000095
 cn: Zenith Analytics
 sn: Analytics
 givenName: Zenith
 displayName: Zenith Analytics
-mail: zenith@petra.petra.ac.id
+mail: zenith.usr000095@john.petra.ac.id
 mailAlternateAddress: zenith.analytics@alumni.petra.ac.id
 mailAlternateAddress: zenith.analytics@google.com
 mailAlternateAddress: zenith.analytics@yahoo.com
-mailAlternateAddress: zenith.analytics@petra.petra.ac.id
+mailAlternateAddress: zenith.analytics@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9WEsvbXArTllBSEJxU2tUaFQxdzVXMTJ6bFBxcjNYekQ=
+petraAccountStatus: active
+userPassword:: e1NTSEF9dUZxSWRoWmFjSnIrMGpLTFNvdFIwd3ZoallvTTZjNW4=
 
-dn: uid=019c734c-ca22-7246-94cd-483b264eb2b2,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000096,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7246-94cd-483b264eb2b2
+uid: usr000096
 cn: Vertex Security
 sn: Security
 givenName: Vertex
 displayName: Vertex Security
-mail: vertex@john.petra.ac.id
+mail: vertex.usr000096@john.petra.ac.id
 mailAlternateAddress: vertex.security@alumni.petra.ac.id
 mailAlternateAddress: vertex.security@google.com
 mailAlternateAddress: vertex.security@yahoo.com
-mailAlternateAddress: vertex.security@petra.petra.ac.id
+mailAlternateAddress: vertex.security@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: active
-userPassword:: e1NTSEF9eitoUkxoTXVJUjZDSVVEZmVMUk9UbkFyMXgzL1JBcmE=
+petraAccountStatus: disabled
+userPassword:: e1NTSEF9SmRoRUZJVHdldDh5VVVwc1RabWdtNFFpOThSeDQyNmc=
 
-dn: uid=019c734c-ca22-7739-be33-f829f3a6adc5,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000097,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7739-be33-f829f3a6adc5
+uid: usr000097
 cn: Cedar Capital
 sn: Capital
 givenName: Cedar
 displayName: Cedar Capital
-mail: cedar@peter.petra.ac.id
+mail: cedar.usr000097@john.petra.ac.id
 mailAlternateAddress: cedar.capital@alumni.petra.ac.id
 mailAlternateAddress: cedar.capital@google.com
 mailAlternateAddress: cedar.capital@yahoo.com
-mailAlternateAddress: cedar.capital@peter.petra.ac.id
+mailAlternateAddress: cedar.capital@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9bUplZkZjOWFaejh5bVpxeTNvemVZVmJzK1RFNDV3VTc=
+userPassword:: e1NTSEF9QWZJQVVzY2NtckdYUUMydmJ0VHIwU0RRczVRTVNOcXU=
 
-dn: uid=019c734c-ca22-7ce2-9a14-190bf812fc13,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000098,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7ce2-9a14-190bf812fc13
+uid: usr000098
 cn: Marble Atelier
 sn: Atelier
 givenName: Marble
 displayName: Marble Atelier
-mail: marble@peter.petra.ac.id
+mail: marble.usr000098@john.petra.ac.id
 mailAlternateAddress: marble.atelier@alumni.petra.ac.id
 mailAlternateAddress: marble.atelier@google.com
 mailAlternateAddress: marble.atelier@yahoo.com
 mailAlternateAddress: marble.atelier@john.petra.ac.id
 petraAffiliation: external
-petraAccountStatus: disabled
-userPassword:: e1NTSEF9d29Pb1ZZOC9NT3VLZ1dWdmZ3YkthMEtBcm4wRlhldlA=
+petraAccountStatus: active
+userPassword:: e1NTSEF9SW1mKzJUczY4MTNyOEJ6RWM2WnJLSUl6anl4T2pRZzU=
 
-dn: uid=019c734c-ca22-7250-b636-2bed0ac38704,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000099,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7250-b636-2bed0ac38704
+uid: usr000099
 cn: Oceanic Portfolio
 sn: Portfolio
 givenName: Oceanic
 displayName: Oceanic Portfolio
-mail: oceanic@john.petra.ac.id
+mail: oceanic.usr000099@john.petra.ac.id
 mailAlternateAddress: oceanic.portfolio@alumni.petra.ac.id
 mailAlternateAddress: oceanic.portfolio@google.com
 mailAlternateAddress: oceanic.portfolio@yahoo.com
-mailAlternateAddress: oceanic.portfolio@peter.petra.ac.id
+mailAlternateAddress: oceanic.portfolio@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9R2k4d215RnRhc3RxM1ExL2Zab09LdE1GaHZJSU5NTWU=
+userPassword:: e1NTSEF9SGtXTVR5c2J5R1VxSHE2OFNJODhURHYreDNRUWdjbFc=
 
-dn: uid=019c734c-ca22-7731-a5a0-1e3394d56243,ou=external,ou=people,dc=petra,dc=ac,dc=id
+dn: uid=usr000100,ou=external,ou=people,dc=petra,dc=ac,dc=id
 objectClass: inetOrgPerson
 objectClass: petraPerson
-uid: 019c734c-ca22-7731-a5a0-1e3394d56243
+uid: usr000100
 cn: Crystal District
 sn: District
 givenName: Crystal
 displayName: Crystal District
-mail: crystal@peter.petra.ac.id
+mail: crystal.usr000100@john.petra.ac.id
 mailAlternateAddress: crystal.district@alumni.petra.ac.id
 mailAlternateAddress: crystal.district@google.com
 mailAlternateAddress: crystal.district@yahoo.com
-mailAlternateAddress: crystal.district@peter.petra.ac.id
+mailAlternateAddress: crystal.district@john.petra.ac.id
 petraAffiliation: external
 petraAccountStatus: active
-userPassword:: e1NTSEF9QWY5OFNYMlNXa3NFaDMzTmcxU3hjcmhzMGtLb2xyZEM=
+userPassword:: e1NTSEF9d3gyQjY2ZEd3RkJEUzk1OVJvaWFoSGx6cFM1Z3NwRjU=
+

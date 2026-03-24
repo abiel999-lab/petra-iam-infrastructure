@@ -1,0 +1,184 @@
+# 05-revert-animals-20.generated.ldif
+# Generated: 2026-03-16T17:12:45+07:00
+# First remove role memberships, then delete users
+#
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0001,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0001,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0002,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0002,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0003,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0003,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0004,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0004,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0005,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0005,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0006,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0006,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0007,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0007,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0008,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0008,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0009,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0009,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0010,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0010,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0011,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0011,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0012,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0012,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0013,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0013,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0014,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0014,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0015,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0015,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0016,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0016,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0017,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0017,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0018,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0018,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0019,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0019,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
+dn: cn=role-staff,ou=roles,ou=groups,dc=petra,dc=ac,dc=id
+changetype: modify
+delete: member
+member: uid=ani0020,ou=people,dc=petra,dc=ac,dc=id
+-
+
+dn: uid=ani0020,ou=people,dc=petra,dc=ac,dc=id
+changetype: delete
+
